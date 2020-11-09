@@ -1,0 +1,175 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION);  
+?>
+<!DOCTYPE HTML>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+
+<title>코오롱 인더스트리</title>
+
+<link rel="apple-touch-icon-precomposed" href="app_icon.png">
+<link rel="apple-touch-startup-image" href="startup.png">
+<link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Questrial&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="swiper/swiper.min.css">
+<link rel="stylesheet" href="css/common.css">
+<link rel="stylesheet" href="css/sub_common.css">
+<link rel="stylesheet" href="css/sub1_2.css">
+
+<script src="js/prefixfree.min.js"></script>
+<script src="https://kit.fontawesome.com/2d56222f57.js" crossorigin="anonymous"></script>
+<script>
+  // <![CDATA[
+  try {
+   window.addEventListener('load', function(){
+    setTimeout(scrollTo, 0, 0, 1); 
+   }, false);
+  } 
+  catch(e) {}
+  // ]]>
+ </script>
+ <!--[if lt IE 9]> 
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+    <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+<![endif]-->
+</head>
+
+<body>
+<? include "head.html"  ?>
+<!-- 비주얼 영역 -->
+    <div class="main">
+        <img src="images/sub1_1/sub1_bgx2.jpg" alt="">
+        <div class="text_box">
+            <h3>회사소개</h3>
+            <p>company introduction</p>
+        </div>
+        <ul class="depth2_menu">
+            <li><a href="sub1_1.html">기업개요</a></li>
+            <li><a href="#comp">경영철학<span></span></a></li>
+        </ul> 
+    </div>
+    <article id="content">
+       <h2>경영철학</h2>
+       <div class="tabs">
+           <a href="#" class="active">경영이념</a>
+           <a href="#">경영방침</a>
+           <a href="#">코오롱정신</a>
+        </div>    
+    <div class="swiper-container first">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                    <section class="ideology">
+                        <div class="title_wrap">
+                            <h3>경영이념</h3>
+                        </div>
+                        <p class="main_text">
+                            산업인의 사명에 투철하고, 능률과 창의로써 저마다의 소질을 계발하는 보람찬 일터를 만들며, 인간 생활의 풍요와 인류 문명의 발전에 이바지한다.
+                        </p>
+                        <ul class="ideo_icon_wrap">
+                            <li><img src="images/sub1_2/ideology_icon1x2.jpg" alt="">산업인의 사명에 투철</li>
+                            <li><img src="images/sub1_2/ideology_icon2x2.jpg" alt="">능률과 창의</li>
+                            <li><img src="images/sub1_2/ideology_icon3x2.jpg" alt="">소질 계발</li>
+                            <li><img src="images/sub1_2/ideology_icon4x2.jpg" alt="">인류문명의 발전 이바지</li>
+                            <li class="logo_ctr"><img src="images/sub1_2/ldeo_logo_whitex2.png" alt=""></li>
+                        </ul>
+                        <ul class="ideo_list">
+                            <li>
+                                <dl>
+                                    <dt><span></span>사업인의 사명에 투철하고</dt>
+                                    <dd>코오롱이 산업의 한 구성체임을 자각하고자 우선 산업인으로서의 투철한 사명을 가져야하며, 이는 곧 코오롱이 무엇보다도 산업의 발전에 일차적인 기여를 해야하는 역할과 사명을 제시합니다.</dd>
+                                </dl>
+                            </li>
+                            <li>
+                                <dl>
+                                    <dt><span></span>능률과 창의로써</dt>
+                                    <dd>코오롱이 경영을 전개해 나가는 일상적인 행동의 기준으로써 경영 최대 논리인 능률과 새로운 기풍을 진작하는 창의를 함과 동시에 경영의 판단 기준으로 삼겠다는 의지를 나타내고 있습니다.</dd>
+                                </dl>
+                            </li>
+                            <li>
+                                <dl>
+                                    <dt><span></span>저마다의 소질을 계발하는</dt>
+                                    <dd>구성원 개개인에게는 소질의 계발을, 조직 전체로는 보람을 충분히 느끼는 일터를 만드는 것을 가장 중요한 결과로 삼겠다는 것을 뜻합니다.</dd>
+                                </dl>
+                            </li>
+                            <li>
+                                <dl>
+                                    <dt><span></span>인간생활의 풍요와 인류문명 발전에 이바지</dt>
+                                    <dd>경영활동 결과가 결국은 경영활동에 의한 생산물에 의해 고객만족 뿐아니라, 인간생활의 풍요에 기여하고 나아가서는 인류문명의 발전까지도 기여한다는 것을 나타내는 것으로 경영 활동의 최종적인 목적을 표현합니다.</dd>
+                                </dl>
+                            </li>
+                        </ul>
+                    </section>
+            </div>
+            <div class="swiper-slide">
+                    <section class="policy">
+                        <div class="title_wrap">
+                            <h3>경영방침</h3>
+                        </div>
+                        <ol>
+                            <li><span>01</span>최고의<br>경쟁력</li>
+                            <li><span>02</span>독특함과<br>차별화</li>
+                            <li><span>03</span>사랑받는<br>코오롱</li>
+                        </ol>
+                        <ul class="detail">
+                            <li>
+                                <h4><span class="text_red">최고의 경쟁력</span>을 갖춘 나 <sub>individual excellence</sub></h4>
+                                <p>최고의 개인경쟁력을 갖춘다는 것은 세계와 겨룰 수 있는 경쟁무기를 가지고 있다는 의미 외에 유능한 경영자로서 성장할 수 있는 기량을 갖추고 있는 것을 뜻합니다.기술적 기량, 인간적 기량, 개념적 기량, 으뜸의 지위 등이 그 요소입니다.</p>
+                            </li>
+                            <li>
+                                <h4><span class="text_red">독특함과 차별화</span>된 우리 <sub>uniqueness</sub></h4>
+                                <p>개인이든 집단이든 남과 유사할 수는 있어도 똑같을 순 없습니다. 흉내내지 않고 문제의 본질이나 상황의 핵심에 접근해서 행동을 취하고 문제를 해결하려고 노력할 때 우리는 우리만의 독특하고 차별화 된 전략과 행동 양식을 가질 수 있으며, 우리 전체가 하나라는 것도 잊지 말아야합니다.</p>
+                            </li>
+                            <li>
+                                <h4>가장 <span class="text_red">사랑받는 코오롱</span><sub>first choice of customers</sub></h4>
+                                <p>고객이 코오롱 제품을 사용했을 때 만족을 넘어선 기쁨과 행복 즉 감동을 느낄 수 있도록 기업의 역량을 집중시켜 최고 품질의 제품과 서비스를 제공하고 어떠한 일이 있어도 고객과의 약속과 신용을 지킴으로써 고객으로부터 전폭적인 신뢰를 획득하려고 노력해야 합니다. 고객의 신뢰로부터 선택 받는 코오롱, 고객에게 가장 사랑 받는다는 것은 코오롱의 제품과 서비스에 대한 감동적 경험을 통해 구축된 고객의 신뢰를 바탕으로 경쟁제품보다 우선적으로 재 구매하고 구전을 통해 고객이 늘어남으로써 해당분야에서 가장 선호하는 회사가 되는 것을 말합니다.</p>
+                            </li>
+                        </ul>
+                    </section>
+            </div>
+            <div class="swiper-slide">
+                    <section class="vision">
+                        <div class="title_wrap">
+                            <h3>코오롱정신</h3>
+                        </div>
+                        <ul>
+                            <li>
+                                <h4><span class="text_blue">새로운 </span>생각</h4>
+                                <p>창의적이고 전략적인 사고<br>진취적이며 미래지향적 사고</p>
+                            </li>
+                            <li>
+                                <h4><span class="text_blue">당당한 </span>자세</h4>
+                                <p>자신있고 용기있는 태도<br>도덕적이고 윤리있는 행동</p>
+                            </li>
+                            <li>
+                                <h4><span class="text_blue">뜨거운 </span>열정</h4>
+                                <p>일에 대한 끝없는 열정<br>성공에 대한 확신과 헌신</p>
+                            </li>
+                            <li>
+                                <h4><span class="text_blue">완벽한 </span>실행</h4>
+                                <p>빈틈없고 철저한 일 처리<br>결과에 대한 자부심</p>
+                            </li>
+                        </ul>
+                    </section>
+            </div>
+
+           
+        </div>
+    </div>
+</article>
+    
+<? include "foot.html"  ?>
+ 
+<!-- 페이지별 스크립트 -->
+<script src="swiper/swiper.min.js"></script>
+<script src="js/sub/script.js"></script> 
+
+ 
+</body>
+</html>

@@ -1,0 +1,54 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION);  
+?>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>코오롱 인더스트리::r&amp;d</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="common/css/sub3common.css">
+    <link rel="stylesheet" href="css/content3.css">
+    <script src="../common/js/prefixfree.min.js"></script>
+    <script src="https://kit.fontawesome.com/2d56222f57.js" crossorigin="anonymous"></script>
+    <!--[if IE9]>  
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+<body>
+        <? include "../common/sub_head.html" ?>
+        <!-- 서브3 비주얼+네비 공통 영역 -->
+        <? $_GET['num']=3;
+          include "common/sub_nav.html"; 
+        ?>
+        <!-- 본문 컨텐츠 영역 -->
+        <article id="content">
+            <div class="title_area">
+               <div class="inner">
+                <div class="linemap">
+                    <span><i class="fas fa-home"></i></span> &gt; <span>R&amp;D</span> &gt; <strong>연구분야</strong>
+                </div>
+                <h2 class="grid_5_tit">연구분야</h2>
+                <ul class="grid_5">
+                    <li><a class="tab tab1 current" href="data.html#eletro">Electro Film</a></li>
+                    <li><a class="tab tab2" href="data.html#car">Car Materials</a></li>
+                    <li><a class="tab tab3" href="data.html#energy">Green&amp;Energy</a></li>
+                    <li><a class="tab tab4" href="data.html#highPerformance">High Performance</a></li>
+                    <li><a class="tab tab5" href="data.html#chemicals">Chemicals</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="content_area">
+                <!-- 데이터 로드 되는 위치 -->
+            </div>
+            <? include "../common/fixed_top.html" ?>  
+        </article>
+      <? include "../common/sub_foot.html" ?>  
+<!-- 페이지별 스크립트 -->
+<script src="js/script.js"></script>
+</body>
+</html>

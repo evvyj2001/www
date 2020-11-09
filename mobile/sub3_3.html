@@ -1,0 +1,141 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION);  
+?>
+<!DOCTYPE HTML>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+
+<title>코오롱 인더스트리</title>
+
+<link rel="apple-touch-icon-precomposed" href="app_icon.png">
+<link rel="apple-touch-startup-image" href="startup.png">
+<link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Questrial&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="swiper/swiper.min.css">
+<link rel="stylesheet" href="css/common.css">
+<link rel="stylesheet" href="css/sub_common.css">
+<link rel="stylesheet" href="css/sub3_3.css">
+
+<script src="js/prefixfree.min.js"></script>
+<script src="https://kit.fontawesome.com/2d56222f57.js" crossorigin="anonymous"></script>
+<script>
+  // <![CDATA[
+  try {
+   window.addEventListener('load', function(){
+    setTimeout(scrollTo, 0, 0, 1); 
+   }, false);
+  } 
+  catch(e) {}
+  // ]]>
+ </script>
+ <!--[if lt IE 9]> 
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+    <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+<![endif]-->
+</head>
+
+<body>
+<? include "head.html"  ?>
+<!-- 비주얼 영역 -->
+    <div class="main">
+        <img src="images/sub3_1/sub3_bgx2.jpg" alt="">
+        <div class="text_box">
+            <h3>R&amp;D 개요</h3>
+            <p>research and development</p>
+        </div>
+        <ul class="depth2_menu grid_3">
+            <li><a href="sub3_1.html">R&amp;D 개요</a></li>
+            <li><a href="sub3_2.html">지식재산권</a></li>
+            <li><a href="#busi">연구분야<span></span></a></li>
+        </ul> 
+    </div>
+    <article id="content">
+       <h2>연구분야</h2>
+       <div class="tabs">
+           <a href="#" class="active">Electro film</a>
+           <a href="#">Green energy</a>
+        </div>    
+    <div class="swiper-container first">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                    <section>
+                        <div class="title_wrap">
+                            <h3>Electro Film Materials
+                                <span>정보통신 소재</span>
+                            </h3>
+                        </div>
+                        <p class="text_nm">
+                                정보화 기술의 발달에 따라 정보통신 환경은 급속하게 유비쿼터스가 진행되고 있으며 이와 함께 정보 통신 기기의 발전이 가속화되고 있으며 관련 소재의 혁신적인 발전을 요구하고 있습니다. 연구개발본부는 30 여년 간 축척된 Film 기술과 Polymer 구조 설계 및 Formulation 기술을 바탕으로 PCB, IC, FPD 및 Flexible Display 핵심소재 및 부품 개발을 추진하고 있습니다. 특히 PET, Nylon 중심의 기존 Film에 다양한 신소재 적용을 통한 신제품 창출과 다양한 기술의 Fusion을 통한 New Application 창출 및 고부가가지 제품 개발에 집중하고 있습니다.
+                        </p>
+                        <ul>
+                            <li>
+                                <img src="images/sub3_3/electro_img1x2.jpg" alt="">
+                                <span>전기, 전자용<br>고기능성 필름</span>
+                            </li>
+                            <li>
+                                <img src="images/sub3_3/electro_img2x2.jpg" alt="">
+                                <span>필름형<br>포토레지스트</span>
+                            </li>
+                            <li>
+                                <img src="images/sub3_3/electro_img3x2.jpg" alt="">
+                                <span>Flexible<br>Display용</span>
+                            </li>
+                            <li>
+                                <img src="images/sub3_3/electro_img4x2.jpg" alt="">
+                                <span>FPD 패널용 소재<br>및 부품</span>
+                            </li>
+                        </ul>
+                    </section>
+            </div>
+            <div class="swiper-slide">
+                    <section>
+                        <div class="title_wrap">
+                            <h3>Green &amp; Energy Materials
+                                <span>친환경 에너지</span>
+                            </h3>
+                        </div>
+                        <p class="text_nm">
+                                환경 변화와 자원의 고갈에 따라 친환경 에너지 소재의 뒷받침 없이는 지속 가능한 녹색성장은 불가능한 상황입니다. 연구개발본부는 정수 및 하수 처리, 해수담수화 전처리 등의 물처리 분야에서 소재 개발을 선도하고 있습니다. 또한 자동차 적용을 시작으로 연료전지용 가습기 및 강화복합 전해질막의 다양한 분야로 확대를 추진하고 있습니다. 이외에 차세대 태양전지 (OPV, CIGS, DSSC) 및 탄소 저감을 위한 자원 재순환 관련 R&amp;D를 추진하고 있습니다.
+                        </p>
+                        <ul>
+                            <li>
+                                <img src="images/sub3_3/energy_img1x2.jpg" alt="">
+                                <span>수처리용<br>멤브레인 소재</span>
+                            </li>
+                            <li>
+                                <img src="images/sub3_3/energy_img2x2.jpg" alt="">
+                                <span>연료전지용<br>가습기</span>
+                            </li>
+                            <li>
+                                <img src="images/sub3_3/energy_img3x2.jpg" alt="">
+                                <span>차세대<br>태양전지</span>
+                            </li>
+                            <li>
+                                <img src="images/sub3_3/energy_img4x2.jpg" alt="">
+                                <span>단소저감<br>자원 재순환</span>
+                            </li>
+                        </ul>
+                    </section>
+            </div>
+
+           
+        </div>
+    </div>
+</article>
+    
+<? include "foot.html"  ?>
+ 
+<!-- 페이지별 스크립트 -->
+<script src="swiper/swiper.min.js"></script>
+<script src="js/sub/script.js"></script> 
+
+ 
+</body>
+</html>

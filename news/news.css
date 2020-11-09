@@ -1,0 +1,395 @@
+#content .notice_top{
+    margin: 100px 0 50px;
+    overflow: hidden;
+}
+#content .list_statue{
+    overflow: hidden;
+    float: left;
+}
+#content .list_statue li{
+    float: left;
+}
+#content .list_statue p{
+    background: #17499d;
+    color: #fff;
+    padding: 10px 25px;
+    font-size: 16px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+#content .list_statue span{
+    font-weight: 600;
+}
+#content .list_statue select,#content .search_wrap select{
+    font-size: 16px;
+    padding: 9px 30px 9px 15px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    appearance:none;
+    background: #f9f9f9 url(../greet/images/select_arrow.jpg) 55px center no-repeat;
+    cursor: pointer;
+    outline: none;
+    font-weight: 600;
+    color: #666;
+}
+#content .view_box{
+    overflow: hidden;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background: #fff;
+    margin-left: 10px;
+}
+#content .view_list a,#content .view_grid a{
+    display: block;
+}
+#content .view_list i,#content .view_grid i{
+    font-size: 1.6em;
+    padding: 9px 10px;
+}
+#content .view_selected_btn{
+    background: #00172f;
+}
+#content .view_selected_btn i{
+    color: #fff;
+}
+#content .view_list{
+    border-right: 1px solid #ccc;
+}
+#content .search_wrap select{
+    padding-right: 15px;
+}
+#content .list_statue select::-ms-expand,#content .search_wrap select::-ms-expand {
+    display:none;
+} 
+#content .search_wrap{
+    overflow: hidden;
+    float: right;
+}
+#content .search_wrap li{
+    float: left;
+}
+#content .search_wrap select{
+    background: url(../greet/images/select_arrow.jpg) 55px center no-repeat;
+    margin-right: 10px;
+}
+#content .search_wrap #searchnews{
+    outline: 0;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    background: #f9f9f9;
+}
+#content .search_wrap .search_icon{
+    padding: 10px;
+    outline: 0
+}
+#content .list_content{
+    border-top: 2px solid #17499d;
+    padding: 50px 0 0;
+}
+#content .list_content>a{
+    display: block;
+}
+#content .list_row{
+    overflow: hidden;
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #efefef;
+}
+#content .list_row li{
+    float: left;
+}
+#content .left_imgwrap{
+    width: 340px;
+    height: 260px;
+    border: 1px solid #efefef;
+    position: relative;
+    margin-right: 50px;
+    background: #022c72;
+    overflow: hidden;
+}
+#content .left_imgwrap img{
+    width: 100%;
+    transition: .4s;
+    
+}
+#content .left_imgwrap p{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+#content .list_row .view{
+    background: #17499d;
+    color: #fff;
+    padding: 10px 15px;
+    font-size: 14px;
+}
+#content .list_row .view i{
+    margin-right: 10px;
+}
+#content .right_info{
+    width: 808px;
+}
+#content .list_row h4{
+    font-size: 24px;
+    margin: 20px 0;
+    white-space: nowrap;
+    width: 808px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+#content .list_row:hover h4{
+    color: #17499d;
+}
+#content .content {
+    height: 4.0em;
+    font-size: 16px;
+    line-height: 2.0em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+    width: 808px;
+    word-wrap: break-word;
+    display: box; 
+    line-clamp: 2; 
+    box-orient: vertical;
+    color: #666;
+    margin-bottom: 15px;
+}
+#content .date{
+    font-size: 16px;
+    color: #999;
+    margin-bottom: 25px;
+}
+#content .detail{
+    display: inline-block;
+    padding: 13px 40px;
+    border: 1px solid #17499d;
+    color: #17499d;
+    font-size: 16px;
+    font-weight: 500;
+    position: relative;
+    z-index: 1;
+    font-weight: 600;
+}
+#content .list_row:hover .detail{
+    color: #fff;
+}
+#content .detail::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 46px;
+    transition: .5s;
+    background: #17499d;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+#content .list_row:hover .detail::after{
+    width: 100%;  
+}
+/* 그리드로 보기 */
+#content .list_content.list_grid{
+    overflow: hidden;
+}
+#content .list_content.list_grid .list_row{
+    float: left;
+    width: 400px;
+}
+#content .list_content.list_grid .list_row li{
+    float: none;
+}
+#content .list_content.list_grid .left_imgwrap{
+    margin: 0 auto
+}
+#content .list_content.list_grid .right_info{
+    margin:  0 30px;
+    overflow: hidden;
+    width: 340px;
+}
+#content .list_content.list_grid h4{
+    margin: 30px 0 20px;
+    width: 340px;
+    font-size: 22px;
+}
+#content .list_content.list_grid .content{
+    width: 340px;
+}
+
+
+
+
+#content .buttons ul{
+    margin: 0 0 50px;
+    overflow: hidden;
+}
+#content .buttons li:first-of-type{
+/*    margin-right: 10px;*/
+    float: left;
+}
+#content .buttons li:last-of-type{
+    float: right;
+}
+#content .buttons li a{
+    font-size: 16px;
+    background: #f9f9f9;
+    border: 1px solid #ccc;
+    display: block;
+    padding: 10px 25px;
+    border-radius: 10px;
+    color: #666;
+    font-weight: 600;
+}
+#content .buttons.write .subm a{
+    width: 100%;
+    text-align: center;
+    font-size: 16px;
+    padding: 15px 0;
+    border-radius: 10px;
+    border: 0;
+    color: #fff;
+    font-weight: 600;
+    background: #17499d;
+    cursor: pointer;
+    outline: none;
+}
+#content .news_list.buttons li:last-of-type a{
+    background: #17499d;
+    border: 1px solid #17499d;
+    color: #fff;
+}
+#content .page_num{
+    width: 300px;
+    text-align: center;
+    margin: 0 auto 100px;
+}
+#content .page_num b,#content .page_num a{
+    display: inline-block;
+/*    border: 1px solid #ccc;*/
+    width: 28px;
+    height: 22px;
+    font-size: 18px;
+    text-align: center;
+    margin-right: 5px;
+    padding: 8px 3px;
+    color: #ccc;
+}
+#content .page_num b{
+    border-bottom: 3px solid #17499d;
+    color: #17499d;
+    font-weight: 600;
+}
+
+/* view.php */
+#content .view_content>div{
+    width: 1100px;
+    text-align: center;
+    padding: 100px 50px 0 50px;
+}
+#content .view_content img{
+    margin-bottom: 60px;
+}
+#content .view_content img:last-of-type{
+    margin-bottom: 0;
+}
+
+/* write_form.php */
+#content .add_file{
+    padding: 15px 0;
+}
+#content .row_file{
+    overflow: hidden;
+}
+#content .row_file>li{
+    float: left;
+}
+#content .row_file .tit{
+    width: 200px;
+    font-weight: 600;
+    padding: 25px 0 25px 30px;
+    font-size: 16px;
+}
+#content .row_file>li:nth-of-type(2){
+    padding: 15px 0;
+}
+input[type=file]::-webkit-file-upload-button{
+    visibility: hidden;
+}
+#content .row_file span{
+    position: relative;
+    font-weight: 600;
+    width: 200px;
+    font-size: 14px; 
+}
+#content .row_file span input{
+    outline: none;
+    cursor: pointer;
+    text-align: center;
+    border: 1px solid #ccc;
+    background: #f9f9f9;
+    padding: 6px 0;
+}
+#content .row_file .sel{
+    font-size: 14px;
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    position: relative;
+    left: -5px;
+    cursor: pointer;
+    font-weight: 600;
+    top: -1px;
+}
+#content .delete_ok{
+    overflow: hidden;
+    padding: 25px 0px;
+    position: relative;
+    top: 1px;
+}
+#content .delete_ok li{
+    float: left;
+}
+#content .delete_ok label{
+    margin: 0 15px 0 0;
+    padding: 10px 15px;
+    font-size: 14px;
+    z-index: 1;
+    font-weight: 600;
+}
+.delete_ok input[type=checkbox] + label{
+    cursor: pointer;
+    position: relative;
+}
+.delete_ok input[type=checkbox] + label::after{
+    display: inline-block; 
+    width: 54px;
+    height: 36px;
+    background: transparent;
+    border: 1px solid #ccc;
+    border-radius: 0;
+    right: 0;
+    top: -1px;
+    z-index: -1;
+    content:'';
+    position: absolute;
+}
+.delete_ok input[type=checkbox]:checked + label{
+    color: #fff;
+}
+.delete_ok input[type=checkbox]:checked + label::after{
+    background:#e70d1e;
+    border: 1px solid #e70d1e;  
+} 
+.delete_ok input{
+    display: none;
+}
+#content .upload_guide{
+    padding: 0 30px;
+    font-size: 14px;
+    color: #999;
+}
+#content .upload_guide li:first-of-type{
+    margin-bottom: 10px;
+}

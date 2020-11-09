@@ -1,0 +1,58 @@
+/* 서브3_3 컨텐츠 css */
+#content .tabs a{
+    width: 50%;
+}
+#content h3{
+    font-family: 'Questrial', sans-serif;
+}
+#content h3::after{
+    display: none;
+}
+#content h3 span{
+    display: block;
+    font-size: 16px;
+    margin-top: 10px;
+    font-weight: 500;
+    color: #999;
+}
+#content .text_nm{
+    margin-bottom: 40px;
+}
+#content ul{
+    overflow: hidden;
+    margin: 0 10px 50px;
+}
+#content ul li{
+    float: left;
+    width: 50%;
+    overflow: hidden;
+    position: relative;
+}
+#content ul li:first-of-type{
+    border-top-left-radius: 30px
+}
+#content ul li:nth-of-type(2){
+    border-top-right-radius: 30px
+}
+#content ul li:nth-of-type(3){
+    border-bottom-left-radius: 30px
+}
+#content ul li:nth-of-type(4){
+    border-bottom-right-radius: 30px
+}
+#content ul img{
+    width: 100%;
+}
+#content ul span{
+    position: absolute;
+    text-align: center;
+    display: block;
+    z-index: 10;
+    width: 100%;
+    top: 50%;
+    margin-top: -25px;
+    color: #fff;
+    font-size: 18px;
+    line-height: 1.6em;
+    font-weight: 600;
+}

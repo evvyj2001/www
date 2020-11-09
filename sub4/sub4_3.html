@@ -1,0 +1,47 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION);  
+?>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>코오롱 인더스트리::채용정보</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="common/css/sub4common.css">
+    <link rel="stylesheet" href="css/content3.css">
+    <script src="../common/js/prefixfree.min.js"></script>
+    <script src="https://kit.fontawesome.com/2d56222f57.js" crossorigin="anonymous"></script>
+    <!--[if IE9]>  
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+<body>
+        <? include "../common/sub_head.html" ?>
+        <!-- 서브4 비주얼+네비 공통 영역 -->
+        <? $_GET['num']=3;
+          include "common/sub_nav.html"; 
+        ?>
+        <!-- 본문 컨텐츠 영역 -->
+        <article id="content">
+            <div class="title_area">
+               <div class="inner">
+                <div class="linemap">
+                    <span><i class="fas fa-home"></i></span> &gt; <span>채용정보</span> &gt; <strong>인재채용</strong>
+                </div>
+                <h2>인재채용(게시판)</h2>
+              </div>
+            </div>
+            <div class="content_area">
+                
+                
+                
+            </div>
+            <? include "../common/fixed_top.html" ?>  
+        </article>
+      <? include "../common/sub_foot.html" ?>  
+</body>
+</html>

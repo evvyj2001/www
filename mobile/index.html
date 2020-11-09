@@ -1,0 +1,295 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION);  
+?>
+<!DOCTYPE HTML>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<meta name = "format-detection" content = "telephone=no">
+
+<title>코오롱 인더스트리</title>
+
+<link rel="apple-touch-icon-precomposed" href="app_icon.png">
+<link rel="apple-touch-startup-image" href="startup.png">
+<link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Questrial&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="swiper/swiper-bundle.min.css">
+<link rel="stylesheet" href="css/common.css">
+<link rel="stylesheet" href="css/main.css">
+
+
+<script src="js/prefixfree.min.js"></script>
+<script src="https://kit.fontawesome.com/2d56222f57.js" crossorigin="anonymous"></script>
+<script>
+  // <![CDATA[
+  try {
+   window.addEventListener('load', function(){
+    setTimeout(scrollTo, 0, 0, 1); 
+   }, false);
+  } 
+  catch(e) {}
+  // ]]>
+</script>
+ <!--[if lt IE 9]> 
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+    <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+<![endif]-->
+</head>
+
+<body>
+<? include "head.html"  ?>
+    <!-- 비주얼 영역 -->
+    <div class="main">
+       <div class="gallery">
+           <ul>
+               <li class="v_img1">
+                   <a href="#">
+                       <img src="images/main/main_bg01x2.jpg" alt="">
+                       <div class="text_box">
+                           <p class="lg_title"><span>c</span>hange<br>&amp;<span>c</span>hallenge</p>
+                           <p class="sub_title">코오롱이 만드는 세상,One&amp;Only의<br>마음으로 열어갑니다.</p>
+                       </div>                       
+                   </a>
+               </li>
+               <li class="v_img2">
+                   <a href="#">
+                       <img src="images/main/main_bg02x2.jpg" alt="">
+                       <div class="text_box">
+                           <p class="lg_title"><span>i</span>nfinite<br><span>p</span>ossibility</p>
+                           <p class="sub_title">고객의 가치를 더욱 빛나게<br>만들어나가겠습니다.</p>
+                       </div>                       
+                   </a>
+               </li>
+               <li class="v_img3">
+                   <a href="#">
+                       <img src="images/main/main_bg03x2.jpg" alt="">
+                       <div class="text_box">
+                           <p class="lg_title"><span>f</span>uture<br><span>v</span>ision</p>
+                           <p class="sub_title">세계를 향한 코오롱 인더스트리의<br>도전은 계속됩니다.</p>
+                       </div>                       
+                   </a>
+               </li>
+           </ul>
+       </div>
+       <ul class="main_quick">
+           <li><a class="mbutton btnv1" href="#v1">1</a></li>
+           <li><a class="mbutton btnv2" href="#v2">2</a></li>
+           <li><a class="mbutton btnv3" href="#v3">3</a></li>
+       </ul>
+       <div class="loading_bar">
+           <div class="process"></div>
+       </div>
+    </div>
+    <article id="content">
+       <h2 class="hidden">본문 콘텐츠 영역</h2>
+       <section class="business">
+           <h3>01 <span class="tit_line"></span><span class="text_blue">b</span>usiness</h3>
+           <p class="sub_t">코오롱 인더스트리의 <span>핵심 사업분야</span>를 소개합니다.</p>
+           <div class="busi_container swiper-container">
+              <ul class="busi_wrapper swiper-wrapper">
+                  <li class="busi_slide swiper-slide">
+                    <div class="img_wrap">
+                     <a href="sub2_1.html">
+                         <img class="img_link" src="images/main/business_img1x2.jpg" alt="">
+                         <div class="p">
+                             <img src="images/main/business_plus_iconx2.png" alt=""></div>
+                     </a>
+                    </div>
+                      <p class="list_tit">산업자재<span>industrial Materials</span></p>
+                      <div class="direction_wrap">
+                          <a class="btn_prev swiper-button-prev" href="#"></a>
+                          <div class="busi_page swiper-pagination">
+                              <span class="current">1</span>/
+                              <span class="total">4</span>
+                          </div>
+                          <a class="btn_next swiper-button-next" href="#"></a>
+                      </div>
+                  </li>
+                  <li class="busi_slide swiper-slide">
+                    <div class="img_wrap">
+                     <a href="sub2_2.html">
+                         <img class="img_link" src="images/main/business_img2x2.jpg" alt="">
+                         <div class="p">
+                             <img src="images/main/business_plus_iconx2.png" alt=""></div>
+                     </a>
+                    </div>
+                      <p class="list_tit">필름/전자<span>film/eletronic</span></p>
+                      <div class="direction_wrap">
+                          <a class="btn_prev swiper-button-prev" href="#"></a>
+                          <div class="busi_page swiper-pagination">
+                              <span class="current">1</span>/
+                              <span class="total">4</span>
+                          </div>
+                          <a class="btn_next swiper-button-next" href="#"></a>
+                      </div>
+                  </li>
+                  <li class="busi_slide swiper-slide">
+                    <div class="img_wrap">
+                     <a href="sub2_2.html">
+                         <img class="img_link" src="images/main/business_img3x2.jpg" alt="">
+                         <div class="p">
+                             <img src="images/main/business_plus_iconx2.png" alt=""></div>
+                     </a>
+                    </div>
+                      <p class="list_tit">화학<span>chemistry</span></p>
+                      <div class="direction_wrap">
+                          <a class="btn_prev swiper-button-prev" href="#"></a>
+                          <div class="busi_page swiper-pagination">
+                              <span class="current">1</span>/
+                              <span class="total">4</span>
+                          </div>
+                          <a class="btn_next swiper-button-next" href="#"></a>
+                      </div>
+                  </li>
+                  <li class="busi_slide swiper-slide">
+                    <div class="img_wrap">
+                     <a href="sub2_3.html">
+                         <img class="img_link" src="images/main/business_img4x2.jpg" alt="">
+                         <div class="p">
+                             <img src="images/main/business_plus_iconx2.png" alt=""></div>
+                     </a>
+                    </div>
+                      <p class="list_tit">패션<span>fashion</span></p>
+                      <div class="direction_wrap">
+                          <a class="btn_prev swiper-button-prev" href="#"></a>
+                          <div class="busi_page swiper-pagination">
+                              <span class="current">1</span>/
+                              <span class="total">4</span>
+                          </div>
+                          <a class="btn_next swiper-button-next" href="#"></a>
+                      </div>
+                  </li>
+              </ul>
+           </div>
+       </section>
+       <section class="movie">
+           <h3 class="dot_red"><span class="text_red">m</span>ovie <span class="tit_line"></span></h3>
+           <p class="sub_t">코오롱 인더스트리의 <span>사업분야를 영상으로</span> 만나보세요.</p>
+           <ul class="movie_menu">
+               <li class="btn1"><a href="images/main/video/kolonsports.mp4" title="코오롱스포츠영상" onclick="changeVideo(this);return false">코오롱스포츠</a></li>
+               <li class="btn2"><a href="images/main/video/luckychouette.mp4" title="럭키슈에뜨영상" onclick="changeVideo(this);return false">럭키슈에뜨</a></li>
+               <li class="btn3"><a href="images/main/video/marcjacobs.mp4" title="마크제이콥스영상" onclick="changeVideo(this);return false">마크제이콥스</a></li>
+           </ul>
+           <div class="movie_box">
+               <video id="textVideo" controls poster="images/main/video_thum1x2.jpg" src="images/main/video/kolonsports.mp4"></video>
+           </div>
+       </section>
+       <section class="company">
+           <h3>02 <span class="tit_line"></span><span class="text_blue">c</span>ompany</h3>
+           <p class="sub_t">생활 속 작은 기쁨을 만들어가며 가장 <span>사랑받는 기업이 되기 위해</span> 노력합니다.</p>
+           <ul>
+               <li>
+                  <span>
+                      <img src="images/main/company_icon1_x2.jpg" alt="" >
+                  </span>
+                  <dl>
+                      <dt>새로운 생각</dt>
+                      <dd>창의적이고 전략적인 사고<br>진취적이고 미래지향적 사고</dd>
+                  </dl>
+               </li>
+               <li>
+                  <span>
+                      <img src="images/main/company_icon2_x2.jpg" alt="" >
+                  </span>
+                  <dl>
+                      <dt>당당한 자세</dt>
+                      <dd>자신있고 용기있는 태도<br>도덕적이고 윤리적인 태도</dd>
+                  </dl>
+               </li>
+               <li>
+                  <span>
+                      <img src="images/main/company_icon3_x2.jpg" alt="" >
+                  </span>
+                  <dl>
+                      <dt>뜨거운 열정</dt>
+                      <dd>일에 대한 끝없는 사랑<br>성공에 대한 확신과 헌신</dd>
+                  </dl>
+               </li>
+               <li>
+                  <span>
+                      <img src="images/main/company_icon4_x2.jpg" alt="" >
+                  </span>
+                  <dl>
+                      <dt>완벽한 일처리</dt>
+                      <dd>빈틈없고 철저한 일처리<br>결과에 대한 자부심</dd>
+                  </dl>
+               </li>
+           </ul>
+       </section>
+       <section class="rnd">
+           <h3 class="dot_red">03 <span class="tit_line"></span><span class="text_red">r</span>&amp;d</h3>
+           <ul>
+               <li><a href="sub3_1.html">R&amp;D 개요</a></li>
+               <li><a href="sub3_2.html">지식재산권</a></li>
+               <li><a href="sub3_3.html">연구분야</a></li>
+           </ul>
+           <span class="box_gr_blue"></span>
+           <span class="box_gr_red"></span>
+       </section>
+       <section class="recruit">
+           <h3>04 <span class="tit_line"></span><span class="text_blue">r</span>ecruit</h3>
+           <ul>
+               <li>
+                   <a href="sub4_1.html">
+                       <dl>
+                           <dt>인재상</dt>
+                           <dd>코오롱이 원하는 인재, 바로 여러분입니다.</dd>
+                       </dl>
+                       <span>+</span>
+                   </a>
+               </li>
+               <li>
+                   <a href="sub4_2.html">
+                       <dl>
+                           <dt>인사제도</dt>
+                           <dd>코오롱의 인사제도를 소개합니다.</dd>
+                       </dl>
+                       <span>+</span>
+                   </a>
+               </li>
+           </ul>
+       </section>
+       <section class="ind_bottom">
+          <h3 class="hidden">고객서비스</h3>
+           <ul>
+               <li><a href="faq.html"><img src="images/main/faq_iconx2.jpg" alt="" ><span>FAQ</span></a></li>
+               <li><a href="ekolon.html"><img src="images/main/ekolon_iconx2.jpg" alt=""><span>eKOLON Card</span></a></li>
+               <li><a href="contact.html"><img src="images/main/contact_iconx2.jpg" alt=""><span>Contact us</span></a></li>
+           </ul>
+       </section>
+    </article>
+<? include "foot.html"  ?>
+
+<!-- 페이지별 스크립트 -->
+<script src="js/main/visual.js"></script>
+<script src="js/main/video.js"></script>
+<script src="js/main/script.js"></script>
+<script src="swiper/swiper-bundle.min.js"></script>
+
+<!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      loop: true,
+      autoplay: {
+        delay: 3000,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: '.swiper-pagination',
+        type: 'fraction',
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+  </script>
+
+</body>
+</html>

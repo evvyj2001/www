@@ -1,0 +1,183 @@
+.content_area #company_intro{
+    width: 100%;
+    margin: 0 auto;
+    background: url(../images/content1/intro_bg.jpg) center center no-repeat;
+}
+.content_area .arrow_deco::after{
+    content:'';
+    display: block;
+    width: 1px;
+    height: 80px;
+    position: absolute;
+    top: -29px;
+    left:50%;
+    background: #333;
+}
+.content_area section .inner>img{
+    position: relative;
+    top: 0;
+    left: 50%;
+}
+.content_area #tire .inner>img:first-of-type{
+    margin: 0 0 60px -170px;
+}
+.content_area .lg_summary,.content_area .nm_text{
+    margin-left: 50px;
+    text-align: justify;
+}
+.content_area .blue{
+    color: #006ebc;
+}
+.content_area .red{
+    color: #e60012;
+}
+.content_area .nm_text{
+    font-size: 1.286em;
+    line-height: 2em;
+    color: #666;  
+    margin-bottom: 30px;
+    width: 1100px;
+}
+.content_area .float_box{
+    overflow: hidden;
+    margin: 50px 0 100px 50px;
+}
+.content_area .float_box img{
+    float: left;
+    margin: 65px 120px 0 47px;
+}
+.content_area .float_box>div{
+    float: left;
+    width: 520px;
+}
+.content_area .float_box dl:first-of-type{
+    margin-bottom: 50px;
+}
+.content_area .float_box dt{
+    font-size: 1.571em;
+    font-weight: 600;
+    margin-bottom: 30px;
+    position: relative;
+    display: inline-block;
+    font-family: 'Questrial', sans-serif;
+}
+.content_area .float_box dt::after{
+    content: '';
+    display: block;
+    background: #006ebc;
+    width: 6px;
+    height: 6px;
+    position: absolute;
+    right: -15px;
+    top: 9px;
+    border-radius: 50%
+}
+.content_area .float_box dl:last-of-type dt::after{
+    background: #e60012;
+}
+.content_area .float_box dd{
+    font-size: 1.286em;
+    line-height: 2em;
+    color: #666;
+}
+.content_area #airBag{
+    background: #f9f9f9;
+    overflow: hidden;
+}
+.content_area #airBag p:nth-child(2){
+    margin-bottom: 60px;
+}
+.content_area #airBag .inner>img:first-of-type{
+    margin: 0 0 60px -160px;
+}
+.content_area #airBag .inner>img:last-of-type{
+    margin: 50px 0 80px -255px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+.content_area #airBag dl{
+    margin: 0 0 50px 50px;
+}
+.content_area #airBag dl:last-of-type{
+    margin-bottom: 100px;
+}
+.content_area #airBag dt{
+    font-size: 1.429em;
+    font-weight: 600;
+    margin-bottom: 20px;
+    font-family: 'Questrial', sans-serif;
+}
+.content_area #airBag dt .num{
+    padding: 2px 0 0 6px;
+    width: 15px;
+    height: 19px;
+    display: inline-block;
+    background: #006ebc;
+    margin-right: 10px;
+    color: #fff;
+    border-radius: 50%;
+    font-weight: 400;
+    font-size: 17px;
+}
+.content_area #airBag dt .blue{
+    text-transform: uppercase;
+}
+.content_area #airBag dt .text_mini{
+    font-size: 16px;
+    color: #999;
+    margin-left: 10px;
+    font-weight: 400;
+}
+.content_area #airBag dd{
+    font-size: 1.286em;
+    color: #666;
+    width: 1100px;
+    line-height: 2em;
+}
+.content_area #spb .inner>img:first-of-type{
+    margin: 0 0 60px -41px;
+}
+.content_area .finon_down{
+    display: block;
+    font-size: 1.143em;
+    font-weight: 600;
+    text-align: center;
+    margin: 100px 0;
+}
+.content_area .finon_down img{
+    margin-left: 5px;
+}
+.content_area .finon_down span{
+    color: #e50012;
+    display: inline-block;
+    margin-right: 5px;
+}
+.content_area .finon_down span::after{
+    display: block;
+    content: '';
+    border-bottom: 5px solid #fbdadc;
+    opacity: 0;
+    transition: all .2s
+}
+.content_area .finon_down:hover span::after{
+    opacity: 1;
+}
+.content_area #spb .float_box{
+    margin-bottom: 50px;
+}
+.content_area #spb dl{
+    width: 520px;
+    float: left;
+    margin-bottom: 50px;
+}
+.content_area #spb dl:nth-child(2n){
+    margin-left: 60px;
+}
+.content_area #spb dt{
+    display: inline-block;
+    border-bottom: 1px solid #333;
+    padding-bottom: 5px;
+}
+.content_area #spb dt::after{
+    background: #e60012;
+}

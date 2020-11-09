@@ -1,0 +1,200 @@
+.content_area .lg_summary, .content_area .nm_text{
+    margin-left: 50px;
+    text-align: justify;
+}
+.content_area .nm_text{
+    font-size: 1.286em;
+    line-height: 2em;
+    color: #666;
+    margin-bottom: 60px;
+    width: 1100px;
+}
+.content_area .poly_img{
+    position: relative;
+    left: 50%;
+    margin: 0 0 60px -52.5px;
+}
+.content_area .kolon_go{
+    display: block;
+    font-size: 1.143em;
+    font-weight: 600;
+    text-align: center;
+    margin: 100px 0;
+}
+.content_area .kolon_go img{
+    margin-left: 5px;
+}
+.content_area .kolon_go span{
+    color: #006dbb;
+    display: inline-block;
+    margin-right: 5px;
+}
+.content_area .kolon_go span::after{
+    display: block;
+    content: '';
+    border-bottom: 5px solid #daeafa;
+    opacity: 0;
+    transition: all .2s
+}
+.content_area .kolon_go:hover span::after{
+    opacity: 1;
+}
+.content_area #poly ul{
+    width: 1100px;
+    overflow: hidden;
+    margin: 0 0 40px 50px;
+}
+.content_area #poly ul li{
+    float: left;
+    width: 520px;
+    margin-bottom: 50px;
+    height: 150px;
+}
+.content_area #poly ul li:nth-child(odd){
+    margin-right: 60px;
+}
+.content_area h4{
+    font-size: 1.571em;
+    color: #333;
+    display: inline-block;
+    border-bottom: 1px solid #333;
+    margin-bottom: 20px;
+    position: relative;
+}
+.content_area h4::after{
+    content: '';
+    display: block;
+    width: 6px;
+    height: 6px;
+    position: absolute;
+    top: 9px;
+    right: -15px;
+    border-radius: 50%
+}   
+.content_area #poly h4::after{
+    background: #006dbb;
+}    
+.content_area ul p{
+    font-size: 1.286em;
+    color: #666;
+    line-height: 2em;
+    text-align: justify;    
+}
+.content_area #deposition{
+    background: #f9f9f9;
+    overflow: hidden;
+}
+.content_area #deposition .float_box{
+    overflow: hidden;
+    width: 1100px;
+    margin: 0 0 60px 50px;
+}
+.content_area #deposition .float_box img{
+    margin: 0 90px 0 75px;
+    float: left;
+}
+.content_area #deposition .float_box p{
+    font-size: 1.286em;
+    color: #666;
+    line-height: 2em;
+    text-align: justify;
+}
+.content_area #deposition .float_box p:last-of-type{
+    margin-top: 40px;
+}
+.content_area #deposition ul{
+    margin: 0 0 100px 50px;
+    width: 1100px;
+}
+.content_area #deposition li{
+    margin-bottom: 60px;
+}
+.content_area #deposition h4::after{
+    background: #e60012;
+} 
+.content_area #panel img{
+    position: relative;
+    left: 50%;
+    margin:  0 0 100px -398px;
+}
+.content_area .panel_img_box{
+    width: 796px;
+    height: 448px;
+    background: url(../images/content2/panel_img.jpg) center center no-repeat;
+    margin: 0 auto 100px;
+    text-indent: -999px;
+    overflow: hidden;
+}
+.content_area .overcoat_box{
+    width: 1100px;
+    border: 1px solid #ccc;
+    margin: 0 0 100px 50px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+.content_area .overcoat_box h4{
+    text-align: center;
+    font-size: 1.714em;
+    left: 50%;
+    margin: 60px 0 60px -50px;
+    font-family: 'Questrial', sans-serif;
+}
+.content_area .overcoat_box ul{
+    overflow: hidden;
+    width: 749px;
+    position: relative;
+    left: 50%;
+    margin: 0 0 60px -374.5px;
+}
+.content_area .overcoat_box li{
+    float: left;
+    width: 33%;
+    text-align: center;
+    font-size: 1.286em;
+    line-height: 5.5em;
+}
+.content_area .overcoat_box li:nth-of-type(2){
+    line-height: 2em;
+    border-right: 2px dotted #999;
+    border-left: 2px dotted #999;
+}
+.content_area #panel .overcoat_box img{
+    margin: 0 0 60px -374px;
+}
+.content_area .overcoat_box table{
+    border-collapse: collapse;
+    width: 749px;
+    position: relative;
+    left: 50%;
+    margin: 0 0 60px -374.5px;
+    text-align: center;
+    border-top: 2px solid #666;
+    border-bottom: 2px solid #ccc;
+}
+.content_area .overcoat_box thead th{
+    font-size: 1.286em;
+    font-weight: 600;
+    padding: 16px 0;
+    background: #f9f9f9;
+    border-bottom: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+}
+.content_area .overcoat_box thead th:last-of-type{
+    border-right: 0;
+}
+.content_area .overcoat_box td{
+    padding: 16px 0;
+    font-size: 1.143em;
+    border-bottom: 2px dotted #ccc;
+    color: #999;
+}
+.content_area .overcoat_box tbody th{
+    font-weight: 600;
+    background: #f9f9f9;
+    border-right: 1px solid #ccc;
+    border-bottom: 2px dotted #ccc;
+    color: #666;
+}
+.content_area .overcoat_box tbody tr td:first-of-type{
+    border-right: 1px solid #ccc;
+}

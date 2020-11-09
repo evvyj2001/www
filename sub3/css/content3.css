@@ -1,0 +1,104 @@
+.content_area h3{
+    text-transform: capitalize;
+    font-family: 'Questrial', sans-serif;
+}
+.content_area h3 span{
+    font-size: 22px;
+    font-weight: 400;
+    color: #999;
+    display: block;
+    margin-top: 15px;
+}
+.content_area .lg_summary, .content_area .nm_text{
+    margin-left: 50px;
+    text-align: justify;
+}
+.content_area .nm_text{
+    font-size: 1.286em;
+    line-height: 2em;
+    color: #666;
+    margin-bottom: 60px;
+    width: 1100px;
+}
+.content_area ul{
+    margin: 0 0 100px 50px;
+    width: 1100px;
+    overflow: hidden;
+}
+.content_area li{
+    float: left;
+    position: relative;
+    background: #004dad;
+    cursor: pointer
+}
+.content_area #eletro li{
+    width: 20%;
+}
+.content_area .bdrd_bl_50{
+    border-bottom-left-radius: 50px;
+}
+.content_area .bdrd_bl_50 img{
+    border-bottom-left-radius: 50px;
+}
+.content_area .bdrd_tr_50{
+    border-top-right-radius: 50px;
+}
+.content_area .bdrd_tr_50 img{
+    border-top-right-radius: 50px;
+}
+.content_area li img{
+    opacity: 1;
+    transition: all .4s;
+}
+.content_area li:hover img{
+    opacity: 0;
+    transform: scale(1.01)
+}
+.content_area li span{
+    position: absolute;
+    color: #fff;
+    z-index: 1;
+    text-align: center;
+    top: 130px;
+    left: 0;
+    display: block;
+    width: 100%;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 2em;
+}
+.content_area #car{
+    overflow: hidden;
+}
+.content_area #car li{
+    width: 33.3%;
+    height: 200px;
+    overflow: hidden;
+}
+.content_area #car li span{
+    top: 85px;
+}
+.content_area #car li:nth-child(3) span,.content_area #car li:nth-child(6) span{
+    top: 65px;
+}
+.content_area #energy li{
+    width: 25%;
+    height: 300px;
+}
+.content_area #energy li:nth-child(2) span,.content_area #energy li:nth-child(3) span{
+    top: 115px;
+}
+.content_area #highPerformance{
+    overflow: hidden;
+}
+.content_area #highPerformance li{
+    width: 33.3%;
+    height: 300px;
+}
+.content_area #chemicals li{
+    width: 33.3%;
+    height: 200px;
+}
+.content_area #chemicals li span{
+    top: 85px;
+}

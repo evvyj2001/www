@@ -1,0 +1,142 @@
+.content_area section{
+    overflow: hidden;
+}
+.content_area section h3{
+    color: #333;
+    text-transform: uppercase;
+    font-family: 'Questrial', sans-serif;
+}
+.content_area section p{
+    font-size: 1.286em;
+    line-height: 2em;
+    color: #666;
+    margin: 0 0 100px 50px;
+    text-align: center;
+    word-break: keep-all;
+    width: 1100px;
+}
+.content_area .inner>img:first-of-type{
+    position: relative;
+    left: 50%;
+    top: 0;
+}
+.content_area #kolonSports .inner>img{
+    margin-left: -124.5px;
+}
+.content_area .cts_box{
+    margin: 60px 0 60px 50px;
+    width: 1100px;
+    overflow: hidden;
+}
+.content_area .cts_box .bdr_rt30{
+    border-top-right-radius: 30px;
+}
+.content_area .cts_box .bdr_lb30{
+    border-bottom-left-radius: 30px;
+}
+.content_area .cts_box img{
+    float: left;
+}
+.content_area .cts_box .movie{
+    width: 595px;
+    height: 353px;
+    background: #ccc;
+    float: left;
+}
+.content_area .cts_box .movie iframe{
+    width: 100%;
+    height: 100%;
+}
+.content_area .cts_box .margin_r_20{
+    margin-right: 20px;
+}
+.content_area .cts_box ul{
+    float: left;
+    width: 205px;    
+}
+.content_area .cts_box li{
+    height: 166px;
+}
+.content_area .cts_box li a{
+    display: block;
+    text-align: center;
+    height: 167px;
+    background: #e60012;
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.143em;
+    line-height: 1.5em;
+    transition: all .5s;
+}
+.content_area .cts_box li:first-of-type{
+    margin-bottom: 20px;
+}
+.content_area .cts_box li:first-of-type:hover a{
+    background: #efefef;
+    color: #333;
+}
+.content_area .cts_box li:first-of-type:hover a i{
+    color: #e60012;
+}
+.content_area .cts_box li:last-of-type a{
+    background: #333;
+}
+.content_area .cts_box li:last-of-type:hover a{
+    background: #efefef;
+    color: #333;
+}
+.content_area .cts_box li:last-of-type:hover a i{
+    color: #333;
+}
+.content_area .cts_box i{
+    display: block;
+    padding: 30px 0 10px 0;
+    font-size: 3.438em;
+}
+.content_area #golf{
+    background: #f9f9f9
+}
+.content_area #golf .inner>img{
+    margin-left: -73.5px;
+}
+.content_area #womenswear .inner>img{
+    margin-left: -110px;
+}
+.content_area #premium{
+    background: #f9f9f9;
+}
+.content_area #premium .inner>img{
+    margin-left: -152px;
+}
+.content_area #mall .inner>img{
+    margin-left: -153px;
+}
+.content_area #mall .inner>img:last-of-type{
+    margin: 50px 0 60px 50px;
+}
+.content_area #mall a{
+    display: block;
+    font-size: 1.143em;
+    font-weight: 600;
+    text-align: center;
+    margin: 100px 0;
+    text-transform: uppercase;
+}
+.content_area #mall a img{
+    margin-left: 5px;
+}
+.content_area #mall a span{
+    color: #006dbb;
+    display: inline-block;
+    margin-right: 5px;
+}
+.content_area #mall a span::after{
+    display: block;
+    content: '';
+    border-bottom: 5px solid #daeafa;
+    opacity: 0;
+    transition: all .2s
+}
+.content_area #mall a:hover span::after{
+    opacity: 1;
+}

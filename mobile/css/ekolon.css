@@ -1,0 +1,112 @@
+/* eKOLON CARD CSS */
+.main {
+    background: rgb(37,108,232);
+    background: linear-gradient(90deg, rgba(37,108,232,1) 0%, rgba(106,237,235,1) 100%);
+    overflow:visible;
+}
+.main .welcome{
+    margin: 0 20px 0;
+    font-size: 16px;
+    text-align: left;
+    color: rgba(255,255,255,1);
+    padding-top: 110px;
+}
+.main .welcome span{
+    margin-right: 5px;
+    position: relative;
+    display: inline-block;
+    font-weight: 600;
+}
+.main .welcome span::after{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 1px;
+    background: #fff;
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+}
+.main .barcorde_wrap{
+    margin: 0 20px 50px;
+    padding: 30px 0;
+    background: #fff;
+    position: relative;
+    top:50px;
+    z-index: 100;
+    border-radius: 15px;
+    border: 1px solid #efefef;
+    box-shadow: 2px 3px 6px 1px rgba(0,0,0,0.05);
+}
+.main .barcorde_wrap .img_wrap{
+    margin: 0 20px;
+}
+.main .barcorde_wrap img{
+    width: 100%;
+    transform:scale(1.0)
+}
+.main .float_wrap{
+    overflow: hidden;
+    margin: 10px 20px 0;
+}
+.main .barcorde_wrap p{
+    color: #333;
+    text-align: left;
+    font-size: 16px;
+    letter-spacing: 0;
+    float: left;
+}
+.main .barcorde_wrap a{
+    float: right;
+    margin-top: 10px;
+}
+.main .barcorde_wrap a img{
+    width: 20px;
+}
+#content .point_wrap{
+    margin: 50px 20px;
+    border-radius: 15px;
+    border: 1px solid #efefef;
+    padding: 20px 0 0;
+    box-shadow: 2px 3px 6px 1px rgba(0,0,0,0.05);
+    overflow: hidden;
+}
+#content .point_wrap img{
+    width: 110px;
+    float: left;
+    margin-left: 20px;
+}
+#content .point_wrap ul{
+    clear: both
+}
+#content .point_wrap p{
+    float: right;
+    margin: 2px 20px 0 0;
+    font-size: 15px;
+}
+#content .point_wrap p img{
+    width: 18px;
+    margin-right: 5px;
+}
+#content .point_wrap p .point_text{
+    color: #999;
+    display: inline-block;
+    font-family: 'Questrial', sans-serif;
+}
+#content .point_wrap ul{
+    overflow: hidden;
+    padding-top: 20px;
+}
+#content .point_wrap ul li{
+    float: left;
+    width: 32.9%;
+    border-top: 1px solid #efefef;
+    border-right: 1px solid #efefef;
+}
+#content .point_wrap ul li:last-of-type{
+    border-right: 0;
+}
+#content .point_wrap ul li a{
+    text-align: center;
+    padding: 10px 0;
+}

@@ -1,0 +1,105 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION);  
+?>
+<!DOCTYPE HTML>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+
+<title>코오롱 인더스트리</title>
+
+<link rel="apple-touch-icon-precomposed" href="app_icon.png">
+<link rel="apple-touch-startup-image" href="startup.png">
+<link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Questrial&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/common.css">
+<link rel="stylesheet" href="css/sub_common.css">
+<link rel="stylesheet" href="css/ekolon.css">
+
+<script src="js/prefixfree.min.js"></script>
+<script src="https://kit.fontawesome.com/2d56222f57.js" crossorigin="anonymous"></script>
+<script>
+  // <![CDATA[
+  try {
+   window.addEventListener('load', function(){
+    setTimeout(scrollTo, 0, 0, 1); 
+   }, false);
+  } 
+  catch(e) {}
+  // ]]>
+ </script>
+ <!--[if lt IE 9]> 
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+    <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+<![endif]-->
+</head>
+
+<body>
+   <?
+       if(!$userid)
+       {
+   ?>   
+       <script>
+           alert('로그인을 먼저 해주세요');
+           location.href="login/login_form.php";
+       </script>
+   <?
+       }else{
+   ?> 
+<? include "head.html"  ?>
+<!-- 비주얼 영역 -->
+    
+   
+    <div class="main">
+        <p class="welcome">
+            <span class="member_name"><?=$usernick?></span>님, 환영합니다.
+        </p>
+        <div class="barcorde_wrap">
+           <div class="img_wrap">
+               <img src="images/ekolon/barcorde.jpg" alt="">
+           </div>
+           <div class="float_wrap">
+               <p class="barcorder_num">
+                1234-0326-0506-0408
+                </p>
+<!--                <a href="#"><img src="images/ekolon/zoom_icon.jpg" alt=""></a>-->
+           </div>
+            
+        </div>
+    </div>
+    <article id="content">
+        <div class="point_wrap">
+            <img src="images/ekolon/ekolon_logo.jpg" alt="">
+            <p>
+                <span><img src="images/ekolon/point_icon.jpg" alt=""></span>
+                <span class="point_text">32,600</span>
+            </p>
+            <ul>
+                <li><a href="#">사용내역</a></li>
+                <li><a href="#">제휴사확인</a></li>
+                <li><a href="#">이용안내</a></li>
+            </ul>
+        </div>
+    </article>
+<? include "foot.html"  ?>
+<?
+       }
+?> 
+<!-- 페이지별 스크립트 -->
+<script src="js/sub/faq.js"></script>
+<script>
+    $(document).ready(function(){
+       $('.point_wrap ul li a').click(function(){
+         alert('차후 서비스 제공 예정입니다.')  
+       });
+    });
+    </script>
+ 
+</body>
+</html>

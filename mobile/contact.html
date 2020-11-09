@@ -1,0 +1,153 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION);  
+?>
+<!DOCTYPE HTML>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+
+<title>코오롱 인더스트리</title>
+
+<link rel="apple-touch-icon-precomposed" href="app_icon.png">
+<link rel="apple-touch-startup-image" href="startup.png">
+<link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Questrial&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/common.css">
+<link rel="stylesheet" href="css/sub_common.css">
+<link rel="stylesheet" href="css/contact.css">
+
+<script src="js/prefixfree.min.js"></script>
+<script src="https://kit.fontawesome.com/2d56222f57.js" crossorigin="anonymous"></script>
+<script>
+  // <![CDATA[
+  try {
+   window.addEventListener('load', function(){
+    setTimeout(scrollTo, 0, 0, 1); 
+   }, false);
+  } 
+  catch(e) {}
+  // ]]>
+ </script>
+ <!--[if lt IE 9]> 
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+    <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+<![endif]-->
+</head>
+
+<body>
+<? include "head.html"  ?>
+<!-- 비주얼 영역 -->
+    <div class="main">
+        <img src="images/faq/faq_bgx2.jpg" alt="">
+        <div class="text_box">
+            <h3>contact us</h3>
+        </div>
+    </div>
+    <article id="content">
+        <ul class="ct_wrap">
+            <li>
+                <h4>
+                    코오롱 <span class="text_blue">구미 </span>공장
+                </h4>
+                <ul class="info">
+                    <li class="addr">
+                        <span class="icon"><i class="fas fa-map-marker-alt"></i></span>
+                        <p>경상북도 구미시 수출대로 48 (공단로)</p>
+                    </li>
+                    <li class="call">
+                        <span class="icon"><i class="fas fa-phone-alt"></i></span>
+                        <p><a href="tel:054-469-3464">054) 469 - 3464</a></p>
+                    </li>
+                    <li class="manager">
+                        <span class="icon"><i class="fas fa-user-tie"></i></span>
+                        <p>노민열 담당자</p>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <h4>
+                    코오롱 <span class="text_blue">여수 </span>공장
+                </h4>
+                <ul class="info">
+                    <li class="addr">
+                        <span class="icon"><i class="fas fa-map-marker-alt"></i></span>
+                        <p>전남 여수시 산단중앙로 213 (화치동)</p>
+                    </li>
+                    <li class="call">
+                        <span class="icon"><i class="fas fa-phone-alt"></i></span>
+                        <p><a href="tel:054-469-3464">061) 609 - 3464</a></p>
+                    </li>
+                    <li class="manager">
+                        <span class="icon"><i class="fas fa-user-tie"></i></span>
+                        <p>박광수 담당자</p>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <h4>
+                    코오롱 <span class="text_blue">인천 </span>공장
+                </h4>
+                <ul class="info">
+                    <li class="addr">
+                        <span class="icon"><i class="fas fa-map-marker-alt"></i></span>
+                        <p>인천시 서구 백범로 680 (가좌동)</p>
+                    </li>
+                    <li class="call">
+                        <span class="icon"><i class="fas fa-phone-alt"></i></span>
+                        <p><a href="tel:054-469-3464">061) 690 - 9821</a></p>
+                    </li>
+                    <li class="manager">
+                        <span class="icon"><i class="fas fa-user-tie"></i></span>
+                        <p>박광수 담당자</p>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <h4>
+                    코오롱 <span class="text_blue">FnC </span>
+                </h4>
+                <ul class="info">
+                    <li class="addr">
+                        <span class="icon"><i class="fas fa-map-marker-alt"></i></span>
+                        <p>서울특별시 강남구 삼성로 318 코오롱 인더스트리 빌딩 (삼성동 157)</p>
+                    </li>
+                    <li class="way">
+                        <ul>
+                            <li>
+                                <h5>지하철 이용시</h5>
+                                <ul class="t_table">
+                                    <li><span class="green">2</span><strong>삼성역 5번 출구</strong> 약 10분 700m</li>
+                                    <li><span class="green">2</span><span class="yellow">분당</span> <strong>선릉역</strong> 약 12분 800m</li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <h5>버스 이용시</h5>
+                                <ul class="t_table">
+                                    <li><span class="blue">간선 </span> 146, 333, 341, 740, N13, N61</li>
+                                    <li><span class="red">간선 </span> 500-2, 1100, 1700, 2000, 2000-1</li>
+                                    <li><span class="d_green">지선 </span> 2415, 3011, 3411</li>
+                                    <li><span class="d_green">마을 </span> 강남07, 강남08</li>
+                                    <li><span class="blue">공항 </span> 6000</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+
+    </article>
+<? include "foot.html"  ?>
+ 
+<!-- 페이지별 스크립트 -->
+ 
+</body>
+</html>

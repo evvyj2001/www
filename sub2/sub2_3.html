@@ -1,0 +1,202 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION);  
+?>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>코오롱 인더스트리::사업분야</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="common/css/sub2common.css">
+    <link rel="stylesheet" href="css/content3.css">
+    <script src="../common/js/prefixfree.min.js"></script>
+    <script src="https://kit.fontawesome.com/2d56222f57.js" crossorigin="anonymous"></script>
+    <!--[if IE9]>  
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+<body>
+        <? include "../common/sub_head.html" ?>
+        <!-- 서브2 비주얼+네비 공통 영역 -->
+        <? $_GET['num']=3;
+          include "common/sub_nav.html"; 
+        ?>
+        <!-- 본문 컨텐츠 영역 -->
+        <article id="content">
+            <div class="title_area">
+               <div class="inner">
+                <div class="linemap">
+                    <span><i class="fas fa-home"></i></span> &gt; <span>사업분야</span> &gt; <strong>화학</strong>
+                </div>
+                <h2>화학</h2>
+                <div class="sub_menu_box">
+                <ul>
+                    <li><a class="link1" href="#o">석유수지</a></li>
+                    <li><a class="link2" href="#e">에폭시수지</a></li>
+                    <li><a class="link3" href="#p">PET수지</a></li>
+                </ul>
+                </div>
+              </div>
+            </div>
+            <div class="content_area">
+                <section id="oil">
+                   <div class="inner">
+                        <h3>석유수지</h3>
+                        <span class="arrow_deco"></span>
+                        <img class="oil_img" src="images/content3/oil_img1.jpg" alt="sukorez,hikorez,hikotec">
+                        <p class="nm_text">
+                        석유수지는 생활 속 다양한 곳에서 고객의 삶의 질을 향상시키는데 유용하게 사용되고 있습니다. 자동차와 사람이 안전하게 다닐 수 있도록 찻길에 칠해진 로드마킹용 페인트, 사무용품으로 종종 쓰이는 점착 테이프, 각종 첨가제, 프린트 잉크 등 우리주변에서 점접착성이 필요한 제품에는 코오롱인더스트리(주)석유수지가 있습니다.</p>
+                        <p class="nm_text">
+                        코오롱인더스트리(주)의 제품은 세계적인 기술력을 가진 다양한 석유수지를 개발, 생산함으로써 세계시장을 선도해가고 있습니다.</p>
+                        <a class="oil_go" href="#"><span>석유수지 </span>바로가기 <img src="images/content2/link_arrow.jpg" alt=""></a>
+                        <ul>
+                            <li>
+                                <h4>수코레즈<span>SUKOREZ</span></h4>
+                                <p>우수한 색상, 뛰어난 열안정성, 저취기, 우수한 용해성 EVA, SIS, SBS, APAO등 각종 폴리머와의 상용성 우수하다는 특징을 가지고 있습니다. 제품용도로는 열용융형 접착제(HMA), 위생용품용 열용융형 접착제(HMPSA), 폴리머 개질 (PP modifier), 각종 접착제 등이 있습니다.</p>
+                            </li>
+                            <li>
+                                <h4>하이코레즈<span>HIKOREZ</span></h4>
+                                <p>각종 엘라스토머들과 좋은 상용성을 나타내고 다양한 유기용제들과의 용해성 우수한 제품으로 접착 테이프, 열용융성 접착제(HMA), 도로 표시제(HMRM), 아스팔트 첨가제, 타이어, 각종 접착제에 사용됩니다.</p>
+                            </li>
+                            <li>
+                                <h4>하이코택<span>HIKOTACK</span></h4>
+                                <p>적용분야별 요구에 따라 연화점 90℃부터 160℃까지 다양한 종류의 제품 선택이 가능하고 각종 접착제, 고무배합 가공 보조제, 페인트 및 잉크 첨가제, 아스팔트 첨가제에 사용됩니다.</p>
+                            </li>
+                        </ul>
+                        <div class="oil_info_box">
+                            <h4>상용성</h4>
+                            <p><strong>C</strong> : 완전상용 (Compatible) / <strong>PC</strong> : 부분상용 (Partially Compatible) / <strong>I</strong> : 비상용 (Incompatible)</p>
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th colspan="2" rowspan="3">물질</th>
+                                        <th colspan="4">상용성 (고형분 25 중량 %)</th>
+                                    </tr>
+                                    <tr>
+                                        <th rowspan="2">수코레즈</th>
+                                        <th rowspan="2">하이코레즈</th>
+                                        <th colspan="2">하이코텍</th>
+                                    </tr>
+                                    <tr>
+                                        <th>저연화점</th>
+                                        <th>고연화점</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th rowspan="3">천연오일</th>
+                                        <td>아마씨유</td>
+                                        <td>C</td>
+                                        <td>C</td>
+                                        <td>C</td>
+                                        <td>C</td>
+                                    </tr>
+                                    <tr>
+                                        <td>대두유</td>
+                                        <td>C</td>
+                                        <td>C</td>
+                                        <td>C</td>
+                                        <td>C</td>
+                                    </tr>
+                                    <tr>
+                                        <td>캐스트유</td>
+                                        <td>I</td>
+                                        <td>I</td>
+                                        <td>I</td>
+                                        <td>I</td>
+                                    </tr>
+                                    <tr>
+                                        <th rowspan="3">로진</th>
+                                        <td>검로진</td>
+                                        <td>C</td>
+                                        <td>C</td>
+                                        <td>C</td>
+                                        <td>C</td>
+                                    </tr>
+                                    <tr>
+                                        <td>에스테르검</td>
+                                        <td>C</td>
+                                        <td>C</td>
+                                        <td>C</td>
+                                        <td>C</td>
+                                    </tr>
+                                    <tr>
+                                        <td>폴리페르펜</td>
+                                        <td>I</td>
+                                        <td>I</td>
+                                        <td>I</td>
+                                        <td>I</td>
+                                    </tr>
+                                    <tr>
+                                        <th rowspan="3">수지/폴리머</th>
+                                        <td>아크릴계수지</td>
+                                        <td>I</td>
+                                        <td>I</td>
+                                        <td>I</td>
+                                        <td>C</td>
+                                    </tr>
+                                    <tr>
+                                        <td>에폭시수지</td>
+                                        <td>I</td>
+                                        <td>I</td>
+                                        <td>I</td>
+                                        <td>C</td>
+                                    </tr>
+                                    <tr>
+                                        <td>PVC 수지</td>
+                                        <td>I</td>
+                                        <td>I</td>
+                                        <td>I</td>
+                                        <td>C</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </section>
+                <section id="epoxy">
+                    <div class="inner">
+                        <h3>에폭시수지</h3>
+                        <span class="arrow_deco"></span>
+                        <img src="images/content3/oil_img3.jpg" alt="hiloxy">
+                        <p class="nm_text">
+                        하이록시® (HiROXY® – High performance REsin of epOXY)은 코오롱인더스트리㈜가 생산하는 에폭시수지의 브랜드명으로 우수한 기술력과 철저한 고객 서비스를 바탕으로 고객의 Needs를 만족시켜주는 제품입니다. 에폭시수지는 현재까지 개발된 고분자제품 중 가장 고기능성을 가진 제품 중 하나로 거의 모든 산업분야에서 사용되고 있습니다.</p>
+                        <p class="nm_text">
+                        자동차, TV, PC, 핸드폰에 사용되는 첨단 전자회로부터 항공우주산업의 구조물, 다양한 용도의 페인트, 서핑용 보드에 이르기까지 여러분의 주변에서 쉽게 찾을 수 있습니다.</p>
+                        <p class="nm_text">
+                        특히 코오롱인더스트리㈜는 축적된 경험과, 경화제-중간체-에폭시의 수직 계열화된 제품 포트폴리오에 근거한 경쟁력 있는 제품으로 고객만족을 꾀하고, 친환경소재의 수요증가에 따라 Green Epoxy와 다양한 종류의 특수에폭시/특수 경화제를 공급하며 고기능성 시장을 선도해 나가고 있습니다.</p>
+                        <div class="spec">
+                            <h4>특징 및 용도</h4>
+                            <p class="nm_text">우수한 기계적 물성 및 전기절연성, 내화학성, 내수성, 뛰어난 접착력 등의 특징이 있고, 전기전자 회로, 반도체 봉지제, 특수페인트, 특수 잉크, 스키 및 서핑보드 등 각종 복합재료에 사용됩니다.</p>
+                        </div>
+                    </div>
+                </section>
+                <section id="pet">
+                    <div class="inner">
+                        <h3>PET수지</h3>
+                        <span class="arrow_deco"></span>
+                        <img src="images/content3/pet_img.jpg" alt="inopet">
+                        <div class="float_box">
+                            <img src="images/content3/pet_img2.jpg" alt="">
+                            <p>INOPET (INNOVATION + PET)은 코오롱인더스트리㈜가 생산하는 PET수지의 브랜드명으로 뛰어난 품질과 최적화된 성능으로 고객의 Needs를 만족시켜주는 제품입니다. PET수지는 코오롱인더스트리㈜의 주된 산업분야인 Tirecord, Film, Spunbond, Plastics 등의 주원료로 널리 사용되고 있으며, 일반적으로 섬유용, 필름용 등으로 사용됩니다. 특히 코오롱인더스트리㈜는 축적된 생산 노하우와 연속공정으로 생산된 균일한 품질의 제품을 공급함으로써 고객에게 뛰어난 생산성을 제공하며, 고객의 만족을 최우선으로 생각하여 고객 맞춤 서비스를 제공하고 있습니다.</p>
+                        </div>
+                        <div class="spec">
+                            <h4>특징</h4>
+                            <p class="nm_text">효율적인 Reactor 청소 / 미세필터 시스템 등의 방법을 활용해 Polymer 이물질 발생을 최소화하여 관리하고 있습니다. 또한 지속적인 품질 관리를 통해 균일한 품질의 제품을 생산하여 고객들의 좋은 평가를 받고 있습니다.</p>
+                            <h4>용도</h4>
+                            <p class="nm_text">폴리에스터 섬유 / 필름 / 부직포 / 플라스틱</p>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <? include "../common/fixed_top.html" ?>  
+        </article>
+      <? include "../common/sub_foot.html" ?> 
+      <!-- 페이지별 스크립트 -->
+    <script src="js/sub_sticky_menu.js"></script> 
+</body>
+</html>

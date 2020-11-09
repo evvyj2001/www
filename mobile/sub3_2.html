@@ -1,0 +1,179 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION);  
+?>
+<!DOCTYPE HTML>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+
+<title>코오롱 인더스트리</title>
+
+<link rel="apple-touch-icon-precomposed" href="app_icon.png">
+<link rel="apple-touch-startup-image" href="startup.png">
+<link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Questrial&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="nwagon/Nwagon.css">
+<link rel="stylesheet" href="css/common.css">
+<link rel="stylesheet" href="css/sub_common.css">
+<link rel="stylesheet" href="css/sub3_2.css">
+
+<script src="js/prefixfree.min.js"></script>
+<script src="https://kit.fontawesome.com/2d56222f57.js" crossorigin="anonymous"></script>
+<script>
+  // <![CDATA[
+  try {
+   window.addEventListener('load', function(){
+    setTimeout(scrollTo, 0, 0, 1); 
+   }, false);
+  } 
+  catch(e) {}
+  // ]]>
+ </script>
+ <!--[if lt IE 9]> 
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+    <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+<![endif]-->
+</head>
+
+<body>
+<? include "head.html"  ?>
+<!-- 비주얼 영역 -->
+    <div class="main">
+        <img src="images/sub3_1/sub3_bgx2.jpg" alt="">
+        <div class="text_box">
+            <h3>R&amp;D 개요</h3>
+            <p>research and development</p>
+        </div>
+        <ul class="depth2_menu grid_3">
+            <li><a href="sub3_1.html">R&amp;D 개요</a></li>
+            <li><a href="#busi">지식재산권<span></span></a></li>
+            <li><a href="sub3_3.html">연구분야</a></li>
+        </ul> 
+    </div>
+    <article id="content">
+       <h2>지식재산권</h2>
+       <p class="main_text">
+           축적된 기술력과 노하우를 보호하고 더욱 발전시키기 위해서 국내외에 꾸준히 특허를 출원하여 현재까지 국내 화섬업체 중 가장 많은 약 5,000건의 특허를 출원하였으며, 해외에도 30개국에 걸쳐 약 200 건이 분포되어 있습니다.
+        </p>
+        <div class="gray_box domestic">
+            <h4>국내 특허 보유 현황<span>domestic patents</span></h4>
+            <div id="chart"></div>
+            <ul>
+                <li>
+                    <span class="circle"></span>
+                    Industrial Materials
+                    <span class="percent">22.0%</span>
+                </li>
+                <li>
+                    <span class="circle"></span>
+                    Advanced Materials
+                    <span class="percent">24.4%</span>
+                </li>
+                <li>
+                    <span class="circle"></span>
+                    Applied Materials
+                    <span class="percent">20.6%</span>
+                </li>
+                <li>
+                    <span class="circle"></span>
+                    Electronic Materials
+                    <span class="percent">18.6%</span>
+                </li>
+                <li>
+                    <span class="circle"></span>
+                    Film
+                    <span class="percent">12.5%</span>
+                </li>
+                <li>
+                    <span class="circle"></span>
+                    ETC
+                    <span class="percent">1.9%</span>
+                </li>
+            </ul>
+        </div>
+       <div class="overseas">
+           <h4>해외 특허 보유 현황<span>overseas patents</span></h4>
+           <div id="chartOversea"></div>
+           <ul>
+                <li>
+                    <span class="circle"></span>
+                    China
+                    <span class="percent">14.6%</span>
+                </li>
+                <li>
+                    <span class="circle"></span>
+                    Japan
+                    <span class="percent">29.8%</span>
+                </li>
+                <li>
+                    <span class="circle"></span>
+                    U.S.A
+                    <span class="percent">24.5%</span>
+                </li>
+                <li>
+                    <span class="circle"></span>
+                    Europe
+                    <span class="percent">14.6%</span>
+                </li>
+                <li>
+                    <span class="circle"></span>
+                    Taiwan
+                    <span class="percent">7.3%</span>
+                </li>
+                <li>
+                    <span class="circle"></span>
+                    ETC
+                    <span class="percent">7.3%</span>
+                </li>
+            </ul>
+       </div>
+       
+    </article>
+    
+<? include "foot.html"  ?>
+ 
+<!-- 페이지별 스크립트 -->
+<script src="nwagon/Nwagon.js"></script>
+<script>
+		
+		var options = {
+			'dataset': {
+				title: '국내특허보유현황',
+				values:[22.0, 24.4, 20.6, 18.6, 12.5, 1.9],
+				colorset: ['#fe3127', '#efa900', '#007cef', '#3b993f', '#24b3b5', '#9a3ebc'],
+				fields: ['Industrial', 'Advanced',  'Applied', 'Electronic', 'Film', 'ETC'] 
+			},
+			'donut_width' : 65, 
+			'core_circle_radius':0,
+			'chartDiv': 'chart',
+			'chartType': 'pie',
+			'chartSize': {width:320, height:220}
+		};
+
+		Nwagon.chart(options);
+    
+        var options = {
+			'dataset': {
+				title: '해외특허보유현황',
+				values:[14.6, 29.8, 24.5, 14.6, 7.3, 7.3],
+				colorset: ['#fe3127', '#efa900', '#007cef', '#3b993f', '#24b3b5', '#9a3ebc'],
+				fields: ['China', 'Japan',  'U.S.A', 'Europe', 'Taiwan', 'ETC'] 
+			},
+			'donut_width' : 65, 
+			'core_circle_radius':0,
+			'chartDiv': 'chartOversea',
+			'chartType': 'pie',
+			'chartSize': {width:320, height:220}
+		};
+
+		Nwagon.chart(options);
+</script>
+ 
+</body>
+</html>

@@ -1,0 +1,166 @@
+/* 서브1_1 컨텐츠 css */
+
+#content .main_text{
+    font-size:  1.143em;
+    line-height: 1.8em;
+    text-align: center;
+    word-break: keep-all;
+    margin: 0 20px 40px;
+    font-weight: 600;
+}
+#content .main_text span{
+    text-transform: uppercase;
+}
+#content .img_wrap{
+    margin:0 0 50px 0;
+    position: relative;
+    padding-right: 20px;
+}
+#content .img_wrap .box{
+    overflow: hidden;
+    height: 180px;
+}
+#content .img_wrap span{
+    width: 20%;
+    height: 180px;
+    background: rgb(47,148,255);
+background: linear-gradient(333deg, rgba(47,148,255,1) 0%, rgba(18,84,199,1) 100%);
+    position: absolute;
+    right: 0;
+    top: 15px;
+}
+#content .img_wrap .box>img{
+    width: 100%;
+}
+#content .img_wrap span img{
+    width: 100%;
+    position: relative;
+    bottom: -80px;
+}
+#content .sub_text{
+    font-size: 1.143em;
+    margin: 0 20px 20px;
+    line-height: 1.8em;
+    font-weight: 600;
+    word-break: keep-all;
+}
+#content .mg_btm_50{
+    margin-bottom: 50px;
+}
+#content .ceo >img{
+    width: 125px;
+    position: relative;
+    left: 50%;
+    margin: 0 0 30px -65px;   
+}
+#content .ceo_message{
+    text-align: center;
+    font-size: 1.143em;
+    line-height: 1.8em;
+    word-break: keep-all;
+    margin: 0 20px 20px;
+    font-family: 'Noto Serif KR', serif;
+    font-weight: 600;
+}
+#content .ceo_info{
+    text-align: center;
+    font-family: 'Noto Serif KR', serif;
+    padding-bottom: 60px;
+}
+#content .ceo_info::after{
+    content: '';
+    display: block;
+    width: 10%;
+    height: 1px;
+    background: #333;
+    position: relative;
+    bottom: -30px;
+    left: 50%;
+    margin-left: -5%;
+}
+#content .history{
+    padding: 0 20px;
+}
+#content .history_sub_tit{
+    text-align: center;
+    font-size: 13px;
+    letter-spacing: 3px;
+    color: #ccc;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+#content .history h4{
+    text-align: center;
+    font-size: 1.571em;
+    font-weight: 600;
+}
+#content .history h4 span{
+    display: block;
+    font-size: 14px;
+    color: #666;
+    margin-top: 10px;
+    font-weight: 500;
+}
+#content .history_line{
+    padding-top: 30px;
+}
+#content .history_line::before{
+    content: '';
+    display: block;
+    height: 85%;
+    width: 1px;
+    position: absolute;
+    left: 10px;
+    background: #ececec;
+    z-index: -1;
+}
+#content .history_line ul{
+    margin-left: 30px;
+}
+#content .history_line li{
+    margin-bottom: 40px;
+}
+#content .history_line dt{
+    font-size: 1.286em;
+    color: #1254c7;
+    margin-bottom: 10px;
+    font-weight: 600;
+    position: relative;
+    font-family: 'Questrial', sans-serif;
+}
+#content .history_line dt::before{
+    content: '';
+    display: block;
+    width: 7px;
+    height: 7px;
+    border: 2px solid #1254c7;
+    background: #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: 5px;
+    left: -25px;
+}
+#content .history_line dd{
+    font-size:1.214em;
+    color: #999;
+    margin-bottom: 5px;
+    line-height: 1.6em;
+    word-break: keep-all;
+}
+#content .history_line dd span{
+    display: inline-block;
+    width: 32px;
+    height: 20px;
+    font-weight: 600;
+    color: #333;
+    font-family: 'Questrial', sans-serif;
+}
+#content .history .swiper-button-prev,#content .history .swiper-button-next{
+    top: 35px;
+}
+#content .history .swiper-button-prev::after,#content .history .swiper-button-next::after{
+    font-size: 2em;
+    position: absolute;
+    content: '';
+}

@@ -1,0 +1,155 @@
+.content_area .box{
+    margin: 0 0 80px 50px;
+    width: 1100px;
+    height: 300px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+.content_area #enviroment .box{
+    background: url(../images/content3/enviro_bg.jpg) center center no-repeat;
+    background-size: cover;
+}
+.content_area .box ul{
+    overflow: hidden;
+    padding-top: 40px;
+    margin: 0 0 40px 115px;
+}
+.content_area .box li{
+    float: left;
+    text-align: center;
+    width: 220px;
+    height: 220px;
+    border: 3px solid #fff;
+    background: rgba(255,255,255,.1);
+    border-radius: 50%;
+    margin-left: 105px;
+    font-size: 1.714em;
+    color: #fff;
+    font-weight: 600;
+    line-height: 220px;
+}
+.content_area .box li:first-of-type{
+    margin-left: 0;
+}
+.content_area .text_wrap{
+    margin: 0 0 80px 50px;
+    width: 1100px;
+    position: relative;
+}
+.content_area .text_wrap h4{
+    font-size: 1.571em;
+    color: #fff;
+    background: #002f5e;
+    background: rgb(0,110,188); /* Old browsers */
+    background: linear-gradient(to right, rgba(0,110,188,1) 0%,rgba(0,23,47,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    display: inline-block;
+    padding: 10px 40px;
+    border-radius: 50px;
+    margin-bottom: 30px;
+}
+.content_area .text_wrap p{
+    font-size: 1.286em;
+    color: #666;
+    line-height: 2em;
+    text-align: justify;
+    margin-bottom: 30px;
+}
+.content_area .text_wrap p:first-of-type{
+    margin-top: 0;
+}
+.content_area .float_box{
+    overflow: hidden;
+}
+.content_area .float_box img,.content_area .float_box p{
+    float: left;
+}
+.content_area .float_box img{
+    width: 345px;
+}
+.content_area .float_box.img-right img{
+    margin-right: 30px;
+}
+.content_area .float_box.img-left img{
+    margin-left: 30px;
+}
+.content_area .float_box p{
+    width: 720px;
+}
+.content_area .text_wrap h5{
+    margin: 30px 0 30px 0;
+    border-bottom: 1px solid #333;
+    display: inline-block;
+    color: #333;
+    font-size: 1.429em;
+}
+.content_area #sports .box{
+    background: url(../images/content3/sports_bg.jpg) center center no-repeat;
+    background-size: cover;
+}
+.content_area #sports .box ul{
+    margin: 0 0 40px 25px;
+}
+.content_area #sports .box li{
+    margin-left: 30px;
+    padding-top: 80px;
+    height: 140px;
+    line-height: 32px;
+}
+.content_area #sports .link_wrap{
+    overflow: hidden;
+    position: absolute;
+}
+.content_area #sports .link_wrap li{
+    float: left;
+    margin-right: 30px;
+}
+.content_area .link_wrap a{
+    display: block;
+    font-size: 1.143em;
+    font-weight: 600;
+}
+.content_area .link_wrap a img{
+    margin-left: 5px;
+}
+.content_area .link_wrap a span{
+    color: #006dbb;  
+    display: inline-grid;
+    margin-right: 5px;
+}
+.content_area .link_wrap a span::after{
+    display: block;
+    content: '';
+    border-bottom: 5px solid #daeafa;  
+    opacity: 0;
+    transition: all .2s
+}
+.content_area .link_wrap a:hover span::after{
+    opacity: 1;
+}
+.content_area .link_wrap.marathon{
+    position: absolute;
+    bottom: 0;
+}
+.content_area #sports .link_wrap.backcountry{
+    position: static;
+}
+.content_area .link_wrap.golf{
+    position: absolute;
+    bottom: 0;
+    left: 375px;
+}
+.content_area .link_wrap.outdoor{
+    bottom: 0;
+}
+.content_area #volunteer .box{
+    background: url(../images/content3/volunteer_bg.jpg) center center no-repeat;
+    background-size: cover;
+}
+.content_area #volunteer .box li{
+    padding-top: 80px;
+    height: 140px;
+    line-height: 32px;
+}
+.content_area #volunteer .box li:last-of-type{
+    line-height: 60px;
+}

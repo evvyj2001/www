@@ -1,0 +1,130 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION);  
+?>
+<!DOCTYPE HTML>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+
+<title>코오롱 인더스트리</title>
+
+<link rel="apple-touch-icon-precomposed" href="app_icon.png">
+<link rel="apple-touch-startup-image" href="startup.png">
+<link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Questrial&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="swiper/swiper.min.css">
+<link rel="stylesheet" href="css/common.css">
+<link rel="stylesheet" href="css/sub_common.css">
+<link rel="stylesheet" href="css/sub2_3.css">
+
+<script src="js/prefixfree.min.js"></script>
+<script src="https://kit.fontawesome.com/2d56222f57.js" crossorigin="anonymous"></script>
+<script>
+  // <![CDATA[
+  try {
+   window.addEventListener('load', function(){
+    setTimeout(scrollTo, 0, 0, 1); 
+   }, false);
+  } 
+  catch(e) {}
+  // ]]>
+ </script>
+ <!--[if lt IE 9]> 
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+    <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+<![endif]-->
+</head>
+
+<body>
+<? include "head.html"  ?>
+<!-- 비주얼 영역 -->
+    <div class="main">
+        <img src="images/sub2_1/sub2_bgx2.jpg" alt="">
+        <div class="text_box">
+            <h3>사업분야</h3>
+            <p>business</p>
+        </div>
+        <ul class="depth2_menu grid_3">
+            <li><a href="sub2_1.html">산업자재</a></li>
+            <li><a href="sub2_2.html">필름/전자재료</a></li>
+            <li><a href="#busi">패션<span></span></a></li>
+        </ul> 
+    </div>
+    <article id="content">
+       <h2>패션</h2>
+       <div class="tabs">
+           <a href="#" class="active">Outdoor</a>
+           <a href="#">Womenswear</a>
+           <a href="#">Premium</a>
+        </div>    
+    <div class="swiper-container first">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                    <section class="sports">
+                        <div class="title_wrap">
+                            <h3>Outdoor&amp;Sports</h3>
+                        </div>
+                        <img class="logo" src="images/sub2_3/sports_logox2.jpg" alt="kolon sports">
+                        <img class="img" src="images/sub2_3/sports_imgx2.jpg" alt="">
+                        <p class="text_nm">
+                            코오롱스포츠는 1973년 자연 속에서 모험과 도전을 즐기기 위해 탄생한 대한민국을 대표하는 아웃도어 브랜드입니다. 반세기 동안 끊임없는 연구개발과 체험활동을 통해 자연과 공존하는 즐거움을 선사합니다. 코오롱스포츠는 당신의 꿈을 현실로 만들고 위대한 순간을 선물합니다.
+                        </p>
+                        <ul>
+                            <li><a href="https://m.youtube.com/channel/UC_MBMVP7MWzGBUHAE2NPsGg" target="_blank"><i class="fab fa-youtube"></i>코오롱스포츠<br>유투브 바로가기</a></li>
+                            <li><a href="https://www.kolonsport.com/" target="_blank"><i class="fas fa-link"></i>코오롱스포츠<br>홈페이지 바로가기</a></li>
+                        </ul>
+                    </section>
+            </div>
+            <div class="swiper-slide">
+                    <section class="womens">
+                        <div class="title_wrap">
+                            <h3>Womenswear</h3>
+                        </div>
+                        <img class="logo" src="images/sub2_3/womens_logox2.jpg" alt="kolon sports">
+                        <img class="img" src="images/sub2_3/womens_imgx2.jpg" alt="">
+                        <p class="text_nm">
+                            럭키슈에뜨는 시대에 맞는 독창성(uniqueness)를 제안, 고객이 자신의 개성을 표현하는데 도움이 되고자 합니다. 클래식한 감성을 바탕으로, 전세계 어디서나 비언어적으로도 소통할 수 있는 감성의 개성있고 스마트한 캐주얼을 제시합니다. 이를 위해 하이브리드와 스트리트적인 요소, 그래픽, 장난스럽고 유머러스한 아트워크를 불러들이며 다양한 문화와 스타일을 제안합니다.
+                        </p>
+                        <ul>
+                            <li><a href="https://m.youtube.com/channel/UC0ThDiBSxqyBi2aCqOUNO_w" target="_blank"><i class="fab fa-youtube"></i>럭키슈에뜨<br>유투브 바로가기</a></li>
+                            <li><a href="https://www.kolonmall.com/LUCKYCHOUETTE" target="_blank"><i class="fas fa-link"></i>럭키슈에뜨<br>홈페이지 바로가기</a></li>
+                        </ul>
+                    </section>
+            </div>
+            <div class="swiper-slide">
+                    <section class="premium">
+                        <div class="title_wrap">
+                            <h3>Premium</h3>
+                        </div>
+                        <img class="logo" src="images/sub2_3/premium_logox2.jpg" alt="kolon sports">
+                        <img class="img" src="images/sub2_3/premium_imgx2.jpg" alt="">
+                        <p class="text_nm">
+                            마크 제이콥스는 당대 최고의 패션 디자이너로 평가 받는 마크 제이콥스의 시그니처 브랜드로 럭셔리하면서도 동시대적인 감각이 돋보이는 컬렉션을 꾸준히 선보이고 있습니다. 개성 넘치는 디자이너의 위트를 기반으로 클래식함과 유니크함이 공존하는 것이 특징. 특히 매 시즌 트렌드를 선도하는 핸드백은 패션 피플들에게 최고의 '잇백(It Bag)'으로 손꼽히며 많은 사랑을 받고 있습니다. 2019년 프리폴(pre-fall) 컬렉션부터 ‘THE(더) 마크 제이콥스’ 컬렉션을 새롭게 소개했습니다. ‘더 마크 제이콥스’는 패션, 예술, 음악, 대중 문화, 영화, 인쇄물이 주를 이루던 시대를 재해석한 스타일로, 럭셔리와 스트리트 패션, 일상적인 것과 특별한 것의 모든 경계를 넘나들며 매 시즌 새로운 아이템을 선보입니다.
+                        </p>
+                        <ul>
+                            <li><a href="https://m.youtube.com/user/MarcJacobs" target="_blank"><i class="fab fa-youtube"></i>마크제이콥스<br>유투브 바로가기</a></li>
+                            <li><a href="https://www.marcjacobs.com/" target="_blank"><i class="fas fa-link"></i>마크제이콥스<br>홈페이지 바로가기</a></li>
+                        </ul>
+                    </section>
+            </div>
+
+           
+        </div>
+    </div>
+</article>
+    
+<? include "foot.html"  ?>
+ 
+<!-- 페이지별 스크립트 -->
+<script src="swiper/swiper.min.js"></script>
+<script src="js/sub/script.js"></script> 
+
+ 
+</body>
+</html>

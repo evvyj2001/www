@@ -1,0 +1,91 @@
+<!-- 스킵 네비게이션 -->
+<div id="skipNav">
+    <a href="#content">본문바로가기</a>
+    <a href="#gnb">네비게이션바로가기</a>
+</div>
+<div id="wrap">
+    <header id="headerArea" class="mn_open">
+       <div class="header_inner">
+            <h1><a href="index.html">로고</a></h1>
+            <a href="#vi1" class="menu_ham">
+                <span>햄버거</span>
+            </a>
+       </div>
+        <nav id="gnb">
+           <h2 class="hidden">글로벌 네비게이션 영역</h2>
+           <div class="user_menu">
+              <?
+                if(!$userid) //세션변수가 생성되어있지 않으면 == 로그인 안된 상태
+                {
+              ?> 
+               <ul>
+                   <li class="user_info hidden">
+                       <p><span>*** </span>님 (Level.*)</p>
+                   </li>  
+                   <li class="login">
+                       <a href="login/login_form.php">로그인</a>
+                   </li>
+                   <li class="modify">
+                       <a href="member/join.html">회원가입</a>
+                   </li>
+               </ul>
+               <?
+                    }
+                    else //세션변수 생성되어있는 상태 == 로그인 되어있는 상태
+                    {                
+                ?>
+                <ul>
+                   <li class="user_info">
+                       <p><span><?=$usernick?> </span>님 (LV.<?=$userlevel?>)</p>
+                   </li>  
+                   <li class="login">
+                       <a href="login/logout.php">로그아웃</a>
+                   </li>
+                   <li class="modify">
+                       <a href="login/member_form_modify.php">정보수정</a>
+                   </li>
+               </ul>
+                <?
+                    }
+                ?>
+           </div>
+           <ul class="main_menu">
+               <li class="d1 hide">
+                   <h3><a class="depth1" href="#">company<span>회사소개</span></a></h3>
+                   <ul class="depth2">
+                       <li><a href="sub1_1.html">기업개요</a></li>
+                       <li><a href="sub1_2.html">경영철학</a></li>
+                   </ul>
+               </li>
+               <li class="d2 hide">
+                   <h3><a class="depth1" href="#">business<span>사업분야</span></a></h3>
+                   <ul class="depth2">
+                       <li><a href="sub2_1.html">산업자재</a></li>
+                       <li><a href="sub2_2.html">필름/전자재료</a></li>
+                       <li><a href="sub2_3.html">패션</a></li>
+                   </ul>
+               </li>
+               <li class="d3 hide">
+                   <h3><a class="depth1" href="#">r &amp; d<span>연구개발</span></a></h3>
+                   <ul class="depth2">
+                       <li><a href="sub3_1.html">R&amp;D 개요</a></li>
+                       <li><a href="sub3_2.html">지식재산권</a></li>
+                       <li><a href="sub3_3.html">연구분야</a></li>
+                   </ul>
+               </li>
+               <li class="d4 hide">
+                   <h3><a class="depth1" href="#">incruit<span>채용정보</span></a></h3>
+                   <ul class="depth2">
+                       <li><a href="sub4_1.html">인재상</a></li>
+                       <li><a href="sub4_2.html">인사제도</a></li>
+                   </ul>
+               </li>
+           </ul>
+           <ul class="btm_menu">
+              <li><a href="ekolon.html"><img src="images/common/icon_cardx2.jpg" alt="" width="37"><span>eKOLON</span></a></li>
+               <li><a href="faq.html"><img src="images/common/icon_faqx2.jpg" alt="" width="37"><span>FAQ</span></a></li>
+               
+               <li><a href="contact.html"><img src="images/common/icon_contactx2.jpg" alt="" width="37"><span>Contact</span></a></li>
+           </ul>
+        </nav>    
+    </header>

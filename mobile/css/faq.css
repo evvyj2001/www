@@ -1,0 +1,75 @@
+/* faq css */
+.main .text_box{
+    top: 160px;
+}
+#content h2{
+    font-size: 24px;
+    margin: 50px 20px 40px;
+}
+/*
+#content .top3 ul{
+    margin: 0 20px 50px;
+    border: 1px solid #ccc;
+}
+#content .top3 ul li{
+    border-bottom: 1px solid #ccc;
+}
+#content .top3 ul li:last-of-type{
+    border-bottom: 0;
+}
+#content .top3 ul li a{
+    padding: 20px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.6em;
+}
+#content .top3 ul li .blue{
+    display: block;
+    color: #006ebc;
+    margin-bottom: 10px;
+}
+*/
+#content .faq_list{
+    margin: 50px 20px 50px;
+    border-top: 2px solid #006ebc;
+    border-bottom: 1px solid #ccc
+}
+#content .faq_list li p{
+    overflow: hidden;
+}
+#content .faq_list li p a{
+    padding: 20px 10px;
+    line-height: 1.6em;
+    overflow: hidden;
+}
+#content .faq_list li .question{
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    font-size: 16px;
+    font-weight: 600;
+}
+#content .faq_list li:first-of-type .question{
+    border-top: 0;
+}
+#content .faq_list li p span:first-of-type{
+    display: inline-block;
+    font-weight: 800;
+    float: left;
+    width: 10%;
+    font-size: 16px;
+}
+#content .faq_list li p span:last-of-type{
+    display: inline-block;
+    float: left;
+    width: 90%;
+}
+#content .faq_list li .answer span:last-of-type{
+    font-size: 14px;
+}
+#content .faq_list li .answer{
+    padding: 20px 10px;
+    line-height: 1.8em;
+    text-align: justify;
+    background: #f9f9f9;
+    display: none;
+}

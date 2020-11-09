@@ -1,0 +1,133 @@
+/* 회원가입 페이지 CSS */
+#content{
+    padding-top: 100px;
+    background: #f9f9f9;
+     background: rgb(37,108,232);
+    background: linear-gradient(90deg, rgba(37,108,232,1) 0%, rgba(106,237,235,1) 100%);
+    overflow: hidden;
+}
+#content .form_wrap{
+    margin: 0 20px;
+}
+#content .form_row{
+    margin-bottom: 30px;
+}
+#content .form_row .tit{
+    font-size: 1.143em;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 15px;
+}
+#content .form_row input{
+    width: 92%;
+    padding: 15px 4%;
+    border: 1px solid #f9f9f9;
+    outline: none;
+}
+#content .form_row input:focus{
+    border: 1px solid #006ebc;
+}
+#content .form_row li{
+    position: relative;
+}
+#content .form_row #loadtext span,#content .form_row #loadtext2 span{
+    color: #fff;
+    display: inline-block;
+    position: absolute;
+    top: 15px;
+    right: 2%;
+}
+#content .form_row.pw input{
+    background: #fff url(../images/pw_icon.jpg) 95% center no-repeat;
+}
+#content .form_row.pw_check input{
+    background: #fff url(../images/pw_check_icon.jpg) 95% center no-repeat;
+}
+#content .tel_num{
+    overflow: hidden;
+}
+#content .tel_num li{
+    width: 31.5%;
+    float: left;
+    margin-right: 1.5%;
+}
+#content .tel_num li:first-of-type{
+    background: #fff;
+    border: 1px solid #f9f9f9;
+}
+#content .tel_num li:last-of-type{
+    margin-right: 0;
+    float: right;
+}
+#content .tel_num select{
+    padding: 13px 24px;
+    font-size: 16px;
+    border: 0;
+    outline: 0;
+    background: #fff;
+}
+#content .tel_num input{
+    width: 100%
+}
+#content .email_input{
+    overflow: hidden;
+}
+#content .email_input li{
+    float: left;
+    width: 45%;
+}
+#content .email .dot{
+    width: 10%;
+    text-align: center;
+}
+#content .email .dot span{
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+    display: inline-block;
+    padding-top: 14px;
+}
+#content .button{
+    overflow: hidden;
+    margin:50px 0 60px;
+}
+#content .button li{
+    float: left;
+}
+#content .button .join_btn{
+    width: 100%;
+    margin-bottom: 15px;
+    background: #e60012;
+}
+#content .button .reset_btn,#content .button .cancel_btn{
+    width: 47.5%;
+}
+#content .button li a{
+    display: block;
+    text-align: center;
+    font-size: 1.143em;
+    font-weight: 600;
+    padding: 15px 0;
+    color: #fff;
+}
+#content .button .reset_btn{
+    margin-right: 2%;
+    background: #333;
+    border: 2px solid #333;
+}
+#content .button .cancel_btn{
+    border: 2px solid #fff;
+}
+
+/* 수정모드 */
+#content .form_row .no_change{
+    font-size: 16px;
+    font-weight: 600;
+    background: rgba(255,255,255,.1);
+    width: 92%;
+    padding: 15px 4%;
+    color: #fff;
+}
+#content .button .cancel_btn.modify{
+    width: 98.5%;
+}

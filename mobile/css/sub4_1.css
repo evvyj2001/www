@@ -1,0 +1,72 @@
+/* 서브4_1컨텐츠 css */
+#content .main_text{
+    font-size: 18px;
+    line-height: 1.8em;
+    font-weight: 600;
+    margin: 0 20px 40px;
+    text-align: center;
+    word-break: keep-all;
+}
+#content .kolon{
+    margin: 0 20px 50px;
+    border: 1px solid #333;
+    text-align: center;
+    border-radius: 20px;
+    overflow: hidden;
+}
+#content .kolon li dt{
+    font-size: 18px;
+    padding: 15px 0;
+    background: #333;
+    font-weight: 600;
+    color: #fff;
+    text-transform: capitalize;
+    font-family: 'Questrial', sans-serif;
+}
+#content .kolon li dd{
+    font-size: 16px;
+    line-height: 1.8em;
+    padding: 10px 15px;
+    word-break: keep-all;
+    color: #666;
+}
+#content .gray_box{
+    background: #f9f9f9;
+    padding: 50px 20px;
+    text-align: center;
+}
+#content .gray_box li{
+    padding: 40px 0;
+    border-bottom: 2px dotted #efefef;
+}
+#content .gray_box li:first-of-type{
+    padding-top: 0;
+}
+#content .gray_box li:last-of-type{
+    border-bottom:  0;
+    padding-bottom: 0;
+}
+#content .gray_box img{
+    width: 51px;
+}
+#content .gray_box dt{
+    font-size: 1.286em;
+    font-weight: 600;
+    margin: 20px 0 30px;
+}
+#content .gray_box dt span{
+    display: block;
+    font-size: 14px;
+    font-weight: 500;
+    color: #ccc;
+    margin-top: 10px;
+    letter-spacing: 3px;
+    font-family: 'Questrial', sans-serif;
+}
+#content .gray_box dd{
+    font-size:1.143em;
+    background: #def1ff;
+    padding: 15px 0;
+    margin-bottom: 15px;
+    border-radius: 15px;
+}

@@ -1,0 +1,344 @@
+/* sub3 css */
+/* 와이드 pc */
+#imgBG{
+    position:absolute; /*고정=>fixed/ 스크롤처리=>absolute */
+    left:50%;
+    top:50%; /*오른쪽, 아래에 여백을 두지않고 꽉차게 표시*/
+    width:auto;
+    min-width:100%; /*동영상 너비를 꽉차게*/
+    height:auto;
+    min-height:100%; /*동영상 높이를 꽉차게*/
+    transform:translateX(-50%) translateY(-50%);
+    z-index:-50;
+}
+#content .intro{
+    background: rgba(255,255,255,.9);
+    overflow: hidden;
+}
+#content .intro_main_img{
+    margin: 120px auto 80px;
+    position: relative;
+    margin-left: -310px;
+    left: 50%;
+}
+#content .intro_text{
+    font-size: 18px;
+    line-height: 2em;
+    text-align: center;
+    -ms-word-break: keep-all;
+    word-break: keep-all;
+    margin-bottom: 80px;
+}
+#content .row_imgwrap{
+    overflow: hidden;
+    margin-bottom: 80px;
+}
+#content .row_imgwrap li{
+    width: 23.5%;
+    margin-right: 2%;
+    height: 360px;
+    background: #fddd04;
+    float: left;
+    transition: .3s;
+    box-sizing: border-box;
+    position: relative;
+}
+#content .row_imgwrap li:hover{
+    padding: 14px; 
+}
+#content .row_imgwrap li div{
+    transition: .3s
+}
+#content .row_imgwrap li:hover div{
+    width: auto;
+    height: auto;
+}
+#content .row_imgwrap li:nth-of-type(1) div{
+    width: 100%;
+    height: 100%;
+    background: url(../images/sub3/intro_boxbg1.jpg) top center no-repeat;
+    background-size: cover
+}
+#content .row_imgwrap li:nth-of-type(2) div{
+    width: 100%;
+    height: 100%;
+    background: url(../images/sub3/intro_boxbg2.jpg) center left no-repeat;
+    background-size: cover
+}
+#content .row_imgwrap li:nth-of-type(3) div{
+    width: 100%;
+    height: 100%;
+    background: url(../images/sub3/intro_boxbg3.jpg) center right no-repeat;
+    background-size: cover
+}
+#content .row_imgwrap li:nth-of-type(4){
+    margin-right: 0;
+}
+#content .row_imgwrap li:nth-of-type(4) div{
+    width: 100%;
+    height: 100%;
+    background: url(../images/sub3/intro_boxbg4.jpg) center right no-repeat;
+    background-size: cover
+}
+#content .row_imgwrap p{
+    text-align: center;
+    font-size: 18px;
+    color: #333;
+    font-weight: 600;
+    line-height: 1.4em;
+    text-transform: capitalize;
+    padding: 15px 25px;
+    margin: 0 auto;
+    position: absolute;
+    top: -80px;
+    left: 0;
+    background: #fddd04;
+    transition: .3s;
+    display: none;
+}
+/*
+#content .row_imgwrap li:hover p{
+    top: 0;
+}
+*/
+#content .row_imgwrap2{
+    overflow: hidden;
+    margin-bottom: 120px;
+}
+#content .row_imgwrap2 li{
+    height: 360px;
+    float: left;
+    transition: .3s
+}
+#content .row_imgwrap2>li{
+    width: 49%; 
+    box-sizing: border-box
+}
+#content .row_imgwrap2 .left_box{
+    margin-right: 1%;
+}
+#content .row_imgwrap2 .left_box li{
+    width: 48%;
+    background: #fddd04;
+}
+#content .row_imgwrap2 .left_box li:first-of-type{
+    margin-right: 3%;
+}
+#content .row_imgwrap2>li:last-of-type{
+    background: #fddd04;
+}
+#content .row_imgwrap2 li div{
+    width: 100%;
+    height: 100%;
+    transition: .3s
+}
+#content .row_imgwrap2 .left_box li:first-of-type div{
+    background: url(../images/sub3/intro_boxbg5.jpg) center center no-repeat;
+    background-size: cover;
+}
+#content .row_imgwrap2 .left_box li:last-of-type div{
+    background: url(../images/sub3/intro_boxbg6.jpg) center center no-repeat;
+    background-size: cover;
+}
+#content .row_imgwrap2>li:last-of-type div{
+    background: url(../images/sub3/intro_boxbg7.jpg) center center no-repeat;
+    background-size: cover;
+}
+#content .despicable{
+    background: url(../images/sub3/me_bg.jpg) center center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+#content .despicable h3,#content .season2 h3{
+    margin: 120px 0 80px;
+    font-size: 60px;
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+}
+#content .despicable h3 span,#content .season2 h3 span{
+    display: inline-block;
+    background: #fddd04;
+    margin-right: 10px;
+    padding: 0 10px;
+}
+#content .despicable ul{
+    overflow: hidden;
+    margin-bottom: 120px;
+}
+#content .despicable li{
+    width: 50%;
+    float: left;  
+}
+#content .despicable li img{
+    position: relative;
+    left: 50%;
+    margin-left: -325px;
+}
+#content .despicable li p{
+    font-size: 18px;
+    text-align: justify;
+    line-height: 2em;
+    margin-top: 35px;
+}
+#content .season2{
+    background: rgba(255,255,255,.9);
+}
+#content .season2 .img_wrap{
+    width: 100%;
+    margin-bottom: 80px;
+}
+#content .season2 .img_wrap img{
+    transform: translateX(-50%);
+    position: relative;
+    left: 50%;
+}
+#content .season2 .intro_text{
+    margin-bottom: 120px;
+}
+
+/* 일반 pc */
+@media screen and (max-width:1280px){
+    #content .despicable li img{
+        width: 100%;
+        left: 0;
+        margin-left: 0;
+    }
+    #content .despicable li p{
+        margin-top: 0;
+        font-size: 16px;
+    }
+    #content .despicable{
+        background-attachment:scroll;
+    }
+    #content .despicable li{
+        float: none;
+        width: auto;
+    }
+    #content .despicable li:first-of-type{
+        padding: 0 0 50px;
+    }
+    #content .despicable li p{
+        font-size: 18px;
+        text-align: center;
+    }
+}
+
+/* 태블릿 */
+@media screen and (max-width:1024px){
+    #content .intro_main_img{
+        margin: 100px auto 80px -310px;
+    }
+    #content .row_imgwrap2{
+        margin-bottom: 100px;
+    }
+    #content .despicable h3, #content .season2 h3{
+        margin: 100px 0 80px;
+        font-size: 55px;
+    }
+    #content .row_imgwrap li{
+        width: 32%;
+        margin-right: 2%;
+    }
+    #content .row_imgwrap li:nth-of-type(3){
+        display: none;
+    }
+    #content .row_imgwrap li:last-of-type{        
+        margin-right: 0;
+    }
+}
+
+
+/* 소형 테블릿 */
+@media screen and (max-width:768px){
+    #content .intro_text{
+        font-size: 16px;
+    }
+    #content .row_imgwrap li{
+        width: 48%;
+    }
+    #content .row_imgwrap>li:last-of-type,#content .row_imgwrap2>li:last-of-type{
+        display: none;
+    }
+    #content .row_imgwrap2>li{
+        width: 100%;
+    }
+    #content .season2 .img_wrap{
+        width: 80%;
+        padding: 0 10% 50px;
+        margin-bottom: 0;
+    }
+    #content .season2 .img_wrap img{
+        transform: none;
+        left: 0;
+    }
+    #content .despicable h3, #content .season2 h3{
+        font-size: 50px;
+        margin: 100px 0 60px;
+    }
+    #content .despicable ul{
+        margin-bottom: 100px;
+    }
+    #content .despicable li p{
+        font-size: 16px;
+    }
+    #content .season2 .intro_text{
+        margin-bottom: 100px;
+    }
+}
+
+
+/* 모바일 */
+@media screen and (max-width:640px){
+    .visual_img_wrap{
+        width: 90%;
+    }
+    #content .intro_main_img{
+        padding: 0 6%;
+        margin: 100px auto 60px 0;
+        position: static;
+        left: 0;
+    }
+    #content .intro_main_img img{
+        width: 100%;
+    }
+    #content .intro_text{
+        margin-bottom: 60px;
+    }
+    #content .despicable h3, #content .season2 h3{
+        font-size: 36px;
+    }
+    #content .row_imgwrap{
+        margin-bottom: 60px;
+    }
+    #content .row_imgwrap li{
+        float: none;
+        width: 100%;
+        display: none;
+        height: 300px;
+    }
+    #content .row_imgwrap li:nth-child(2){
+        display: block;
+    }
+    #content .row_imgwrap2 li{
+        height: 320px;
+    }
+    #content .row_imgwrap2 .left_box li{
+        width: 100%;
+        float: none;
+        height: 300px;
+        display: none;
+    }
+    #content .row_imgwrap2 .left_box li:first-of-type{
+        display: block;
+    }
+    #content .despicable h3, #content .season2 h3{
+        font-size: 42px;
+    }
+    #content .despicable li:first-of-type{
+        padding: 0 0 50px;
+    }
+    #content .season2 .img_wrap img{
+        width: 100%;
+    }
+}

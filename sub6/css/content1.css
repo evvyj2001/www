@@ -1,0 +1,161 @@
+/* 서브 6의 인사말 본문 */
+.content_area .red{
+    color: #e60012;
+}
+.content_area .blue{
+    color: #006ebc;
+}
+/* 동의서 */
+#content h4{
+    font-size: 26px;
+    text-align: center;
+    margin: 100px 0 60px;
+}
+#content .agreement{
+    border: 1px solid #ccc;
+}
+#content .cs_not_allowed{
+    cursor: not-allowed!important
+}
+#content .policy{
+    padding: 30px;
+    overflow-y: scroll;
+    height: 100px;
+    color: #666;
+}
+#content .check{
+    border-top: 1px solid #ccc;
+    padding: 20px 30px;
+    font-size: 14px;
+    color: #666;
+    font-weight: 600;
+}
+
+#content .check input[type=checkbox]{
+    display: none;
+}
+#content .check input[type=checkbox] + label{
+    cursor: pointer
+}
+#content .check input[type=checkbox] + label::before{
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background-color: #fff;
+    border: 2px solid #ccc;
+    border-radius: 50%;
+    content: '';
+    margin: 0px 15px -6px 0px ;
+}
+/* 체크박스 눌렀을 때 */
+#content .check input[type=checkbox]:checked + label::before{
+    background: url(../../member/images/checked_bg.png) center center no-repeat;
+    border: 2px solid #0075ff;
+} 
+
+/* 문의하기 작성 폼 */
+#content #contactForm{
+    border-top: 2px solid #17499d;
+    margin: 80px 0 100px;
+}
+#content .row{
+    overflow: hidden;
+    border-bottom: 1px solid #ccc;
+}
+#content .row>ul>li{
+    float: left;
+    font-size: 16px;
+    padding: 35px 0;
+}
+#content .row>ul .tit{
+    font-weight: 600;
+    width: 200px;
+    padding: 45px 0 45px 30px;
+}
+#content .row>ul .tit label{
+    position: relative;
+}
+#content .row>ul .tit label::after{
+    content: '*';
+    display: block;
+    color: #e60012;
+    font-size: 22px;
+    font-weight: 600;
+    position: absolute;
+    top: -3px;
+    right: -20px;
+}
+#content .row input,#content .row.con textarea{
+    width: 940px;
+    padding: 10px 0 10px 20px;
+    border: 1px solid #ccc;
+    outline: 0;
+    font-size: 14px;
+}
+#content .row>ul .ins{
+    position: relative;
+}
+#content .row .help-block{
+    position: absolute;
+    font-size: 14px;
+    top: 45px;
+    right: 30px;
+    color: #e60012;
+}
+#content #success{
+    padding: 15px 30px;
+}
+#content #success button{
+    margin-right: 10px;
+/*    border: 2px solid #333;*/
+    padding: 0px 7px 0px 7px;
+    font-size: 22px;
+    background: #efefef;
+    border-radius: 50%;
+    color: #333;
+}
+#content #success strong{
+    font-size: 16px;
+    position: relative;
+    top: -2px;
+    font-weight: 500;
+}
+#content .buttons{
+    overflow: hidden;
+    width: 420px;
+    margin: 50px auto 0;
+}
+#content .buttons li{
+    float: left;
+    width: 200px;
+}
+#content .send{
+    margin-right: 20px;
+}
+#content .send button{
+    width: 100%;
+    font-size: 16px;
+    padding: 15px 0;
+    border-radius: 10px;
+    border: 0;
+    color: #fff;
+    font-weight: 600;
+    outline: none;
+    background: #17499d;
+    cursor: pointer
+}
+#content .send button:disabled{
+    background: #666;
+    color: #ccc;
+}
+#content .cancel a{
+    display: block;
+    padding: 15px 0;
+    text-align: center;
+    font-size: 16px;
+    background: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    color: #666;
+    font-weight: 600;
+}

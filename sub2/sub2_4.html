@@ -1,0 +1,134 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION);  
+?>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>코오롱 인더스트리::사업분야</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="common/css/sub2common.css">
+    <link rel="stylesheet" href="css/content4.css">
+    <script src="../common/js/prefixfree.min.js"></script>
+    <script src="https://kit.fontawesome.com/2d56222f57.js" crossorigin="anonymous"></script>
+    <!--[if IE9]>  
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+<body>
+        <? include "../common/sub_head.html" ?>
+        <!-- 서브2 비주얼+네비 공통 영역 -->
+        <? $_GET['num']=4;
+          include "common/sub_nav.html"; 
+        ?>
+        <!-- 본문 컨텐츠 영역 -->
+        <article id="content">
+            <div class="title_area">
+               <div class="inner">
+                <div class="linemap">
+                    <span><i class="fas fa-home"></i></span> &gt; <span>사업분야</span> &gt; <strong>패션</strong>
+                </div>
+                <h2>패션</h2>
+                <div class="sub_menu_box grid_5">
+                <ul>
+                    <li><a class="link1" href="#ks">outdoor&amp;sports</a></li>
+                    <li><a class="link2" href="#g">golf</a></li>
+                    <li><a class="link3" href="#ww">womenswear</a></li>
+                    <li><a class="link4" href="#pre">premium</a></li>
+                    <li><a class="link5" href="#on">online</a></li>
+                </ul>
+                </div>
+              </div>
+            </div>
+            <div class="content_area">
+                <section id="kolonSports">
+                   <div class="inner">
+                        <h3>outdoor&amp;sports</h3>
+                        <span class="arrow_deco"></span>
+                        <img src="images/content4/kolon_sports_logo.jpg" alt="kolon sports">
+                        <div class="cts_box">
+                            <img class="margin_r_20 bdr_lb30" src="images/content4/kolon_sports_img.jpg" alt="">
+                            <div class="movie margin_r_20"><iframe src="https://www.youtube.com/embed/PF2BuEMziOY" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" title="코오롱스포츠" allowfullscreen></iframe></div>
+                            <ul>
+                                <li><a class="bdr_rt30" href="https://www.youtube.com/channel/UC_MBMVP7MWzGBUHAE2NPsGg" target="_blank"><span class="hidden">유투브</span><i class="fab fa-youtube"></i>코오롱스포츠<br>유투브 바로가기</a></li>
+                                <li><a href="https://www.kolonsport.com/" target="_blank"><span class="hidden">홈페이지</span><i class="fas fa-link"></i>코오롱스포츠<br>홈페이지 바로가기</a></li>
+                            </ul>
+                        </div>
+                        <p class="nm_text">
+                        코오롱스포츠는 1973년 자연 속에서 모험과 도전을 즐기기 위해 탄생한 대한민국을 대표하는 아웃도어 브랜드입니다. 반세기 동안 끊임없는 연구개발과 체험활동을 통해 자연과 공존하는 즐거움을 선사합니다. 코오롱스포츠는 당신의 꿈을 현실로 만들고 위대한 순간을 선물합니다.</p>   
+                    </div>
+                </section>
+                <section id="golf">
+                    <div class="inner">
+                        <h3>golf</h3>
+                        <span class="arrow_deco"></span>
+                        <img src="images/content4/golf_logo.jpg" alt="kolon sports">
+                        <div class="cts_box">
+                            <img class="margin_r_20 bdr_lb30" src="images/content4/golf_img.jpg" alt="">
+                            <ul class="margin_r_20">
+                                <li><a href="https://www.youtube.com/channel/UCuDbh7_UN2noEbLKz0yqi0g" target="_blank"><span class="hidden">유투브</span><i class="fab fa-youtube"></i>엘로드<br>유투브 바로가기</a></li>
+                                <li><a href="https://www.kolonmall.com/ELORD" target="_blank"><span class="hidden">홈페이지</span><i class="fas fa-link"></i>엘로드<br>홈페이지 바로가기</a></li>
+                            </ul>
+                            <div class="movie bdr_rt30"><iframe class="bdr_rt30" src="https://www.youtube.com/embed/w1SOzJIbPp0?controls=0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" title="엘로드" allowfullscreen></iframe></div>
+                        </div>
+                        <p class="nm_text">
+                        엘로드는 최상의 퍼포먼스를 추구하는 골퍼들을 위한 프레스티지 토털 골프 브랜드입니다. 최적의 기능과 스타일을 기반한 토털 솔루션을 제안하고, 이를 통해 고객들이 자부심을 갖도록 도와줍니다. 1990년부터 국내 유일 내셔널 타이틀 대회인 한국오픈 대회와 골프 국가대표팀의 공식 스폰서로 자리매김하고 있으며, 혁신상품의 개발 및 제안 등 골프에 대한 진정성과 헌신을 통해 대한민국 대표 골프 브랜드로서의 확고한 이미지를 이어가고 있습니다.</p>
+                    </div>
+                </section>
+                <section id="womenswear">
+                    <div class="inner">
+                        <h3>womenswear</h3>
+                        <span class="arrow_deco"></span>
+                        <img src="images/content4/women_logo.jpg" alt="luckychouette">
+                        <div class="cts_box">
+                            <img class="margin_r_20 bdr_lb30" src="images/content4/women_img.jpg" alt="">
+                            <div class="movie margin_r_20"><iframe src="https://www.youtube.com/embed/2ckYSxoBfEg?controls=0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" title="럭키슈에뜨" allowfullscreen></iframe></div>
+                            <ul>
+                                <li><a class="bdr_rt30" href="https://www.youtube.com/channel/UC0ThDiBSxqyBi2aCqOUNO_w" target="_blank"><span class="hidden">유투브</span><i class="fab fa-youtube"></i>럭키슈에뜨<br>유투브 바로가기</a></li>
+                                <li><a href="https://www.kolonmall.com/LUCKYCHOUETTE" target="_blank"><span class="hidden">홈페이지</span><i class="fas fa-link"></i>럭키슈에뜨<br>홈페이지 바로가기</a></li>
+                            </ul>
+                        </div>
+                        <p class="nm_text">
+                        럭키슈에뜨는 시대에 맞는 독창성(uniqueness)를 제안, 고객이 자신의 개성을 표현하는데 도움이 되고자 합니다. 클래식한 감성을 바탕으로, 전세계 어디서나 비언어적으로도 소통할 수 있는 감성의 개성있고 스마트한 캐주얼을 제시합니다. 이를 위해 하이브리드와 스트리트적인 요소, 그래픽, 장난스럽고 유머러스한 아트워크를 불러들이며 다양한 문화와 스타일을 제안합니다.</p>
+                    </div>
+                </section>
+                <section id="premium">
+                    <div class="inner">
+                        <h3>premium</h3>
+                        <span class="arrow_deco"></span>
+                        <img src="images/content4/premium_logo.jpg" alt="marc jacobs">
+                        <div class="cts_box">
+                            <div class="movie margin_r_20 bdr_lb30"><iframe class="bdr_lb30" src="https://www.youtube.com/embed/V5x6J6cq868?controls=0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" title="마크제이콥스" allowfullscreen></iframe></div>
+                            <ul class="margin_r_20">
+                                <li><a href="https://www.youtube.com/channel/UCZDCBjTEpbzSOjUd2Xm5dyw" target="_blank"><span class="hidden">유투브</span><i class="fab fa-youtube"></i>마크 제이콥스<br>유투브 바로가기</a></li>
+                                <li><a href="https://www.marcjacobs.com/" target="_blank"><span class="hidden">홈페이지</span><i class="fas fa-link"></i>마크 제이콥스<br>홈페이지 바로가기</a></li>
+                            </ul>
+                            <img class="bdr_rt30" src="images/content4/premium_img.jpg" alt="">
+                        </div>
+                        <p class="nm_text">
+                        마크 제이콥스는 당대 최고의 패션 디자이너로 평가 받는 마크 제이콥스의 시그니처 브랜드로 럭셔리하면서도 동시대적인 감각이 돋보이는 컬렉션을 꾸준히 선보이고 있습니다. 개성 넘치는 디자이너의 위트를 기반으로 클래식함과 유니크함이 공존하는 것이 특징. 특히 매 시즌 트렌드를 선도하는 핸드백은 패션 피플들에게 최고의 '잇백(It Bag)'으로 손꼽히며 많은 사랑을 받고 있습니다. 2019년 프리폴(pre-fall) 컬렉션부터 ‘THE(더) 마크 제이콥스’ 컬렉션을 새롭게 소개했습니다. ‘더 마크 제이콥스’는 패션, 예술, 음악, 대중 문화, 영화, 인쇄물이 주를 이루던 시대를 재해석한 스타일로, 럭셔리와 스트리트 패션, 일상적인 것과 특별한 것의 모든 경계를 넘나들며 매 시즌 새로운 아이템을 선보입니다.</p>
+                    </div>
+                </section>
+                <section id="mall">
+                    <div class="inner">
+                        <h3>online</h3>
+                        <span class="arrow_deco"></span>
+                        <img src="images/content4/online_logo.jpg" alt="kolon mall">
+                        <img src="images/content4/online_img.jpg" alt="">
+                        <p class="nm_text">
+                        코오롱몰은 코오롱인더스트리 FnC 부문의 30여개 자사 브랜드와 300여개의 국내외 브랜드가 함께하는 패션&라이프스타일 온라인몰입니다. 많은 고객들로부터 사랑받고 있는 품격 있는 브랜드를 온라인에서 경험 할 수 있도록 수준 높은 쇼핑 환경을 제공하고 있습니다.</p>
+                        <a href="https://www.kolonmall.com/" target="_blank"><span>kolon mall </span>바로가기 <img src="images/content2/link_arrow.jpg" alt=""></a>
+                    </div>
+                </section>
+            </div>
+            <? include "../common/fixed_top.html" ?>  
+        </article>
+      <? include "../common/sub_foot.html" ?>  
+      <!-- 페이지별 스크립트 -->
+    <script src="js/sub_sticky_menu_5.js"></script>
+</body>
+</html>

@@ -1,0 +1,191 @@
+<!-- 스킵 네비게이션 -->
+    <div id="skipNav">
+         <a href="#content">본문 바로가기</a>
+         <a href="#gnb">글로벌 네비게이션 바로가기</a>
+    </div>
+    <div id="wrap">
+        <!-- 헤더 공통영역 -->
+        <header id="headerArea">
+          <div class="menu_box"></div>	
+           <div class="header_inner">
+               <div class="top_menu">
+               <ul class="top_left">
+                   <li class="site_map"><a href="#siteM">사이트맵</a></li>
+                   <li><a href="#search"><span class="hidden">제품검색</span>
+                       <i class="fas fa-search"></i></a>
+                   </li>
+               </ul>
+               <div class="search_box">
+               <div class="search_wrap">
+                   <form  name="board_form" method="post" action="../product/list.php?mode=search">
+                   <div class="search_border">
+                       <ul>
+                           <li>
+                                <select name="find">
+                                    <option value='subject'>제품명</option>
+                                    <option value='category'>종류</option>
+                                    <option value='sorting'>분류</option>
+                                    <option value='content'>용도</option>
+                                </select>
+                           </li>
+                           <li>
+                               <label for="search" class="hidden">검색창</label>
+                               <input type="text" name="search" id="search" placeholder="검색어 입력">
+                           </li>
+                           <li>
+                               <input type="image" src="../common/images/search_box_icon.png" class="search_icon" alt="검색">
+                           </li>
+                       </ul>
+
+                    </div>
+                </form>
+                
+                
+                
+                <a class="search_close_btn" href="#cl"><img src="../common/images/siteMapClose.png" alt="창닫기"></a>
+                </div>
+                <dl>
+                    <dt>ex</dt>
+                    <dd>타이어코오드</dd>
+                    <dd>에어백</dd>
+                    <dd>증착필름</dd>
+                </dl>
+               </div>
+               <ul class="user_menu">
+            <?
+                if(!$userid) //세션변수가 생성되어있지 않으면 == 로그인 안된 상태
+                {
+            ?>                 
+                   <li>님</li>
+                   <li class="login"><a href="../login/login_form.php">로그인</a></li>
+                   <li><a href="../member/join.html">회원가입</a></li>
+            <?
+                }
+                else //세션변수 생성되어있는 상태 == 로그인 되어있는 상태
+                {                
+            ?>                 
+                   <li class="user_info"><strong><?=$usernick?></strong> 님 (lV.<?=$userlevel?>)</li>
+                   <li class="login"><a href="../login/logout.php">로그아웃</a></li>
+                   <li><a href="../login/member_form_modify.php">정보수정</a></li> 
+            <?
+                }
+            ?>
+                   
+               </ul>
+            </div>
+            <h1 class="logo">
+               <a href="../index.html">코오롱인더스트리</a>
+            </h1>
+            <nav id="gnb">
+                <h2 class="hidden">글로벌네비게이션영역</h2>
+                <ul class="dropdownmenu">
+                    <li class="m1 menu"><h3><a class="depth1" href="../sub1/sub1_1.html">회사소개</a></h3>
+                        <ul class="depth_menu">
+                            <li><a href="../sub1/sub1_1.html">기업개요</a></li>
+                            <li><a href="../sub1/sub1_2.html">경영철학</a></li>
+                            <li><a href="../sub1/sub1_3.html">사회공헌</a></li>
+                            <li><a href="../sub1/sub1_4.html">사업장소개</a></li>
+                        </ul>    
+                    </li>
+                    <li class="m2 menu"><h3><a class="depth1" href="../sub2/sub2_1.html">사업분야</a></h3>
+                        <ul class="depth_menu">
+                            <li><a href="../sub2/sub2_1.html">산업자재</a></li>
+                            <li><a href="../sub2/sub2_2.html">필름/전자재료</a></li>
+                            <li><a href="../sub2/sub2_3.html">화학</a></li>
+                            <li><a href="../sub2/sub2_4.html">패션</a></li>
+                        </ul>    
+                    </li>
+                    <li class="m3 menu"><h3><a class="depth1" href="../sub3/sub3_1.html">R&amp;D</a></h3>  
+                        <ul class="depth_menu">
+                            <li><a href="../sub3/sub3_1.html">R&amp;D 개요</a></li>
+                            <li><a href="../sub3/sub3_2.html">지식재산권</a></li>
+                            <li><a href="../sub3/sub3_3.html">연구분야</a></li>
+                        </ul>   
+                    </li>
+                    <li class="m4 menu"><h3><a class="depth1" href="../sub4/sub4_1.html">채용정보</a></h3>
+                        <ul class="depth_menu">
+                            <li><a href="../sub4/sub4_1.html">인재상</a></li>
+                            <li><a href="../sub4/sub4_2.html">인사제도</a></li>
+<!--                            <li><a href="../sub4/sub4_3.html">인사채용</a></li>-->
+                        </ul> 
+                    </li>
+                    <li class="m5 menu"><h3><a class="depth1"  href="../sub5/sub5_1.html">홍보센터</a></h3>
+                        <ul class="depth_menu">
+                            <li><a href="../sub5/sub5_1.html">CI</a></li>
+                            <li><a href="../news/list.php">뉴스</a></li>
+                            <li><a href="../greet/list.php">공지사항</a></li>
+                        </ul> 
+                    </li>
+                    <li class="m6 menu"><h3><a class="depth1" href="../sub6/sub6_1.html">고객센터</a></h3>
+                       <ul class="depth_menu">
+                            <li><a href="../sub6/sub6_1.html">온라인문의</a></li>
+                            <li><a href="../sub6/sub6_2.html">자주하는질문</a></li>
+                            <li><a href="../product/list.php">제품검색</a></li>
+                            <li><a href="../sub6/sub6_4.html">eKOLON CARD</a></li>
+                        </ul>    
+                    </li>
+                </ul> 
+            </nav>
+           </div>
+        </header>
+        <!-- 사이트맵 -->
+        <div class="sitemap_wrap">
+            <div class="sitemap_inner">
+                <img class="sitem_logo" src="../common/images/header_logo.png" alt="코오롱인더스트리">
+                <h3>SITE MAP</h3>
+                <ul>
+                    <li>
+                        <dl>
+                            <dt>회사소개</dt>
+                            <dd><a href="../sub1/sub1_1.html">기업개요</a></dd>
+                            <dd><a href="../sub1/sub1_2.html">경영철학</a></dd>
+                            <dd><a href="../sub1/sub1_3.html">사회공헌</a></dd>
+                            <dd><a href="../sub1/sub1_4.html">사업장소개</a></dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <dl>
+                            <dt>사업분야</dt>
+                            <dd><a href="../sub2/sub2_1.html">산업자재</a></dd>
+                            <dd><a href="../sub2/sub2_2.html">필름/전자재료</a></dd>
+                            <dd><a href="../sub2/sub2_3.html">화학</a></dd>
+                            <dd><a href="../sub2/sub2_4.html">패션</a></dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <dl>
+                            <dt>R&amp;D</dt>
+                            <dd><a href="../sub3/sub3_1.html">R&amp;D 개요</a></dd>
+                            <dd><a href="../sub3/sub3_2.html">지식재산권</a></dd>
+                            <dd><a href="../sub3/sub3_3.html">연구분야</a></dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <dl>
+                            <dt>채용정보</dt>
+                            <dd><a href="../sub4/sub4_1.html">인재상</a></dd>
+                            <dd><a href="../sub4/sub4_2.html">인사제도</a></dd>
+<!--                            <dd><a href="../sub4/sub4_3.html">인사채용</a></dd>-->
+                        </dl>
+                    </li>
+                    <li>
+                        <dl>
+                            <dt>홍보센터</dt>
+                            <dd><a href="../sub5/sub5_1.html">CI</a></dd>
+                            <dd><a href="../sub5/sub5_2.html">뉴스</a></dd>
+                            <dd><a href="../greet/list.php">공지사항</a></dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <dl>
+                            <dt>고객센터</dt>
+                            <dd><a href="../sub6/sub6_1.html">온라인문의</a></dd>
+                            <dd><a href="../sub6/sub6_2.html">자주하는 질문</a></dd>
+                            <dd><a href="../sub6/sub6_3.html">제품검색</a></dd>
+                            <dd><a href="../sub6/sub6_4.html">eKOLON CARD</a></dd>
+                        </dl>
+                    </li>
+                </ul>
+                <a class="sitemap_close_btn" href="#smC"><img src="../common/images/siteMapClose.png" alt="닫기"></a>
+            </div>
+        </div>

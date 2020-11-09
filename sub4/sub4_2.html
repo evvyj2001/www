@@ -1,0 +1,123 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION);  
+?>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>코오롱 인더스트리::채용정보</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="common/css/sub4common.css">
+    <link rel="stylesheet" href="css/content2.css">
+    <script src="../common/js/prefixfree.min.js"></script>
+    <script src="https://kit.fontawesome.com/2d56222f57.js" crossorigin="anonymous"></script>
+    <!--[if IE9]>  
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+<body>
+        <? include "../common/sub_head.html" ?>
+        <!-- 서브4 비주얼+네비 공통 영역 -->
+        <? $_GET['num']=2;
+          include "common/sub_nav.html"; 
+        ?>
+        <!-- 본문 컨텐츠 영역 -->
+        <article id="content">
+            <div class="title_area">
+               <div class="inner">
+                <div class="linemap">
+                    <span><i class="fas fa-home"></i></span> &gt; <span>채용정보</span> &gt; <strong>인사제도</strong>
+                </div>
+                <h2>인사제도</h2>
+              </div>
+            </div>
+            <div class="content_area">
+                <section id="rankSystem">
+                   <div class="inner">
+                       <h3>직급체계</h3>
+                       <span class="arrow_deco"></span>
+                       <p><span class="red">인재(人材)를 중시</span>하는, <span class="blue">합리적이고 효율적</span>인 코오롱인더스트리의 직급체계</p>
+                       <p class="">코오롱인더스트리는 사람이 기업의 가장 큰 재산이라는 가치 아래 조직의 성과를 증대하고<br>개인의 보람과 긍지를 높이기 위한 직급체계를 운영하고 있습니다.</p>
+                       <div class="rank_box">
+                           <ul class="hidden">
+                               <li>
+                                   <dl>
+                                       <dt>수석연구원</dt>
+                                       <dd>6년 이상</dd>
+                                       <dd>부장</dd>
+                                   </dl>
+                               </li>
+                               <li>
+                                   <dl>
+                                       <dt>책임연구원(갑)</dt>
+                                       <dd>5년</dd>
+                                       <dd>차장</dd>
+                                   </dl>
+                               </li>
+                               <li>
+                                   <dl>
+                                       <dt>책임연구원(을)</dt>
+                                       <dd>5년</dd>
+                                       <dd>과장</dd>
+                                   </dl>
+                               </li>
+                               <li>
+                                   <dl>
+                                       <dt>선임연구원</dt>
+                                       <dd>5년</dd>
+                                       <dd>대리</dd>
+                                   </dl>
+                               </li>
+                               <li>
+                                   <dl>
+                                       <dt>연구원</dt>
+                                       <dd>3년</dd>
+                                       <dd>주임</dd>
+                                   </dl>
+                               </li>
+                               <li>
+                                   <dl>
+                                       <dt>사원</dt>
+                                       <dd>대졸신입</dd>
+                                   </dl>
+                               </li>
+                           </ul>
+                       </div>  
+                    </div>
+                </section>
+                <section id="benefit">
+                    <div class="inner">
+                       <h3>복리후생제도</h3>
+                       <span class="arrow_deco"></span>
+                       <dl>
+                           <dt>for you &amp;<br>your family</dt>
+                           <dd>자녀 학자금 대출</dd>
+                           <dd>주택자금 대출</dd>
+                           <dd>임직원 단체 상해보험</dd>
+                           <dd>근로자의 날, 창립기념일, 명절선물</dd>
+                           <dd>휴양소 지원</dd>
+                           <dd>건강검진 실시</dd>
+                           <dd class="mb_40">자사제품 할인카드 제공</dd>
+                           <dd class="mb_40">경조사 지원</dd>
+                           <dd class="mb_40">사내 어린이집 운영 (본사)</dd>
+                       </dl>
+                       <dl>
+                           <dt>for your company life</dt>
+                           <dd class="mb_40">사내 식당 운영</dd>
+                           <dd class="mb_40">통근버스 제공 (사업장)</dd>
+                           <dd class="mb_40">동아리 활동 지원</dd>
+                       </dl>
+                    </div>
+                </section>
+                
+                
+            </div>
+            <? include "../common/fixed_top.html" ?>  
+        </article>
+      <? include "../common/sub_foot.html" ?>  
+</body>
+</html>

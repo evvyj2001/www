@@ -1,0 +1,89 @@
+/* 서브3_1 컨텐츠 css */
+#content h2{
+    margin: 50px 0 40px;
+}
+#content .main_text{
+    font-size: 1.286em;
+    line-height: 1.8em;
+    text-align: center;
+    word-break: keep-all;
+    margin: 0 20px 40px;
+    font-weight: 600;
+}
+#content .gray_box{
+    padding: 40px 20px;
+    background: #f9f9f9;
+    margin-bottom: 40px;
+}
+#content .gray_box p{
+    font-size: 1.143em;
+    font-weight: 600;
+    line-height: 1.8em;
+    margin-bottom: 30px;
+    text-align: center;
+    word-break: keep-all;
+    color: #666;
+}
+#content .gray_box img{
+    width: 100%;
+    border-radius: 30px;
+}
+#content .branch_wrap{
+    padding: 40px 20px 50px;
+    background: #f0f6fc;
+    margin-top: 40px;
+}
+#content .branch_wrap h4{
+    text-align: center;
+    font-size: 1.571em;
+    word-break: keep-all;
+    font-weight: 600;
+    line-height: 1.8em;
+    margin-bottom: 50px;
+}
+#content .branch_wrap li{
+    background: #fff;
+}
+#content .branch_wrap li:first-of-type{
+    margin-bottom: 60px;
+}
+#content .branch_wrap .img_box{
+    margin-right: 20px;
+    position: relative;
+}
+#content .branch_wrap li img{
+    position: relative;
+    top: -20px;
+    left: 0;
+    width: 100%;
+    border-top-left-radius: 30px;
+}
+#content .branch_wrap h5{
+    font-size: 1.143em;
+    font-weight: 600;
+    color: #fff;
+    background: linear-gradient(90deg, rgba(106,237,235,1) 0%, rgba(37,108,232,1) 100%);
+    position: absolute;
+    display: block;
+    padding: 10px 0;
+    text-align: center;
+    right: -20px;
+    bottom: 0;
+    width: 50%;
+}
+#content .table_wrap{
+    margin: 20px 20px 0;
+    padding-bottom: 20px;
+}
+#content .table_wrap th{
+    font-size: 1.143em;
+    font-weight: 600;
+    width: 20%;
+    vertical-align: baseline;
+    line-height: 1.6em;
+}
+#content .table_wrap td{
+    line-height: 1.6em;
+    word-break: keep-all;
+    padding-bottom: 10px;
+}

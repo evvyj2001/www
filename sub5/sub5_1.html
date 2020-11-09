@@ -1,0 +1,179 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION);  
+?>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>코오롱 인더스트리::홍보센터</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="common/css/sub5common.css">
+    <link rel="stylesheet" href="css/content1.css">
+    <script src="../common/js/prefixfree.min.js"></script>
+    <script src="https://kit.fontawesome.com/2d56222f57.js" crossorigin="anonymous"></script>
+    <!--[if IE9]>  
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+<body>
+        <? include "../common/sub_head.html" ?>
+        <!-- 서브5 비주얼+네비 공통 영역 -->
+        <? $_GET['num']=1;
+          include "common/sub_nav.html"; 
+        ?>
+        <!-- 본문 컨텐츠 영역 -->
+        <article id="content">
+            <div class="title_area">
+               <div class="inner">
+                <div class="linemap">
+                    <span><i class="fas fa-home"></i></span> &gt; <span>홍보센터</span> &gt; <strong>CI</strong>
+                </div>
+                <h2>CI</h2>
+              </div>
+            </div>
+            <div class="content_area">
+                <section id="ciIntro">
+                    <div class="inner"> 
+                      <h3 class="hidden">CI intro</h3>
+                       <div class="logo_box">
+                           <img src="images/content1/logo_lg.png" alt="">
+                       </div>
+                       <p>코오롱의 심볼마크는 정확한 균형과 조화로 이루어진 7개의 양각 삼각형과 3개의 음각 삼각형이 큰 삼각형 세개와 작은 음각 삼각형 세개를 보여주면서 전체적으로 음, 양의 조화를 이룬 유기적 삼각 형태로 되어 있으며, 이것은 <span>코오롱의 人和, 家和, 心和 정신과 코오롱인의 합리성, 적극성, 협동성의 결합을 상징</span>합니다.</p>
+                       <div class="logo_box datail">
+                           <img src="images/content1/logo_detail_img.png" alt="">
+                       </div>
+                       <p>합쳐진 2개의 삼각형은 코오롱 영문 이니셜 K를 연상케하며 구체적 연상으로는 실험실의 프리스크, 건설의 포크레인, 섬유의 조직, 호텔의 안락한 객실, 무역의 선박에 적재된 콘테이너를 상징하기도 합니다. 삼각형의 조형적 형태에서 오는 이미지는 산, 성장하는 나무, 거대한 피라밋 그리고 안전, 웅지로서의 코오롱의 기업정신과 일치합니다.</p>
+                    </div>
+                </section>
+                <section id="ciColor">
+                    <div class="inner">
+                       <h3>색상규정</h3>
+                       <span class="arrow_deco"></span>
+                       <div class="color_info_wrap">
+                           <img src="images/content1/color_logo_img.jpg" alt="">
+                           <p>코오롱인더스트리의 CI 전용 색상은 <span class="blue">KOLON BLUE</span>와 <span class="red">KOLON RED</span>를 기본으로 합니다.<br>또한 적용 조건에 따라 여러가지 보조색상을 사용할 수 있습니다.</p>
+                           <ul>
+                               <li>
+                                   <span></span>
+                                   <table>
+                                       <tbody>
+                                           <tr>
+                                               <th>pantone</th>
+                                               <td>2727C</td>
+                                           </tr>
+                                           <tr>
+                                               <th>cmyk</th>
+                                               <td>86/54/4/0</td>
+                                           </tr>
+                                           <tr>
+                                               <th>rgb</th>
+                                               <td>r0 g110 b188</td>
+                                           </tr>
+                                           <tr>
+                                               <th>hex</th>
+                                               <td>#006ebc</td>
+                                           </tr>
+                                       </tbody>
+                                   </table>
+                               </li>
+                               <li>
+                                   <span></span>
+                                   <table>
+                                       <tbody>
+                                           <tr>
+                                               <th>pantone</th>
+                                               <td>2035C</td>
+                                           </tr>
+                                           <tr>
+                                               <th>cmyk</th>
+                                               <td>11/99/100/0</td>
+                                           </tr>
+                                           <tr>
+                                               <th>rgb</th>
+                                               <td>r230 g0 b18</td>
+                                           </tr>
+                                           <tr>
+                                               <th>hex</th>
+                                               <td>#e30300</td>
+                                           </tr>
+                                       </tbody>
+                                   </table>
+                               </li>
+                               <li>
+                                   <span></span>
+                                   <table>
+                                       <tbody>
+                                           <tr>
+                                               <th>pantone</th>
+                                               <td>cool gray 5C</td>
+                                           </tr>
+                                           <tr>
+                                               <th>cmyk</th>
+                                               <td>34/26/25/0</td>
+                                           </tr>
+                                           <tr>
+                                               <th>rgb</th>
+                                               <td>r181 g182 b122</td>
+                                           </tr>
+                                           <tr>
+                                               <th>hex</th>
+                                               <td>#b5b6b6</td>
+                                           </tr>
+                                       </tbody>
+                                   </table>
+                               </li>
+                               <li>
+                                   <span></span>
+                                   <table>
+                                       <tbody>
+                                           <tr>
+                                               <th>pantone</th>
+                                               <td>dark blue C</td>
+                                           </tr>
+                                           <tr>
+                                               <th>cmyk</th>
+                                               <td>95/77/32/1</td>
+                                           </tr>
+                                           <tr>
+                                               <th>rgb</th>
+                                               <td>r15 g75 b129</td>
+                                           </tr>
+                                           <tr>
+                                               <th>hex</th>
+                                               <td>#0f4b81</td>
+                                           </tr>
+                                       </tbody>
+                                   </table>
+                               </li>
+                           </ul>
+                       </div>
+                    </div>
+                </section>
+                <section id="ciType">
+                    <div class="inner">
+                       <h3>사용 예시</h3>
+                       <span class="arrow_deco"></span>
+                       <ul>
+                           <li>
+                               <h4>signature type #1</h4>
+                               <img src="images/content1/type_img1.jpg" alt="">
+                           </li>
+                           <li>
+                               <h4>signature type #2</h4>
+                               <img src="images/content1/type_img2.jpg" alt="">
+                           </li>
+                       </ul>
+                       <a class="down_go" href="#"><span>코오롱인더스트리 CI 다운로드 </span>바로가기 <img src="images/content1/link_arrow.jpg" alt=""></a>
+                    </div>
+                </section>
+                
+            </div>
+            <? include "../common/fixed_top.html" ?>  
+        </article>
+      <? include "../common/sub_foot.html" ?>  
+</body>
+</html>

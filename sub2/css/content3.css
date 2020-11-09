@@ -1,0 +1,195 @@
+.content_area .oil_img{
+    position: relative;
+    left: 50%;
+    margin: 0 0 60px -186px;
+}
+.content_area .lg_summary, .content_area .nm_text{
+    margin-left: 50px;
+    text-align: justify;
+}
+.content_area .nm_text{
+    font-size: 1.286em;
+    line-height: 2em;
+    color: #666;
+    margin-bottom: 60px;
+    width: 1100px;
+}
+.content_area .oil_go{
+    display: block;
+    font-size: 1.143em;
+    font-weight: 600;
+    text-align: center;
+    margin: 100px 0;
+}
+.content_area .oil_go img{
+    margin-left: 5px;
+}
+.content_area .oil_go span{
+    color: #006dbb;
+    display: inline-block;
+    margin-right: 5px;
+}
+.content_area .oil_go span::after{
+    display: block;
+    content: '';
+    border-bottom: 5px solid #daeafa;
+    opacity: 0;
+    transition: all .2s
+}
+.content_area .oil_go:hover span::after{
+    opacity: 1;
+}
+.content_area #oil ul{
+    margin: 0 0 100px 50px;
+    width: 1100px;
+}
+.content_area #oil li{
+    margin-bottom: 60px;
+}
+.content_area #oil li:first-of-type h4{
+    color: #29a246;
+}
+.content_area #oil li:nth-child(2) h4{
+    color: #2b89c2;
+}
+.content_area #oil li:nth-child(3) h4{
+    color: #ef0b00;
+}
+.content_area h4{
+    font-size: 1.571em;
+    color: #333;
+    display: inline-block;
+    margin-bottom: 20px;
+    position: relative;
+}
+.content_area h4 span{
+    font-family: 'Questrial', sans-serif;
+    display: inline-block;
+    font-size: 16px;
+    color: #999;
+    font-weight: 500;
+    border-bottom: 0;
+    margin-left: 10px;
+}
+.content_area ul p{
+    font-size: 1.286em;
+    color: #666;
+    line-height: 2em;
+    text-align: justify;    
+}
+.content_area .oil_info_box{
+    width: 1100px;
+    margin: 100px 0 100px 50px;
+    border: 1px solid #ccc;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+.content_area .oil_info_box h4{
+    left: 50%;
+    text-align: center;
+    margin: 60px 0 60px -31px;
+    position: relative;
+}
+.content_area .oil_info_box h4::after{
+    content: '';
+    display: block;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #e60012;
+    position: absolute;
+    top: 9px;
+    right: -16px;
+}
+.content_area .oil_info_box p:first-of-type{
+    font-size: 1.286em;
+    margin: 0 0 50px 50px;
+}
+.content_area .oil_info_box table{
+    border-collapse: collapse;
+    border-top: 2px solid #666;
+    border-bottom: 2px solid #ccc;
+    width: 1000px;
+    margin: 0 0 60px 50px;
+}
+.content_area .oil_info_box thead th{
+    font-size: 1.286em;
+    font-weight: 600;
+    padding: 16px 0;
+    background: #f9f9f9;
+    border-bottom: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+}
+.content_area .oil_info_box thead th:last-of-type{
+    border-right: 0;
+}
+.content_area .oil_info_box tbody th{
+    border-right: 1px solid #ccc; 
+    border-bottom: 1px solid #ccc;
+    font-size: 1.286em;
+    color: #666;
+}
+.content_area .oil_info_box tbody td{
+    padding: 16px 0;
+    font-size: 1.143em;
+    border-bottom: 2px dotted #ccc;
+    border-right: 1px solid #ccc;
+    color: #999;
+    text-align: center;
+}
+.content_area .oil_info_box tbody td:last-of-type{
+    border-right: 0;
+}
+.content_area #epoxy {
+    background: #f9f9f9;
+    overflow: hidden;
+}
+.content_area #epoxy img{
+    margin:0 0 50px -51px;
+    left: 50%;
+    position: relative;
+    top: 0;
+}
+.content_area #epoxy p:nth-child(3){
+    margin-bottom: 100px;
+}
+.content_area .spec h4{
+    position: relative;
+    margin-left: 50px;
+}
+.content_area .spec h4::after{
+    content: '';
+    display: block;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #006dbb;
+    position: absolute;
+    top: 9px;
+    right: -16px;
+}
+.content_area #pet>.inner>img{
+    position: relative;
+    top: 0;
+    left: 50%;
+    margin-left: -60px;
+}
+.content_area #pet .float_box{
+    overflow: hidden;
+    margin: 60px 0 60px 50px;
+}
+.content_area #pet .float_box img{
+    float: left;
+    margin: 5px 50px 0 0;
+}
+.content_area #pet .float_box p{
+    float: left;
+    width: 850px;
+    font-size: 1.286em;
+    color: #666;
+    line-height: 2em;
+    text-align: justify; 
+}
+.content_area #pet .spec p:last-of-type{
+    margin-bottom: 100px;
+}

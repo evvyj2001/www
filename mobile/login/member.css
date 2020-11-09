@@ -1,0 +1,87 @@
+/* 로그인 페이지 CSS */
+#content {
+    background: rgb(37,108,232);
+    background: linear-gradient(90deg, rgba(37,108,232,1) 0%, rgba(106,237,235,1) 100%);
+    overflow:visible;
+    padding: 100px 0 60px;
+}
+#content .welcome{
+    margin: 0 20px 0;
+    font-size: 16px;
+    text-align: left;
+    color: rgba(255,255,255,1);
+    padding-top: 110px;
+}
+#content h3{
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+#content .login_form{
+    position: relative;
+    margin: 0 20px ;
+    background: rgba(255,255,255,.1);
+    border-radius: 15px;
+}
+#content .input_box{
+    overflow: hidden;
+}
+#content .login_form .insert_wrap{
+    margin: 20px 20px 5px;
+}
+#content #id,#content #pass{
+    width: 92%;
+    padding: 15px 4%;
+    border: 1px solid #fff;
+    outline: 0;
+    background: #fff;
+    margin-bottom: 15px;
+}
+#content #id:focus,#content #pass:focus{
+    border: 1px solid #006ebc;
+}
+#content .input_box li:nth-of-type(2){
+    position: relative;
+}
+#content .input_box .lock{
+    position: absolute;
+    right: 3%;
+    top: 12px;
+    display: inline-block;
+    font-size: 1.5em;
+    color: #ccc;
+}
+#content .input_box .lock i{
+    transition: .5s
+}
+#content .buttons{
+    margin: 20px 20px 0;
+}
+#content .buttons input,#content .buttons .join_btn a{
+    width: 100%;
+    padding: 15px 0;
+    border: 0;
+    outline: 0;
+    font-size: 1.143em;  
+    font-weight: 600;
+}
+#content .buttons input{
+    background: #006ebc;
+    color: #fff;
+    cursor: pointer
+}
+#content .buttons .join_btn p{
+    text-align: center;
+    margin-top: 20px;
+    color: #fff;
+    font-weight: 600;
+}
+#content .buttons .join_btn a{
+    background: #f9f9f9;
+    color: #333;
+    text-align: center;
+    display: block;
+    margin-top: 15px
+}
+/* 로그인 페이지 CSS 끝 */
+/* 회원정보 수정 CSS */
+

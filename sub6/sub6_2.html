@@ -1,0 +1,119 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION);  
+?>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>코오롱 인더스트리::고객센터</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="common/css/sub6common.css">
+    <link rel="stylesheet" href="css/content2.css">
+    <script src="../common/js/prefixfree.min.js"></script>
+    <script src="https://kit.fontawesome.com/2d56222f57.js" crossorigin="anonymous"></script>
+    <!--[if IE9]>  
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+<body>
+        <? include "../common/sub_head.html" ?>
+        <!-- 서브6 비주얼+네비 공통 영역 -->
+        <? $_GET['num']=2;
+          include "common/sub_nav.html"; 
+        ?>
+        <!-- 본문 컨텐츠 영역 -->
+        <article id="content">
+            <div class="title_area">
+               <div class="inner">
+                <div class="linemap">
+                    <span><i class="fas fa-home"></i></span> &gt; <span>고객센터</span> &gt; <strong>자주하는질문</strong>
+                </div>
+                <h2>자주하는질문</h2>
+              </div>
+            </div>
+            <div class="content_area">
+            <section id="commonQuestionTop">
+                <div class="inner">
+                    <h3>자주하는 질문 <span class="blue">TOP 3</span></h3>
+                    <ul>
+                        <li><a class="link1" href="#di1"><span class="blue">Q1</span>회원가입 및 탈퇴는 어떻게 하나요?</a></li>
+                        <li><a class="link2" href="#di2"><span class="blue">Q2</span>로그인 계정을 변경하고 싶습니다. </a></li>
+                        <li><a class="link3" href="#di3"><span class="blue">Q3</span>고객센터는 어떻게 운영되나요?</a></li>
+                    </ul>
+                </div>
+            </section> 
+            <section id="commonQuestion">
+                <div class="inner">
+                   <h3 class="hidden">FAQ</h3>
+                   <ul>
+                       <li class="article hide">
+                           <p class="question"><a href="#qu"><span>Q</span> 회원가입 및 탈퇴는 어떻게 하나요?</a></p>
+                           <p class="answer"><span>A</span><span>회원가입은 홈페이지 상단의 회원가입 버튼을 통해 가입하실 수 있습니다. 탈퇴의 경우 로그인된 상태에서 마이페이지 메뉴의 회원탈퇴 버튼을 통해 진행 하실 수 있습니다.</span></p>
+                       </li>
+                       <li class="article hide">
+                           <p class="question"><a href="#qu"><span>Q</span> 로그인 시 비밀번호가 맞지 않다고 합니다. </a></p>
+                           <p class="answer"><span>A</span><span>비밀번호 찾기를 통해 비밀번호 재설정을 해주세요.<br>① 로그인 창에서 “아이디 확인 및 비밀번호 초기화” 클릭<br>② “이메일로 비밀번호 초기화” 클릭<br>③ 생년월일과 코오롱인더스트리에 가입한 이메일 입력<br>④ 이메일로 발송된 인증번호를 10분 내에 입력<br>(도착하지 않았을 경우, 입력 주소와 스팸메일함 확인)<br>⑤ 신규 비밀번호 입력 후 다시 로그인<br>※ “이메일로 비밀번호 초기화”를 이용해주세요<br>- 모바일로 비밀번호 초기화를 진행할 경우, 최종적으로 로그인했던 ID에 대해서만 진행하게 됩니다. (일괄변경 X)<br>- 여러 개의 통합아이디를 보유하신 고객은 해당 메뉴로 PW 변경이 어려우니, 이메일로 비밀번호 초기화를 이용해주세요.</span></p>
+                       </li>
+                       <li class="article hide">
+                           <p class="question"><a href="#qu"><span>Q</span> 로그인 계정을 변경하고 싶습니다.</a></p>
+                           <p class="answer"><span>A</span><span>계정 변경은 불가하며, ‘탈퇴 후 재가입’ 부탁 드립니다. <br>코오롱인더스트리의 계정은 임의로 변경되지 못하게 관리하고 있습니다. ID 변경을 원하실 경우, ‘계정 탈퇴’ 이후 재가입해주셔야 합니다. (단, 계정 탈퇴 시 가입하신 서비스가 함께 탈퇴되니 유의사항을 꼭 참고해주세요)</span></p>
+                       </li>
+                       <li class="article hide">
+                           <p class="question"><a href="#qu"><span>Q</span> 비밀번호 및 개인정보를 변경하고 싶을 때는 어떻게 해야하나요?</a></p>
+                           <p class="answer"><span>A</span><span>비밀번호 및 개인정보 변경은 로그인을 하신 후 홈페이지 우측상단에 있는 [마이페이지] 메뉴를 이용해주시기 바랍니다. 코오롱인더스트리에서 제공해드리는 서비스의 정상적인 이용을 위해서 주소와 전화번호, 이메일 주소는 항상 최신정보로 유지해주시기 바랍니다.</span></p>
+                       </li>
+                       <li class="article hide">
+                           <p class="question"><a href="#qu"><span>Q</span> 고객센터는 어떻게 운영되나요?</a></p>
+                           <p class="answer"><span>A</span><span>고객님들의 편의를 위하여 저희 코오롱인더스트리(주)는 상담시간을<br>평일 08:30 ~ 19:00<br>토/휴일 09:00 ~ 17:00로 정하여 운영하고 있습니다.</span></p>
+                       </li>
+                       <li class="article hide">
+                           <p class="question"><a href="#qu"><span>Q</span> 투자관련 정보는 어디서 얻을 수 있나요?</a></p>
+                           <p class="answer"><span>A</span><span>투자관련 사항은 홈페이지 내 투자정보를 참조해주시기 바랍니다. </span></p>
+                       </li>
+                       <li class="article hide">
+                           <p class="question"><a href="#qu"><span>Q</span> 채용관련 사항 및 원서접수는 어디서 하나요? </a></p>
+                           <p class="answer"><span>A</span><span>보다 자세한 채용안내, 모집 공고 및 원서 접수는 코오롱인더스트리 홈페이지 채용 정보의 인사채용 페이지에서 확인하실 수 있습니다. </span></p>
+                       </li>
+                       <li class="article hide">
+                           <p class="question"><a href="#qu"><span>Q</span> 제품 카다로그를 받을 수 있을까요?</a></p>
+                           <p class="answer"><span>A</span><span>온라인 문의 페이지에 문의 남겨주시면 제품 카다로그를 받으실 수 있도록 안내해드리겠습니다. </span></p>
+                       </li>
+                       <li class="article hide">
+                           <p class="question"><a href="#qu"><span>Q</span> 온라인 문의는 어떻게 하는 건가요?</a></p>
+                           <p class="answer"><span>A</span><span>1차 분류와 2차 분류를 통해 문의 구분을 하신 후, 이름과 필요한 정보들과 함께 문의하실 내용을 입력해주시면 담당자가 확인후 답변을 드립니다. </span></p>
+                       </li>                       
+                   </ul>
+                </div>
+            </section> 
+            <section id="linkToAsk">
+                <div class="inner">
+                  <h3 class="hidden">1:1문의하기</h3>
+                   <ul>
+                       <li>
+                           <img src="images/content2/linktoask_img.jpg" alt="">
+                       </li>
+                       <li>
+                           <dl>
+                               <dt>1:1 문의하기</dt>
+                               <dd>찾으시는 답변이 없으시다면 1:1 온라인 문의를 이용바랍니다.</dd>
+                           </dl>
+                       </li>
+                       <li>
+                          <a href="sub6_1.html">1:1 문의하기</a> 
+                       </li>
+                   </ul>
+                </div>
+            </section>   
+<!--                            <p class="text" style="position: fixed;top: 30px;right:30px;color: red;font-size: 50px;z-index: 100;font-weight: 600"></p>-->
+            </div>
+            <? include "../common/fixed_top.html" ?>  
+        </article>
+      <? include "../common/sub_foot.html" ?>  
+      <!-- 페이지별 스크립트 -->
+    <script src="js/qna.js"></script> 
+</body>
+</html>

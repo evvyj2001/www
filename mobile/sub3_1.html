@@ -1,0 +1,130 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION);  
+?>
+<!DOCTYPE HTML>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+
+<title>코오롱 인더스트리</title>
+
+<link rel="apple-touch-icon-precomposed" href="app_icon.png">
+<link rel="apple-touch-startup-image" href="startup.png">
+<link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Questrial&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/common.css">
+<link rel="stylesheet" href="css/sub_common.css">
+<link rel="stylesheet" href="css/sub3_1.css">
+
+<script src="js/prefixfree.min.js"></script>
+<script src="https://kit.fontawesome.com/2d56222f57.js" crossorigin="anonymous"></script>
+<script>
+  // <![CDATA[
+  try {
+   window.addEventListener('load', function(){
+    setTimeout(scrollTo, 0, 0, 1); 
+   }, false);
+  } 
+  catch(e) {}
+  // ]]>
+ </script>
+ <!--[if lt IE 9]> 
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+    <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+<![endif]-->
+</head>
+
+<body>
+<? include "head.html"  ?>
+<!-- 비주얼 영역 -->
+    <div class="main">
+        <img src="images/sub3_1/sub3_bgx2.jpg" alt="">
+        <div class="text_box">
+            <h3>R&amp;D</h3>
+            <p>research and development</p>
+        </div>
+        <ul class="depth2_menu grid_3">
+            <li><a href="#busi">R&amp;D 개요<span></span></a></li>
+            <li><a href="sub3_2.html">지식재산권</a></li>
+            <li><a href="sub3_3.html">연구분야</a></li>
+        </ul> 
+    </div>
+    <article id="content">
+       <h2>R&amp;D 개요</h2>
+       <p class="main_text">
+           코오롱인더스트리(주)는 <span class="text_blue">미래를 생각</span> 하고 <span class="text_red">새로운 가치</span>를 만듭니다.
+       </p>
+       <div class="gray_box">
+           <p>
+               시장 중심의 R&amp;D를 통해 현사업의 경쟁력을 극대화하고 더 나아가 한계를 뛰어넘는 도전을 통해 미래를 위한 새로운 기술과 가치를 창조하는 연구소를 지향합니다.
+           </p>
+           <img src="images/sub3_1/intro_imgx2.jpg" alt="">
+       </div>
+       <p class="text_nm">
+           치열해지는 글로벌 경쟁으로 인해 R&amp;D 경쟁력이 더욱 중요해지고 있습니다. 특히 소재 R&amp;D 경쟁력은 그 자체로서도 중요하지만 다른 분야의 근간이 되어 성장을 촉진할 수 있습니다.
+           치열해지는 글로벌 경쟁으로 인해 R&amp;D 경쟁력이 더욱 중요해지고 있습니다. 특히 소재 R&amp;D 경쟁력은 그 자체로서도 중요하지만 다른 분야의 근간이 되어 성장을 촉진할 수 있습니다.
+       </p>
+       <p class="text_nm">
+           연구개발본부는 새로운 소재를 기존 사업 분야에 적용하여 새로 사업영역을 창출하고 신규로 진출한 사업 분야에서 응용기술을 확대해 나가고 지속적으로 미래 성장동력을 창출함으로써 GLOBAL TOP SPECIALTY 화학소재기업으로 도약하는 첨단소재와 기술을 공급하는 경영의 핵이 될 것입니다.
+       </p>
+       <div class="branch_wrap">
+           <h4>코오롱인더스트리(주) 연구개발본부</h4>
+           <ul>
+               <li>
+                   <div class="img_box">
+                       <img src="images/sub3_1/branch_img1x2.jpg" alt="">
+                       <h5>마곡 연구개발본부</h5>
+                   </div>
+                   <div class="table_wrap">
+                       <table>
+                           <tbody>
+                               <tr>
+                                   <th>주소</th>
+                                   <td>서울특별시 강서구 마곡동로 110 (마곡동) 코오롱 One&amp;Only Tower</td>
+                               </tr>
+                               <tr>
+                                   <th>번호</th>
+                                   <td>02) 469-3820</td>
+                               </tr>
+                           </tbody>
+                       </table>
+                   </div>
+               </li>
+               <li>
+                   <div class="img_box">
+                       <img src="images/sub3_1/branch_img2x2.jpg" alt="">
+                       <h5>구미 연구개발본부</h5>
+                   </div>
+                   <div class="table_wrap">
+                       <table>
+                           <tbody>
+                               <tr>
+                                   <th>주소</th>
+                                   <td>경북 구미시 수출대로 45 (공단동)</td>
+                               </tr>
+                               <tr>
+                                   <th>번호</th>
+                                   <td>02) 469-3820</td>
+                               </tr>
+                           </tbody>
+                       </table>
+                   </div>
+               </li>
+           </ul>
+       </div>
+    </article>
+    
+<? include "foot.html"  ?>
+ 
+<!-- 페이지별 스크립트 -->
+
+
+ 
+</body>
+</html>

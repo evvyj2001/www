@@ -1,0 +1,104 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION);  
+?>
+<!DOCTYPE HTML>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+
+<title>코오롱 인더스트리</title>
+
+<link rel="apple-touch-icon-precomposed" href="app_icon.png">
+<link rel="apple-touch-startup-image" href="startup.png">
+<link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Questrial&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/common.css">
+<link rel="stylesheet" href="css/sub_common.css">
+<link rel="stylesheet" href="css/sub4_2.css">
+
+<script src="js/prefixfree.min.js"></script>
+<script src="https://kit.fontawesome.com/2d56222f57.js" crossorigin="anonymous"></script>
+<script>
+  // <![CDATA[
+  try {
+   window.addEventListener('load', function(){
+    setTimeout(scrollTo, 0, 0, 1); 
+   }, false);
+  } 
+  catch(e) {}
+  // ]]>
+ </script>
+ <!--[if lt IE 9]> 
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+    <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+<![endif]-->
+</head>
+
+<body>
+<? include "head.html"  ?>
+<!-- 비주얼 영역 -->
+    <div class="main">
+        <img src="images/sub4_1/sub4_bgx2.jpg" alt="">
+        <div class="text_box">
+            <h3>채용정보</h3>
+            <p>recruit</p>
+        </div>
+        <ul class="depth2_menu">
+            <li><a href="sub4_1.html">인재상</a></li>
+            <li><a href="#rec">인사제도<span></span></a></li>
+        </ul> 
+    </div>
+    <article id="content">
+       <h2>인사제도</h2>
+       <div class="gray_box">
+         <div class="title_wrap">
+             <h3>직급체계</h3>
+         </div>
+           <p class="main_text">
+           <span class="text_red">인재(人材)를 중시</span>하는, <span class="text_blue">합리적이고 효율적</span>인 코오롱인더스트리의 직급체계</p>
+           <p class="text_nm">코오롱인더스트리는 사람이 기업의 가장 큰 재신이라는 가치 아래 조직의 성과를 증대하고 개인의 보람과 긍지를 높이기 위한 직급체계를 운영하고 있습니다.</p>
+           <img src="images/sub4_2/processx2.jpg" alt="수석연구원 6년 이상 -부장/책임연구원(갑)5년이상-차장/책임연구원(을)5년-과장/선임연구원5년-대리/연구원3년-주임/사원대졸신입">
+        </div>
+         <div class="title_wrap">
+             <h3>복리후생제도</h3>
+         </div>
+         <div class="system_wrap">
+             <h4>for you &amp; your family</h4>
+             <ul>
+                 <li>자녀 학자금 대출</li>
+                 <li>주택자금 대출</li>
+                 <li>임직원 단체 상해보험</li>
+                 <li>근로자의 날, 창립기념일, 명절선물</li>
+                 <li>휴양소 지원</li>
+                 <li>건강검진 실시</li>
+                 <li>자사제품 할인카드 지원</li>
+                 <li>경조사 지원</li>
+                 <li>사내 어린이집 운영</li>
+             </ul>
+         </div>
+         <div class="system_wrap">
+             <h4>for your company life</h4>
+             <ul>
+                 <li>사내 식당 운영</li>
+                 <li>통근버스 제공(사업장)</li>
+                 <li>동아리 활동 지원</li>
+             </ul>
+         </div>
+       
+       
+    </article>
+    
+<? include "foot.html"  ?>
+ 
+<!-- 페이지별 스크립트 -->
+
+
+ 
+</body>
+</html>

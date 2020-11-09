@@ -1,0 +1,322 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION);  
+?>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>코오롱 인더스트리::회사소개</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="common/css/sub1common.css">
+    <link rel="stylesheet" href="css/content1.css">
+    <script src="../common/js/prefixfree.min.js"></script>
+    <script src="https://kit.fontawesome.com/2d56222f57.js" crossorigin="anonymous"></script>
+    <!--[if IE9]>  
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+<body>
+        <? include "../common/sub_head.html" ?>
+        <!-- 서브1 비주얼+네비 공통 영역 -->
+        <? $_GET['num']=1;
+          include "common/sub_nav.html"; 
+        ?>
+        <!-- 본문 컨텐츠 영역 -->
+        <article id="content">
+            <div class="title_area">
+               <div class="inner">
+                <div class="linemap">
+                    <span><i class="fas fa-home"></i></span> &gt; <span>회사소개</span> &gt; <strong>기업개요</strong>
+                </div>
+                <h2>기업개요</h2>
+                <div class="sub_menu_box">
+                <ul>
+                    <li><a class="link1" href="#intro">회사개요</a></li>
+                    <li><a class="link2" href="#ceo">CEO 인사말</a></li>
+                    <li><a class="link3" href="#his">연혁</a></li>
+                </ul>
+                </div>
+              </div>
+            </div>
+            <div class="content_area">
+                <section id="company_intro">
+                   <div class="inner">
+                        <h3>회사개요</h3>
+                        <span class="arrow_deco"></span>
+                        <p><span class="blue">first</span>도 코오롱인더스트리이며, <span class="red">best</span>도 코오롱인더스트리입니다.</p>
+                        <img src="images/content1/intro_img1.png" alt="kolon industries">
+                        <p class="lg_summary"><span class="blue">1957년 국내 최초의 나일론 생산</span>을 시작으로 하여 <br>산업 소재, 화학, 필름/전자재료, 패션 시장을 선도하고 있습니다.</p>
+                        <p class="nm_text">
+                        코오롱인더스트리㈜는 1957년 국내 최초로 나일론을 생산하여 국가경제 발전에 기여해 온 ㈜코오롱을 전신으로 하고 있으며, 2010년 코오롱 그룹 지주 회사 체제전환의 일환으로 ㈜코오롱의 제조사업 부문에서 분할되어 신설된 기업입니다.</p><p class="nm_text">현재는 사업영역을 산업소재, 화학, 필름/전자재료 및 패션의 4대 부문을 중심으로 하여 관련시장을 선도하고 있습니다.
+                        </p>
+                        <span class="arrow_deco"></span>
+                        <p class="lg_summary">코오롱인더스트리의 변화와 혁신은 <span class="blue">앞으로도 지속될 것입니다.</span></p>
+                        <p class="nm_text">
+                        21세기 Global TOP 화학/소재 기업으로 성장해 나가기 위해 코오롱인더스트리㈜는 자동차소재 ,첨단소재, 광학용 필름, 화학 및 패션 등의 고부가가치 제품의 투자 및 증설을 통해 관련산업의 글로벌화를 선도해 나가고자 합니다.</p><p class="nm_text">코오롱인더스트리㈜의 변화와 혁신은 앞으로도 지속될 것입니다. 보다 큰 비전을 만들어 가는 회사로 거듭남으로서 주주와 사회에 더욱 크게 기여하는 회사로 자리매김 할 수 있도록 노력하겠습니다.<br><br>감사합니다.
+                        </p>
+                    </div>
+                </section>
+                <section id="ceo_message">
+                    <div class="inner">
+                        <h3>CEO 인사말</h3>
+                        <span class="arrow_deco"></span>
+                        <div class="ceo_pr_wrap">
+                            <img src="images/content1/ceo-img.png" alt="">
+                            <p><span class="red">'변화와 혁신의 모범이 되어 그룹을 성공시키는 회사'</span>로<br>만들기 위해 회사를 이끌어가고자 합니다.</p>
+                            <p>코오롱인더스트리 대표이사 장희구</p>
+                        </div>
+                        <p class="nm_text">
+                        그동안 회사발전을 위해 힘써주신 고객 및 주주 여러분께 감사의 말씀을 드립니다. 코오롱인더스트리는 코오롱 그룹 60여 년의 전통을 고스란히 담고있는 주력 모기업입니다. 불모지에서 이룬 결실을 바탕으로 회사 성정을 이룩함은 물론, 오늘의 국가 발전에 및거름이 되어 온 자랑스러운 역사를 가지고 있습니다. 현재는 대한민국을 대표하는 종합 화학/소재 및 패션 기업으로 자리매김하여 세계에서 그 위상을 넓혀 나가고 있습니다.</p>
+                        <p class="nm_text">
+                        코오롱인더스트리는 지난 반세기, 끊임없는 성원을 보여주신 고객과 주주 여러분의 성원에 더 크게 보답하고 세계 시장을 선도하는 기업으로 성장하고자 전사적인 역량을 집중하고 있습니다. 자동차소재, 첨단소재, 전자소재 등에 대한 기술개발에 집중함으로써 수익구조를 더욱 고도화하는 데 주력하고 있습니다. 패션사업은 패션 트렌드와 문화의 선도를 통해 고객의 라이프스타일을 새롭게 창출하는 기업이 되기 위해 노력하고 있습니다. 또한, 신기술 및 신소재 개발을 위한 R&amp;D 종합 센터 구축, 국내외 유수 연구기관 및 지방자치단체 등과의 협력 등 기술력 확보를 위한 다양한 노력을 통해 지속 가능한 미래성장 동력 확보에 역량을 집중하고 있습니다. </p>
+                        <p class="nm_text">
+                        아울러, 저는 대표이사로서 <span class="border_skyblue">“Role Model Company for the KOLON Group”</span>이라는 경영방침을 세우고 회사를 이끌어가고자 합니다. 이는 “변화와 혁신의 모범이 되어 그룹을 성공시키는 회사”,“Team  KOLON의 리더가 되는 회사”로 우리의 위치를 새롭게 정립할 것임을 의미합니다. 회사는 본 경영방침의 달성을 위해 경쟁력 혁신에 가치를 두고 사업의 전개방식을 바꾸어 나갈 것이며, 문제의 끝장을 보겠다는 끝장경영을 기치로 일하는 방식을 바꾸어 나가겠습니다. 그리고 상생동체와 소통을 기반으로 하는 조직 문화의 혁신을 확대해나갈 계획입니다.</p>
+                        <p class="nm_text">
+                        앞으로도 꾸준히 도약하게 될 코오롱인더스트리의 앞날에 지속적인 관심과 성원을 부탁드립니다. </p>
+                    </div>
+                </section>
+                <section id="history">
+                    <div class="inner">
+                        <h3>연혁</h3>
+                        <span class="arrow_deco"></span>
+                        <p class="history_intro">코오롱인더스트리는 국내 최초로 나일론을 생산함으로써<br>이 땅에 의류혁명을 일으키면서 한국 경제발전과 그 궤적을 같이하여 왔습니다.</p>
+                        <ul class="history_tabs">
+                            <li><a class="tab tab1" href="#javascript">2000 ~ 현재<span>도전과 성장의 거듭</span></a></li>
+                            <li><a class="tab tab2" href="#javascript">1983 ~ 1999<span>사업구조의 고도화</span></a></li>
+                            <li><a class="tab tab3" href="#javascript">1969 ~ 1982<span>사업기반의 확대</span></a></li>
+                            <li><a class="tab tab4" href="#javascript">1957 ~ 1968<span>국내최초 나일론 생산</span></a></li>
+                        </ul>
+                        <div class="history_content">
+                            <div class="history_sub_title">
+                                <h4>2000 ~ 현재</h4>
+                                <p>도전과 성장의 거듭</p>
+                            </div>
+                            <div class="history_timeline t_line1">
+                               <div>
+                                <dl>
+                                    <dt>2000</dt>
+                                    <dd><strong>09 </strong>혈액투석기용 멤브레인 생산</dd>
+                                    <dd></dd>
+                                </dl>
+                                <dl>
+                                    <dt>2003</dt>
+                                    <dd>고합필름 울산공장 인수<strong>01 </strong></dd>
+                                    <dd>LCD용 광학산필름 본격 생산<strong></strong></dd>
+                                </dl>
+                                <dl>
+                                    <dt>2004</dt>
+                                    <dd><strong>05 </strong>중국 KNC 타이어코드 공장 준공</dd>
+                                    <dd><strong>11 </strong>중국 KNC 에어백 공장 준공</dd>
+                                </dl>
+                                <dl>
+                                    <dt>2005</dt>
+                                    <dd>아라미드 사업 진출<strong>04 </strong></dd>
+                                    <dd>OPW형 에어백 사업 진출<strong>05 </strong></dd>
+                                    <dd>폴리이미드 필름 공장 준공<strong>07 </strong></dd>
+                                </dl>
+                                <dl>
+                                    <dt>2006</dt>
+                                    <dd><strong>05 </strong>수정화처리용 멤브레인 장기계약</dd>
+                                </dl>
+                                <dl>
+                                    <dt>2008</dt>
+                                    <dd>원사사업 (N/F, P/F) 부문 분할<strong>03 </strong></dd>
+                                    <dd>플라스틱 사업, 코오롱 플라스틱(주)에 양도<strong>06 </strong></dd>
+                                    <dd>SKC KOLON PI 합작 법인 설립<strong></strong></dd>
+                                    <dd>고흡수성수지사업, LG화학에 양도<strong>09 </strong></dd>
+                                </dl>
+                                <dl>
+                                    <dt>2009</dt>
+                                    <dd><strong>08 </strong>FnC 코오롱(주), (주)코오롱에 합병</dd>
+                                    <dd><strong>12 </strong>(주)코오롱의 제조사업 분할 및 코오롱인더스트리(주) 설립</dd>
+                                    <dd><strong></strong>코오롱그룹, 지주회사 체재로 전환</dd>
+                                </dl>
+                                <dl>
+                                    <dt>2011</dt>
+                                    <dd>캠브리지 코오롱(주), 코오롱인더스트리(주)에 합병<strong>05 </strong></dd>
+                                </dl>
+                                <dl>
+                                    <dt>2012</dt>
+                                    <dd><strong>01 </strong>코오롱인더스트리(주) FnC부문 강남으로 사옥 이전</dd>
+                                </dl>
+                                <dl>
+                                    <dt>2018</dt>
+                                    <dd>코오롱인더스트리(주) 본사 및 R&amp;D 센터 마곡 이전<strong>04 </strong></dd>
+                                </dl>
+                               </div>
+                            </div>
+                    </div>   
+                    <div class="history_content">
+                            <div class="history_sub_title">
+                                <h4>1983 ~ 1999</h4>
+                                <p>사업구조의 고도화</p>
+                            </div>
+                            <div class="history_timeline t_line2">
+                               <div>
+                                <dl>
+                                    <dt>1984</dt>
+                                    <dd><strong>02 </strong>프랑스 롱-프랑사와 엔지니어링 프라스틱 기술 제휴</dd>
+                                    <dd></dd>
+                                </dl>
+                                <dl>
+                                    <dt>1985</dt>
+                                    <dd>폴리에스터필름 공장 준공<strong>04 </strong></dd>
+                                    <dd>스판본드 생산공장 준공<strong>10 </strong></dd>
+                                </dl>
+                                <dl>
+                                    <dt>1986</dt>
+                                    <dd><strong>10 </strong>비디오 테이프(SCEN'A) 공장 준공</dd>
+                                </dl>
+                                <dl>
+                                    <dt>1987</dt>
+                                    <dd>경산공장, 혈액투석기 국산화 성공 및 대량생산체제 돌입<strong>07 </strong></dd>
+                                    <dd>폴리에스터필름 1차 증설 공장 준공<strong>10 </strong></dd>
+                                </dl>
+                                <dl>
+                                    <dt>1990</dt>
+                                    <dd><strong>05 </strong>폴리프로필렌 스판본드 공장 준공</dd>
+                                    <dd><strong>09 </strong>구미공장, P-19 무인화 공장 준공</dd>
+                                </dl>
+                                <dl>
+                                    <dt>1991</dt>
+                                    <dd>태국 합작법인 시암타이어코오드㈜ 합작공장 준공<strong>02 </strong></dd>
+                                </dl>
+                                <dl>
+                                    <dt>1992</dt>
+                                    <dd><strong>04 </strong>HELS-2(PET 초저수축사) 공장 준공</dd>
+                                    <dd><strong>05 </strong>인조잔디 코니그린 미국 수출</dd>
+                                </dl>
+                                <dl>
+                                    <dt>1993</dt>
+                                    <dd>인공피혁 사업 본격화<strong>07 </strong></dd>
+                                </dl>
+                                <dl>
+                                    <dt>1994</dt>
+                                    <dd><strong>03 </strong>김천 CIM무인자동화 나일론원사공장 (ACE N-1) 완공</dd>
+                                </dl>
+                                <dl>
+                                    <dt>1995</dt>
+                                    <dd>김천 CIM폴리에스터원사공장(ACE P-1) 준공<strong>05 </strong></dd>
+                                    <dd>인도네시아 해외현지법인(P.T.KOLON INA) 설립<strong>08 </strong></dd>
+                                    <dd>고려나일론, ㈜코오롱에 합병<strong>09 </strong></dd>
+                                </dl>
+                                <dl>
+                                    <dt>1997</dt>
+                                    <dd><strong>04 </strong>인도네시아 P.T.KOLON INA, 필름공장 준공</dd>
+                                    <dd><strong>07 </strong>과천 코오롱타워 준공</dd>
+                                    <dd><strong>10 </strong>김천공장 ACE N-2 공장 준공</dd>
+                                </dl>
+                                <dl>
+                                    <dt>1999</dt>
+                                    <dd>스판덱스 사업 진출<strong>12 </strong></dd>
+                                </dl>
+                               </div>
+                            </div>
+                    </div> 
+                    <div class="history_content">
+                            <div class="history_sub_title">
+                                <h4>1969 ~ 1982</h4>
+                                <p>사업구조의 확대</p>
+                            </div>
+                            <div class="history_timeline t_line3">
+                               <div>
+                                <dl>
+                                    <dt>1969</dt>
+                                    <dd><strong>03 </strong>한국폴리에스텔 주식회사 설립</dd>
+                                    <dd><strong>12 </strong>한국폴리에스텔,일본 TORAY 및 삼정물산 합작투자계약 체결</dd>
+                                </dl>
+                                <dl>
+                                    <dt>1970</dt>
+                                    <dd>대구공장, 나일론원사 8톤 공장(제2차 증설) 준공<strong>04 </strong></dd>
+                                    <dd>대구공장, 나일론원사 3.2톤 공장(제3차 증설) 준공<strong>10</strong></dd>
+                                </dl>
+                                <dl>
+                                    <dt>1971</dt>
+                                    <dd><strong>03 </strong>구미공장, 단위규모로 최대인 폴리에스터원사 20톤</dd>
+                                </dl>
+                                <dl>
+                                    <dt>1973</dt>
+                                    <dd>대구공장, 타이어코드 5.4톤 공장가동<strong>07 </strong></dd>
+                                </dl>
+                                <dl>
+                                    <dt>1974</dt>
+                                    <dd><strong>07 </strong>대구공장, 나일론원사 9.5톤 공장(제4차 증설)준공</dd>
+                                    <dd><strong> </strong>대구공장,폴리에스터원사 12톤 공장(제1차 증설) 준공</dd>
+                                </dl>
+                                <dl>
+                                    <dt>1975</dt>
+                                    <dd>주식상장  한국나이롱 200만주(20억원)<strong>06 </strong></dd>
+                                    <dd>한국폴리에스텔 150만주(15억원)<strong></strong></dd>
+                                </dl>
+                                <dl>
+                                    <dt>1976</dt>
+                                    <dd><strong>02 </strong>대구공장, 타이어코드 6톤 공장(제1차 증설) 준공</dd>
+                                    <dd><strong>12 </strong>구미공장, 폴리에스터원사 30톤 공장(제2차 증설) 준공</dd>
+                                </dl>
+                                <dl>
+                                    <dt>1977</dt>
+                                    <dd>구미공장, 국내 최초로 POY 가동<strong>01 </strong></dd>
+                                </dl>
+                                <dl>
+                                    <dt>1981</dt>
+                                    <dd><strong>10 </strong>코오롱(나일론),코오롱(폴리에스터)합병</dd>
+                                </dl>
+                                <dl>
+                                    <dt>1982</dt>
+                                    <dd>인조잔디 개발 성공<strong>08 </strong></dd>
+                                </dl>
+                               </div>
+                            </div>
+                    </div> 
+                    <div class="history_content">
+                            <div class="history_sub_title">
+                                <h4>1957 ~ 1968</h4>
+                                <p>국내 최초 나일론 생산</p>
+                            </div>
+                            <div class="history_timeline t_line4">
+                               <div>
+                                <dl>
+                                    <dt>1957</dt>
+                                    <dd><strong>04 </strong>한국나이롱 주식회사 설립</dd>
+                                    <dd><strong>11 </strong>스트레치 나일론사 공장 기공</dd>
+                                    <dd></dd>
+                                </dl>
+                                <dl>
+                                    <dt>1960</dt>
+                                    <dd>프리마텍스 설비 도입<strong>06 </strong></dd>
+                                </dl>
+                                <dl>
+                                    <dt>1961</dt>
+                                    <dd><strong>02 </strong>나일론원사 제조위한 CHEMTEX社와 기술계약 체결</dd>
+                                </dl>
+                                <dl>
+                                    <dt>1963</dt>
+                                    <dd>스트레치 나일론 첫 수출 (1만 886㎏,3만 9,300달러)<strong>04 </strong></dd>
+                                    <dd>한국 최초로 나일론원사 공장준공 (일산 2.5톤)<strong>08 </strong></dd>
+                                </dl>
+                                <dl>
+                                    <dt>1968</dt>
+                                    <dd><strong>05 </strong>대구공장,나일론원사 7.5톤 공장 준공(제1차 증설)</dd>
+                                    <dd><strong>12 </strong>대구공장,폴리에스터원사 2.5톤 공장 준공</dd>
+                                </dl>
+                               </div>
+                            </div>
+                    </div>  
+                    </div>
+                </section>
+<!--                <p class="text" style="position: fixed;top: 30px;right: 30px;z-index: 100;font-size: 100px;color: red;font-weight: 600"></p>-->
+            </div>
+            <? include "../common/fixed_top.html" ?>  
+        </article>
+      <? include "../common/sub_foot.html" ?>  
+      
+    <!-- 페이지별 스크립트 -->
+    <script src="js/history.js"></script>
+    <script src="js/sub_sticky_menu.js"></script>
+</body>
+</html>

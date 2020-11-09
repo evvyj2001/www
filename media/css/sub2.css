@@ -1,0 +1,97 @@
+/* sub2 css */
+/* 와이드 pc */
+#imgBG{
+    position:absolute; /*고정=>fixed/ 스크롤처리=>absolute */
+    left:50%;
+    top:50%; /*오른쪽, 아래에 여백을 두지않고 꽉차게 표시*/
+    width:auto;
+    min-width:100%; /*동영상 너비를 꽉차게*/
+    height:auto;
+    min-height:100%; /*동영상 높이를 꽉차게*/
+    transform:translateX(-50%) translateY(-50%);
+    z-index:-50;
+}
+#content .gallery{
+    background: rgba(255,255,255,.7);
+}
+#content .gallery img{
+    border-radius: 20px
+}
+
+/* masonry css s */
+.grid{
+    margin: 120px 0;
+}
+.grid-image-item,.grid--images .grid-sizer {
+    width: 25%;
+}
+.grid-image-item {
+  float: left; 
+   margin-bottom: 50px
+}
+.grid-image-item img{
+    display: block;
+    width: 94%;
+    margin: 0 auto 20px;
+}
+.grid-image-item h4{
+    display: block;
+    width: 90%;
+    text-align: left;
+    margin: 0 auto 10px;
+    font-size: 30px;
+    font-family: 'Bebas Neue', cursive;
+}
+.grid-image-item ul{
+    width: 90%;
+    margin: 0 auto ;
+    overflow: hidden;
+}
+.grid-image-item ul li{
+    font-size: 16px;
+    float: left;
+    margin-right: 10px;
+    background: #333;
+    color: #fddd04;
+    padding: 3px 10px;
+    text-transform: capitalize;
+    transition: .3s
+}
+/* masonry css e */
+
+/* 일반 pc */
+@media screen and (max-width:1280px){
+    .grid-image-item ul li{
+        margin-bottom: 5px;
+    }
+}
+
+/* 태블릿 */
+@media screen and (max-width:1024px){
+    .grid{
+        margin: 100px 0;
+    }
+    .grid-image-item,.grid--images .grid-sizer{
+        width: 33.33%;
+    }
+    #content .gallery img{
+        border-radius: 15px
+    }
+}
+
+/* 소형 테블릿 */
+@media screen and (max-width:768px){
+    .grid-image-item,.grid--images .grid-sizer{
+        width: 50%;
+    }
+}
+
+/* 모바일 */
+@media screen and (max-width:640px){
+    .visual_img_wrap{
+        width: 90%;
+    }
+    .grid-image-item,.grid--images .grid-sizer{
+        width: 100%;
+    }
+}

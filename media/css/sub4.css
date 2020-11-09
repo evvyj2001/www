@@ -1,0 +1,287 @@
+/* sub3 css */
+/* 와이드 pc */
+#imgBG{
+    position:absolute; /*고정=>fixed/ 스크롤처리=>absolute */
+    left:50%;
+    top:50%; /*오른쪽, 아래에 여백을 두지않고 꽉차게 표시*/
+    width:auto;
+    min-width:100%; /*동영상 너비를 꽉차게*/
+    height:auto;
+    min-height:100%; /*동영상 높이를 꽉차게*/
+    transform:translateX(-50%) translateY(-50%);
+    z-index:-50;
+}
+#content .minions{
+    background: rgba(255,255,255,.7);
+    overflow: hidden;
+}
+#content h3{
+    margin: 120px 0 100px;
+    font-size: 60px;
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    background: #fddd04;
+    padding: 20px 0;
+}
+#content .grid{
+    overflow: hidden;
+    margin: 0 50px 80px;
+}
+#content .grid li{
+    float: left;
+    width: 500px;
+    text-align: center;
+}
+#content .grid .char_imgbox{
+    background: #fff;
+    margin: 0 50px 50px;
+/*    height: 400px;*/
+    border-radius: 50%;
+    transform: perspective(1000px) rotateY(0deg);
+    transition: all .3s;
+}
+#content .grid .imgbox_wrap:hover .char_imgbox{
+    transform: rotateY(-180deg);
+    background: rgba(255,255,255,.4);
+}
+#content .grid .char_imgbox img{
+    width: 100%;
+}
+#content .grid .char_info h4{
+    font-size: 56px;
+    font-family: 'Bebas Neue', cursive;
+    margin-bottom: 40px;
+}
+#content .grid .char_info .highlight{
+    font-size: 24px;
+    background: #fddd04;
+    padding: 5px 15px;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+#content .grid .char_info .characterize{
+    font-size: 18px;
+    line-height: 1.8em;
+    margin: 0 50px;
+}
+#content .screenshot_imgwrap{
+    overflow: hidden;
+    margin-bottom: 120px;
+}
+#content .screenshot_imgwrap li{
+    float: left;
+    width: 31.5%;
+    margin-right: 2.5%;
+    height: 350px;
+    box-sizing: border-box;
+    background: #fddd04;
+    transition: .3s
+}
+#content .screenshot_imgwrap li:last-of-type{
+    margin-right: 0;
+}
+#content .screenshot_imgwrap li span{
+    display: block;
+    height: 100%;
+    transition: .3s
+}
+#content .screenshot_imgwrap li:hover{
+    padding: 15px;
+}
+#content .screenshot_imgwrap li:hover span{
+    border-radius: 15px;
+    filter: grayscale(.8);
+}
+#content .screenshot_imgwrap li:first-of-type span{
+    background: url(../images/sub4/sub_img1.jpg) center center no-repeat;
+    background-size: cover
+}
+#content .screenshot_imgwrap li:nth-of-type(2) span{
+    background: url(../images/sub4/sub_img2.jpg) center center no-repeat;
+    background-size: cover
+}
+#content .screenshot_imgwrap li:nth-of-type(3) span{
+    background: url(../images/sub4/sub_img3.jpg) center center no-repeat;
+    background-size: cover
+}
+#content .vilians{
+    background: rgba(255,255,255,.9);
+    overflow: hidden;
+}
+#content .vilians h3{
+    background: #333;
+    color: #fddd04;
+}
+#content .vilians .grid .char_imgbox{
+    overflow: hidden;
+}
+#content .vilians .grid .imgbox_wrap:hover .char_imgbox{
+    transform: rotateY(-180deg);
+    background: rgba(253,221,4,.4);
+}
+#content .vilians .screenshot_imgwrap li:first-of-type span{
+    background: url(../images/sub4/sub_img4.jpg) center center no-repeat;
+    background-size: cover
+}
+#content .vilians .screenshot_imgwrap li:nth-of-type(2) span{
+    background: url(../images/sub4/sub_img5.jpg) center center no-repeat;
+    background-size: cover
+}
+#content .vilians .screenshot_imgwrap li:nth-of-type(3) span{
+    background: url(../images/sub4/sub_img6.jpg) center center no-repeat;
+    background-size: cover
+}
+#content .vilians .grid .char_info .highlight{
+    background: #333;
+    color: #fddd04;
+}
+
+/* 일반 pc */
+@media screen and (max-width:1280px){
+    #content .grid{
+        margin: 0 0 80px;
+    }
+    #content .grid li{
+        float: none;
+        width: auto;
+        overflow: hidden;
+        margin-bottom: 60px;
+    }
+    #content .grid li:last-of-type{
+        margin-bottom: 0;
+    }
+    #content .grid li .imgbox_wrap,#content .grid li .char_info{
+        float: left;
+    }
+    #content .grid li .imgbox_wrap{
+        width: 40%;
+    }
+    #content .grid .char_imgbox{
+        margin: 0 50px 0;
+    }
+    #content .grid li .char_info{
+        width: 60%;
+        text-align: left;
+        padding-top: 40px;
+    }
+    #content .grid .char_info .characterize{
+        margin: 0;
+    }
+    #content .vilians .grid .char_info .highlight br{
+        display: none;
+    }
+    #content .vilians .grid li .char_info{
+        padding-top: 50px;
+    }
+}
+
+/* 태블릿 */
+@media screen and (max-width:1024px){
+    #content h3{
+        margin: 100px 0 80px;
+        padding: 15px 0;
+        font-size: 50px;
+    }
+    #content .grid{
+        margin: 0 0 80px;
+    }
+    #content .grid li{
+        margin-bottom: 60px;
+    }
+    #content .grid li:last-of-type{
+        margin-bottom: 0;
+    }
+    #content .grid li .imgbox_wrap{
+        width: 30%
+    }
+    #content .grid .char_imgbox{
+        margin: 0 40px 0 0;
+    }
+    #content .grid li .char_info{
+        width: 70%;
+        padding-top: 10px;
+    }
+    #content .grid .char_info h4{
+        font-size: 50px;
+        margin-bottom: 20px;
+    }
+    #content .grid .char_info .highlight{
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+    #content .vilians .grid li .char_info{
+        padding-top: 30px;
+    }
+    #content .screenshot_imgwrap{
+        margin-bottom: 100px;
+    }
+    #content .screenshot_imgwrap li{
+        height: 250px;
+    }
+    #content .screenshot_imgwrap li:hover{
+        padding: 10px;
+    }
+    #content .screenshot_imgwrap li{
+        width: 48.5%;
+    }
+    #content .screenshot_imgwrap li:nth-of-type(2){
+        margin-right: 0;
+    }
+    #content .screenshot_imgwrap li:last-of-type{
+        display: none;
+    }
+    
+}
+
+/* 소형 테블릿 */
+@media screen and (max-width:768px){
+    #content .grid li .imgbox_wrap{
+        float: none;
+        width: 50%;
+        position: relative;
+        left: 50%;
+        margin-left: -25%;
+    }
+    #content .grid .char_imgbox{
+        margin: 0;
+    }
+    #content .grid li .char_info{
+        width: auto;
+        float: none;
+        padding-top: 50px;
+        text-align: center;
+    }
+    #content .grid .char_info h4{
+        margin-bottom: 40px;
+    }
+    
+}
+
+/* 모바일 */
+@media screen and (max-width:640px){
+    .visual_img_wrap{
+        width: 90%;
+    }
+    #content h3{
+        padding: 10px 0;
+    }
+    #content .grid li .imgbox_wrap{
+        width: 80%;
+        left: 50%;
+        margin-left: -40%;
+    }
+    #content .grid .char_info h4{
+        font-size: 42px;
+    }
+    #content .screenshot_imgwrap li{
+        height: 300px;
+        width: auto;
+        float: none;
+        display: none;
+    }
+    #content .screenshot_imgwrap li:first-of-type{
+        display: block;
+        margin-right: 0;
+    }
+}
+

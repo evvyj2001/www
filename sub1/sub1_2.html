@@ -1,0 +1,151 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION);  
+?>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>코오롱 인더스트리::회사소개</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="common/css/sub1common.css">
+    <link rel="stylesheet" href="css/content2.css">
+    <script src="../common/js/prefixfree.min.js"></script>
+    <script src="https://kit.fontawesome.com/2d56222f57.js" crossorigin="anonymous"></script>
+    <!--[if IE9]>  
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <? include "../common/sub_head.html" ?>
+        <!-- 서브1 비주얼+네비 공통 영역 -->
+        <? $_GET['num']=2;
+          include "common/sub_nav.html"; 
+        ?>
+        <!-- 본문 컨텐츠 영역 -->
+        <article id="content">
+            <div class="title_area">
+               <div class="inner">
+                <div class="linemap">
+                    <span><i class="fas fa-home"></i></span> &gt; <span>회사소개</span> &gt; <strong>경영철학</strong>
+                </div>
+                <h2>경영철학</h2>
+                <div class="sub_menu_box">
+                <ul>
+                    <li><a class="link1" href="#ideo">경영이념</a></li>
+                    <li><a class="link2" href="#pol">경영방침</a></li>
+                    <li><a class="link3" href="#vis">코오롱정신</a></li>
+                </ul>
+                </div>
+              </div>
+            </div>
+            <div class="content_area">
+                <section id="ideology">
+                   <div class="inner">
+                        <h3>경영이념</h3>
+                        <span class="arrow_deco"></span>
+                        <p>산업인의 사명에 투철하고, 능률과 창의로써 저마다의 소질을 계발하는 <br>보람찬 일터를 만들며, 인간생활의 풍요와 인류 문명의 발전에 이바지한다.</p>
+                        <img src="images/content2/ideology_img.jpg" alt="산업인의 사명에 투철,능률과 창의,인류문명의 발전 이바지, 소질 계발">
+                        <div class="ideology_info">
+                            <dl>
+                                <dt>산업인의 사명에 투철하고</dt>
+                                <dd>코오롱이 산업의 한 구성체임을 자각하고자 우선 산업인으로 서의 투철한 사명을 가져야하며, 이는 곧 코오롱이 무엇보다도 산업의 발전에 일차적인 기여를 해야하는 역할과 사명을 제시합니다.</dd>
+                            </dl>
+                            <dl>
+                                <dt>능률과 창의로써</dt>
+                                <dd>코오롱이 경영을 전개해 나가는 일상적인 행동의 기준으로써 경영 최대 논리인 능률과 새로운 기풍을 진작하는 창의를 함과 동시에 경영의 판단 기준으로 삼겠다는 의지를 나타내고 있습니다.</dd>
+                            </dl>
+                            <dl>
+                                <dt>저마다의 소질을 계발하는 보람찬 일터를 만들며</dt>
+                                <dd>구성원 개개인에게는 소질의 계발을, 조직 전체로는 보람을 충분히 느끼는 일터를 만드는 것을 가장 중요한 결과로 삼겠다는 것을 뜻합니다.<br></dd>
+                            </dl>
+                            <dl>
+                                <dt>인간생활의 풍요와 인류문명의 발전에 이바지한다.</dt>
+                                <dd>경영활동 결과가 결국은 경영활동에 의한 생산물에 의해 고객만족 뿐아니라, 인간생활의 풍요에 기여하고 나아가서는 인류문명의 발전까지도 기여한다는 것을 나타내는 것으로 경영 활동의 최종적인 목적을 표현합니다.</dd>
+                            </dl>
+                        </div>
+                    </div>
+                </section>
+                <section id="policy">
+                    <div class="inner">
+                        <div class="policy_title">
+                            <h3>경영방침</h3>
+                        </div>
+                        <ol>
+                            <li><span>01</span>최고의 경쟁력</li>
+                            <li><span>02</span>독특함과 차별화</li>
+                            <li><span>03</span>사랑받는 코오롱</li>
+                        </ol>
+                        <ul class="icon_text">
+                            <li>
+                                <dl>
+                                    <dt><span class="red">최고의 경쟁력</span>을 갖춘 나<span class="mini_text">individual excellence</span></dt>
+                                    <dd>
+                                        최고의 개인경쟁력을 갖춘다는 것은 세계와 겨룰 수 있는 경쟁무기를 가지고 있다는 의미 외에 유능한 경영자로서 성장할 수 있는 기량을 갖추고 있는 것을 뜻합니다.기술적 기량, 인간적 기량, 개념적 기량,으뜸의 지위 등이 그 요소입니다.
+                                    </dd>
+                                </dl>
+                            </li>
+                            <li>
+                                <dl>
+                                    <dt><span class="red">독특함과 차별화</span>된 우리<span class="mini_text">uniqueness</span></dt>
+                                    <dd>
+                                        개인이든 집단이든 남과 유사할 수는 있어도 똑같을 순 없습니다. 흉내내지 않고 문제의 본질이나 상황의 핵심에 접근해서 행동을 취하고 문제를 해결하려고 노력할 때 우리는 우리만의 독특하고 차별화 된 전략과 행동 양식을 가질 수 있으며, 우리 전체가 하나라는 것도 잊지 말아야합니다.
+                                    </dd>
+                                </dl>
+                            </li>
+                            <li>
+                                <dl>
+                                    <dt>가장 <span class="red">사랑받는 코오롱</span><span class="mini_text">first choice of customers</span></dt>
+                                    <dd>
+                                        고객이 코오롱 제품을 사용했을 때 만족을 넘어선 기쁨과 행복 즉 감동을 느낄 수 있도록 기업의 역량을 집중시켜 최고 품질의 제품과 서비스를 제공하고 어떠한 일이 있어도 고객과의 약속과 신용을 지킴으로써 고객으로부터 전폭적인 신뢰를 획득하려고 노력해야 합니다. 고객의 신뢰로부터 선택 받는 코오롱, 고객에게 가장 사랑 받는다는 것은 코오롱의 제품과 서비스에 대한 감동적경험을 통해 구축된 고객의 신뢰를 바탕으로 경쟁제품보다 우선적으로 재 구매하고 구전을 통해 고객이 늘어남으로써 해당분야에서 가장 선호하는 회사가 되는 것을 말합니다.
+                                    </dd>
+                                </dl>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+                <section id="vision">
+                    <div class="inner">
+                        <h3>코오롱 정신</h3>
+                        <span class="arrow_deco"></span>
+                        <ul>
+                            <li>
+                                <dl>
+                                    <dt>Creative<span>새로운 생각</span></dt>
+                                    <dd>창의적이고 전략적인 사고<br>진취적이며 미래지향적 사고</dd>
+                                </dl>
+                            </li>
+                            <li>
+                                <dl>
+                                    <dt>Fair<span>당당한 자세</span></dt>
+                                    <dd>자신있고 용기있는 태도<br>도덕적이고 윤리있는 행동</dd>
+                                </dl>
+                            </li>
+                            <li>
+                                <dl>
+                                    <dt>Passion<span>뜨거운 열정</span></dt>
+                                    <dd>일에대한 끝없는 사랑<br>성공에 대한 확신과 헌신</dd>
+                                </dl>
+                            </li>
+                            <li>
+                                <dl>
+                                    <dt>Perfect<span>완벽한 실행</span></dt>
+                                    <dd>빈틈없고 철저한 일 관리<br>결과에 대한 자부심</dd>
+                                </dl>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+                <!--                <p class="text" style="position: fixed;top: 30px;right: 30px;z-index: 100;font-size: 100px;color: red;font-weight: 600"></p>-->
+            </div>
+            <? include "../common/fixed_top.html" ?>  
+        </article>
+     <? include "../common/sub_foot.html" ?>  
+     
+     <!-- 페이지별 스크립트 -->
+    <script src="js/sub_sticky_menu.js"></script>
+</body>
+</html>

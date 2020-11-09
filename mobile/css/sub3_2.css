@@ -1,0 +1,112 @@
+/* 서브3_2 컨텐츠 css */
+#content h2{
+    margin: 50px 0 40px;
+}
+#content .main_text{
+    font-size: 1.143em;
+    line-height: 1.8em;
+    color: #999;    
+    font-weight: 600;
+    margin: 0 20px 40px;
+    text-align: justify;
+    word-break: keep-all;
+}
+#content .gray_box{
+    padding: 50px 0;
+    background: #f9f9f9;
+    margin-bottom: 40px;
+}
+#content h4{
+    display: block;
+    margin: 0 auto 20px;
+    font-size: 1.571em;
+    font-weight: 600;
+    text-align: center;
+}
+#content h4 span{
+    display: block;
+    font-size: 16px;
+    color: #999;
+    text-transform: capitalize;
+    font-weight: 500;
+    margin-top: 10px;
+}
+#content .gray_box #chart{
+    margin: 0 auto;
+}
+#content svg{
+    position: relative;
+    left: 45%;
+    margin-left: -160px;
+}
+#content ul{
+    margin: 0 20px;
+}
+#content li{
+    border-top: 1px solid #ccc;
+    font-size: 1.143em;
+    font-weight: 600;
+    padding: 15px 5px;
+    overflow: hidden;
+    font-family: 'Questrial', sans-serif;
+}
+#content li span{
+    display: block;
+}
+#content li .circle{
+    width: 20px;
+    height: 20px;
+    background: #333;
+    border-radius: 50%;
+    margin-right: 15px;
+    float: left;
+}
+#content .gray_box li:first-of-type .circle{
+    background: #fe3127;
+}
+#content .gray_box li:nth-of-type(2) .circle{
+    background: #efa900;
+}
+#content .gray_box li:nth-of-type(3) .circle{
+    background: #007cef;
+}
+#content .gray_box li:nth-of-type(4) .circle{
+    background: #3b993f;
+}
+#content .gray_box li:nth-of-type(5) .circle{
+    background: #24b3b5;
+}
+#content .gray_box li:nth-of-type(6) .circle{
+    background: #9a3ebc;
+}
+#content li .percent{
+    float: right;
+    color: #999;
+}
+#content .gray_box li:last-of-type,#content .overseas li:last-of-type{
+    border-bottom: 1px solid #ccc;
+}
+#content .overseas{
+    padding-bottom: 50px;
+}
+#content .overseas li .circle{
+    background-size: 100px;
+}
+#content .overseas li:first-of-type .circle{
+    background: url(../images/sub3_2/flags.jpg) 0 0 no-repeat;
+}
+#content .overseas li:nth-of-type(2) .circle{
+    background: url(../images/sub3_2/flags.jpg) -20px 0 no-repeat;
+}
+#content .overseas li:nth-of-type(3) .circle{
+    background: url(../images/sub3_2/flags.jpg) -40px 0 no-repeat;
+}
+#content .overseas li:nth-of-type(4) .circle{
+    background: url(../images/sub3_2/flags.jpg) -60px 0 no-repeat;
+}
+#content .overseas li:nth-of-type(5) .circle{
+    background: url(../images/sub3_2/flags.jpg) -80px 0 no-repeat;
+}
+#content .overseas li:nth-of-type(6) .circle{
+    background: #9a3ebc;
+}

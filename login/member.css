@@ -1,0 +1,185 @@
+#content{
+    background: url(../common/images/site_map_bg.jpg) center center no-repeat;
+    background-size: cover;
+    background-attachment: fixed
+}
+.inner_wrap{
+    width: 800px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+.logo{
+    width: 315px;
+    height: 25px;
+    display: block;
+    margin: 100px 0 50px;
+    background: url(../common/images/header_logo.png) 0 0 no-repeat;
+    text-indent: -9999px
+}
+#content .login_wrap{
+    background: #fff;
+    overflow: hidden;
+    margin-bottom: 100px;
+}
+#content h3{
+    font-size: 26px;
+    margin: 50px 40px 20px;
+}
+#content .login_form,#content .banner_wrap{
+    float: left;
+    width: 385px;
+}
+#content .login_form{
+    margin-right: 30px;
+}
+#content .input_box{
+    margin: 0 0 20px 40px;
+}
+#content .input_box li{
+    border-bottom: 1px solid #efefef;
+}
+/*
+#content .input_box li:nth-of-type(2){
+    background: url(../member/images/pw_icon.jpg) 96% center no-repeat
+}
+*/
+#content .input_box input{
+    width: 86%;
+    padding: 15px 5% 10px 0;
+    margin: 10px 0;
+    border: 0;
+    background: transparent;
+    outline: none;
+}
+#content .input_box input::placeholder{
+    color: #ccc;
+    font-size: 14px;
+}
+#content .input_box .login_input{
+    margin-top: 0;
+}
+#content .input_box .lock{
+    display: inline-block;
+}
+#content .input_box .lock i{
+    font-size: 1.5em;
+    color: #ddd;
+}
+#content .find_box{
+    overflow: hidden;
+    margin: 0 0 20px 40px;
+}
+#content .find_box li{
+    float: left;
+}
+#content .find_box li a{
+    display: block;
+    color: #999; 
+}
+#content .find_box .join_btn{
+    font-weight: 600;
+}
+#content .find_box .find_right{
+    float: right;
+}
+#content .find_box .find_right:last-of-type a{
+    padding-right: 0;
+}
+#content .find_box .find_right a{
+    padding:0 20px;
+}
+#content .find_box .find_right li:hover a{
+    text-decoration: underline
+}
+#content .find_right .pw{
+    position: relative;
+}
+#content .find_right .pw::before{
+    content: '';
+    display: block;
+    position: absolute;
+    width: 1px;
+    height: 12px;
+    background: #ccc;
+    left: 10px;
+    top: 3px;
+}
+#content .buttons{
+    margin:45px 0 45px 40px;
+}
+#content .buttons input{
+    display: block;
+    width: 100%;
+    padding: 20px 0;
+    font-size: 16px;
+    font-weight: 600;
+    transition: .3s
+}
+#content .login_button input{
+    border: 0;
+    border-radius: 0;
+    cursor: pointer;
+    background: #006ebc;
+    color: #fff;
+    margin-bottom: 15px;
+    outline: none;
+}
+#content .login_button:hover input{
+    background: #00497d;
+    color: #efefef;
+}
+#content .banner_wrap a{
+    display: block;
+    margin:45px 30px 0 15px
+}
+#content .banner_wrap a img{
+    border-radius: 10px;
+}
+#content .close_icon{
+    position: absolute;
+    right: 10px;
+    top: 125px;
+    display: block;
+    transition: 1s;
+    padding: 5px;
+}
+#content .close_icon:hover{
+    transform: rotate(-360deg)
+}
+
+
+/* 아이디찾기 */
+#content .inner_wrap.find{
+    width: 500px;
+}
+#content .find .input_box{
+    margin-right: 40px;
+}
+#content .find .buttons{
+    margin: 40px 40px 30px 40px;
+}
+#content .find .buttons input{
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    transition: .5s
+}
+#content .find .buttons input:hover{
+    background: #ccc;
+}
+#content .find .forgot_pw{
+    text-align: center;
+    margin-bottom: 50px;
+    color: #999;
+}
+#content .find .forgot_pw a{
+    display: inline-block;
+    font-weight: 600;
+    color: #999;
+}
+#content .find .forgot_pw i{
+    margin-right: 5px;
+}
+
+
